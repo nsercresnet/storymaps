@@ -1,0 +1,4 @@
+baseURL = 'https://dev.xylemgeo.com/'
+languageCode = 'en-us'
+title = 'ResNet Scaling'
+theme = 'blank'
