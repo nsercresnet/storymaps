@@ -24,12 +24,12 @@
     <h1>{{ .Params.title }}</h1>
     {{ end }}
 
-    {{ if .Params.subtitle }}
+    {{/*  {{ if .Params.subtitle }}
     <h2>{{ .Params.subtitle }}</h2>
-    {{ end }}
+    {{ end }}  */}}
 
-    {{ if .Params.description }}
-    <p>{{ .Params.description | markdownify }}</p>
+    {{ if .Params.subtitle }}
+    <p>{{ .Params.subtitle | markdownify }}</p>
     {{ end }}
   </div>
   {{ end }}
