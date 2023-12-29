@@ -10,33 +10,33 @@
   {{ end }}
 {{ end }}
 
-{{ range $index, $section := sort .Site.Data.sections "weight" }}
-    {{ if $section.visible }}
-    {{/*  <div id="status-warning" class="alert alert-warning" role="alert">
-        A simple warning alert—check it out!
-      </div>  */}}
-        {{ if eq $section.layout "float_left" }}
+{{/*  {{ range $index, $section := sort .Pages "weight" }}  */}}
+                {{/*  {{/*  {{ range .Pages.ByTitle }}   */}}
+{{ range sort .Pages .Params.weight }}
+{{/*  {{ range .Pages "weight" }}  */}}
+    {{ if .Params.visible }}
+        {{ if eq .Params.layout "float_left" }}
             {{- partial "legacy/story/float_left.html" . -}}
-        {{ else if eq $section.layout "full_html" }}
+        {{ else if eq .Params.layout "full_html" }}
             {{- partial "legacy/story/full_html.html" . -}}
-        {{ else if eq $section.layout "splash" }}
+        {{ else if eq .Params.layout "splash" }}
             {{- partial "legacy/story/splash.html" . -}}
-        {{ else if eq $section.layout "splash_md" }}
+        {{ else if eq .Params.layout "splash_md" }}
             {{- partial "legacy/story/splash_md.html" . -}}
-        {{ else if eq $section.layout "fullscreen" }}
+        {{ else if eq .Params.layout "fullscreen" }}
             {{- partial "legacy/story/fullscreen.html" . -}}
-        {{ else if eq $section.layout "full_width" }}
+        {{ else if eq .Params.layout "full_width" }}
             {{- partial "legacy/story/full_width.html" . -}}
-        {{ else if eq $section.layout "accordion" }}
+        {{ else if eq .Params.layout "accordion" }}
             {{- partial "legacy/story/accordion.html" . -}}
-        {{ else if eq $section.layout "carousel" }}
+        {{ else if eq .Params.layout "carousel" }}
             {{- partial "legacy/story/carousel.html" . -}}
-        {{ else if eq $section.layout "full_width_inset" }}
+        {{ else if eq .Params.layout "full_width_inset" }}
             {{- partial "legacy/story/full_width_inset.html" . -}}
-        {{ else if eq $section.layout "wide_over_bg" }}
-            {{- partial "legacy/story/wide_over_bg.html" . -}}
-        {{ else if eq $section.layout "init" }}
-            {{- partial "legacy/story/init.html" . -}}
+        {{ else if eq .Params.layout "wide_over_bg" }}
+            {{- partial "story/pane/wide_over_bg.html" . -}}
+        {{ else if eq .Params.layout "init" }}
+            {{- partial "story/pane/init.html" . -}}
         {{/*  {{ else }}  */}}
             {{/*  {{- partial "legacy/story/float_left.html" . -}}  */}}
         {{ end }}
