@@ -14,9 +14,7 @@
   
 {{ end }}  */}}
 
-<section class='{{ replaceRE "(\\s)" "_" .Params.name }} {{ .Params.name }}-bg-img wide-over-bg {{ .Params.class }}'
-  data-scene="{{ .Params.name }}" data-background="{{ .Params.background_media }}" lat="{{ .Params.lat }}"
-  lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js }}">
+<section class='{{ replaceRE "(\\s)" "_" .Params.name }} {{ .Params.name }}-bg-img wide-over-bg {{ .Params.class }}' data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js }}">
 
   {{ if .Params.splash }}
   <div class="section-splash justify-content-center text-center">
@@ -61,3 +59,7 @@
   <div class="attribution">{{ .Params.attribution }}</div>
   {{end}}
 </section>
+{{/*  
+<section class='{{ replaceRE "(\\s)" "_" .Params.name }} {{ .Params.name }}-bg-img wide-over-bg {{ .Params.class }}' data-scene="{{ .Params.name }}" data-background="{{ .Params.background_media }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js }}">
+
+<section class="{{ replaceRE "(\\s)" "_" .Params.name }}"  data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js}}"></section>  */}}

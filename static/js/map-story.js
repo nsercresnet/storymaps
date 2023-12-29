@@ -85,7 +85,6 @@ var MapZ = {
         $('#storymap').storymap({
             scenes: scenes,
             baselayer: layers[baselayer],
-            // layers: layers,
             legend: true,
             loader: true,
             flyto: true,
@@ -102,11 +101,6 @@ var MapZ = {
                 L.control.zoom({
                     position: 'bottomright'
                 }).addTo(map);
-                // overlayMaps = basemap;
-                // L.control.layers({
-                //     overlayMaps
-                //     // position: 'bottomright'
-                // }).addTo(map);
                 return map;
             }
         });
