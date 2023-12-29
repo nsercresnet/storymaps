@@ -1,6 +1,6 @@
 {{/*  {{ .Params := . }}  */}}
 
-{{ range $index, $layer := .Site.Data.layers }}
+{{/*  {{ range $index, $layer := .Site.Data.layers }}
 
   <input type="hidden" class="layers" layer-id="{{$index}}" layer-name="{{$layer.name}}" base-layer="{{$layer.base_layer}}" {{ printf "layer-src=%q" $layer.link | safeHTMLAttr }} layer-type="{{$layer.src_type}}">
 
@@ -12,7 +12,7 @@
     <input type="hidden" class="layer-style" layer="{{$layer.name}}" style-name="{{ $ind }}" style-value="{{ $opt }}">
   {{ end }}
   
-{{ end }}
+{{ end }}  */}}
 
 <section class='{{ replaceRE "(\\s)" "_" .Params.name }} {{ .Params.name }}-bg-img wide-over-bg {{ .Params.class }}'
   data-scene="{{ .Params.name }}" data-background="{{ .Params.background_media }}" lat="{{ .Params.lat }}"
