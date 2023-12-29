@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {{/*  {{- partial "story/head.html" . -}}  */}}
+	<body>
+	{{/*  {{- partial "story/nav.html" . -}}  */}}
+	{{/*  {{- partial "modal_onload.html" . -}}
+	{{- partial "modal_onmobile.html" . -}}  */}}
+
+	<div id="storymap" class="container-fluid">
+	    <div class="row">
+	        <div class="col-sm-6 col-md-8 storymap-map"></div>
+	        <div class="col-sm-6 col-md-4 storymap-story">
+                {{ range .Pages.ByTitle }}
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <section>{{ .Content }}</section>
+                {{ end }}
+	        </div>
+	    </div>
+	</div>
+	</body>
+</html>

@@ -16,29 +16,29 @@
         A simple warning alert—check it out!
       </div>  */}}
         {{ if eq $section.layout "float_left" }}
-            {{- partial "story/float_left.html" . -}}
+            {{- partial "legacy/story/float_left.html" . -}}
         {{ else if eq $section.layout "full_html" }}
-            {{- partial "story/full_html.html" . -}}
+            {{- partial "legacy/story/full_html.html" . -}}
         {{ else if eq $section.layout "splash" }}
-            {{- partial "story/splash.html" . -}}
+            {{- partial "legacy/story/splash.html" . -}}
         {{ else if eq $section.layout "splash_md" }}
-            {{- partial "story/splash_md.html" . -}}
+            {{- partial "legacy/story/splash_md.html" . -}}
         {{ else if eq $section.layout "fullscreen" }}
-            {{- partial "story/fullscreen.html" . -}}
+            {{- partial "legacy/story/fullscreen.html" . -}}
         {{ else if eq $section.layout "full_width" }}
-            {{- partial "story/full_width.html" . -}}
+            {{- partial "legacy/story/full_width.html" . -}}
         {{ else if eq $section.layout "accordion" }}
-            {{- partial "story/accordion.html" . -}}
+            {{- partial "legacy/story/accordion.html" . -}}
         {{ else if eq $section.layout "carousel" }}
-            {{- partial "story/carousel.html" . -}}
+            {{- partial "legacy/story/carousel.html" . -}}
         {{ else if eq $section.layout "full_width_inset" }}
-            {{- partial "story/full_width_inset.html" . -}}
+            {{- partial "legacy/story/full_width_inset.html" . -}}
         {{ else if eq $section.layout "wide_over_bg" }}
-            {{- partial "story/wide_over_bg.html" . -}}
+            {{- partial "legacy/story/wide_over_bg.html" . -}}
         {{ else if eq $section.layout "init" }}
-            {{- partial "story/init.html" . -}}
+            {{- partial "legacy/story/init.html" . -}}
         {{/*  {{ else }}  */}}
-            {{/*  {{- partial "story/float_left.html" . -}}  */}}
+            {{/*  {{- partial "legacy/story/float_left.html" . -}}  */}}
         {{ end }}
     {{/*  </section>  */}}
     {{ end }}
