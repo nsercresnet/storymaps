@@ -1,15 +1,3 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "blank"]
-	path = blank
-	url = https://github.com/vimux/blank
 [submodule "themes/blank"]
 	path = themes/blank
 	url = https://github.com/vimux/blank
-[submodule "legacy/agm"]
-	path = legacy/agm
-	url = https://github.com/clarkwrks/resnet-storymap
-[submodule "legacy/monteregie"]
-	path = legacy/monteregie
-	url = https://github.com/glaroc/teller-monteregie
