@@ -40,10 +40,18 @@ Large geospatial and/or tabular datasets should be uploaded to the data portal. 
 
 ## Development
 ### Install vscode (recommended)
+Feature packed source code editor. Simplifies file editting, previewing, and git management.
+
 ### Install Hugo (recommended)
+Useful for live previewing content.
+
 ### Pull this repository
+Pull this repository, navigate to the directory in vscode, run `hugo server` in the terminal, and create/edit content. Limit changes to the `content` directories to keep future merges manageable.
 
 ## Roadmap
 
 ### Documentation
 - Image formatting.
+
+### Features
+- Menus/scrollspy
