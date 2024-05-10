@@ -35,6 +35,8 @@
             {{- partial "legacy/story/full_width_inset.html" . -}}
         {{ else if eq .Params.layout "wide_over_bg" }}
             {{- partial "story/pane/wide_over_bg.html" . -}}
+        {{ else if eq .Params.layout "full_width_bg_img" }}
+            {{- partial "story/pane/full_width_bg_img.html" . -}}
         {{ else if eq .Params.layout "float_card" }}
             {{- partial "story/pane/float_card.html" . -}}
         {{ else if eq .Params.layout "init" }}
