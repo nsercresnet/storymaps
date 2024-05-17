@@ -16,7 +16,14 @@ Terms used to define the components of a storymap. May not always align with Hug
 Content is authored as a collection of panels within a section. Individual panels are written in markdown. They can include images, trigger map events on the map layer, and interactive widgets for displaying data (under development, but verified).
 
 ### Basic
-Format content using markdown syntax. Reference images using markdown and store them in an /images folder alongside your .md files. Use markdown comments to indicate desired formatting (eg. `<!--- This image should float left of the text above --->`).
+Format content using markdown syntax. Reference images using markdown and store them in an /images folder alongside your .md files. Use markdown comments to indicate desired formatting (eg. `<!--- This image should float left of the text above --->`). Reference spatial data layers to be displayed on the map in a comment as well.
+
+- /story/scaling/section_name/
+  - /images/
+  - /data/
+  - panel_1.md
+  - panel_2.md
+  - ... 
 
 ### Frontmatter fields
 At the top of each panel markdown file, the following arguments can be used to control how a panel is rendered.

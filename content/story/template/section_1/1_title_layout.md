@@ -1,26 +1,34 @@
 ---
-weight: 3
-name: "intro3"
-layers: "google_satellite, c2d"
-zoom: 3
+weight: 1
+name: "section_1"
+layers: "google_satellite"
+zoom: 5
 lat: 55.0
 lng: -97.0
-# background_media : "img/title-bg.jpg" 
+background_media : "img/title-bg.jpg" 
 # background_media : "../img/montreal.jpeg" 
 visible: true
 layout: "wide_over_bg"
-menu_group: "Navigation"
-menu_name: "Introduction"
 splash: true
 title: "Scaling of Ecosystem Services"
 # subtitle: "NSERC ResNet HQP Scaling Group"
+subtitle: |  
+  <img src="img/resnet_logo4x.png" class="w-25 p-3">  
+
+  ## NSERC ResNet HQP Scaling Group
 ---
-
-
-# Three
 
 ## Introduction
 
+Using hugo shortcode: 
+{{< figure src="img/test.jpg" title="Caption" class="w-50 p-3 float-start" >}}
+
+Using raw HTML in markdown: 
+<div class="testclass"><img src="img/test.jpg" class="w-50 p-3 float-start"></div>
+<img src="images/test.jpg" class="w-50 p-3 float-start">
+
+Using markdown:  
+![Test Fieldwork](images/test-fieldwork.jpeg)
 
 
 ## Different scale(s) are most meaningful for a given decision or research question

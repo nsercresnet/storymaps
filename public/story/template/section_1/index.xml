@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Section Template on ResNet Scaling</title>
+    <link>https://dev.xylemgeo.com/story/template/section_1/</link>
+    <description>Recent content in Section Template on ResNet Scaling</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://dev.xylemgeo.com/story/template/section_1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling of Ecosystem Services</title>
+      <link>https://dev.xylemgeo.com/story/template/section_1/1_title_layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dev.xylemgeo.com/story/template/section_1/1_title_layout/</guid>
+      <description>Introduction Using hugo shortcode: Caption Using raw HTML in markdown:&#xA;Using markdown:&#xA;Different scale(s) are most meaningful for a given decision or research question We design studies at different scales, because&#xA;(1) decision-makers require data at different spatio-temporal scales and&#xA;(2) scientists seek to understand how ecosystem processes and properties vary across scales.&#xA;There are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.</description>
+    </item>
+  </channel>
+</rss>
