@@ -5,7 +5,7 @@ layers: "google_satellite"
 zoom: 5
 lat: 55.0
 lng: -97.0
-background_media : "img/title-bg.jpg" 
+background_media : "images/title-bg.jpg" 
 # background_media : "../img/montreal.jpeg" 
 visible: true
 layout: "wide_over_bg"
@@ -13,7 +13,7 @@ splash: true
 title: "Scaling of Ecosystem Services"
 # subtitle: "NSERC ResNet HQP Scaling Group"
 subtitle: |  
-  <img src="img/resnet_logo4x.png" class="w-25 p-3">  
+  <img src="images/resnet_logo4x.png" class="w-25 p-3">  
 
   ## NSERC ResNet HQP Scaling Group
 ---
@@ -21,10 +21,10 @@ subtitle: |
 ## Introduction
 
 Using hugo shortcode: 
-{{< figure src="img/test.jpg" title="Caption" class="w-50 p-3 float-start" >}}
+{{< figure src="images/test.jpg" title="Caption" class="w-50 p-3 float-start" >}}
 
 Using raw HTML in markdown: 
-<div class="testclass"><img src="img/test.jpg" class="w-50 p-3 float-start"></div>
+<div class="testclass"><img src="images/test.jpg" class="w-50 p-3 float-start"></div>
 <img src="images/test.jpg" class="w-50 p-3 float-start">
 
 Using markdown:  

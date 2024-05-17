@@ -2,54 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_1/s1/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_1/s1/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_2/s1/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_2/s1/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/template/1_title_layout/</loc>
+    <loc>http://localhost:1313/story/template/section_1/1_title_layout/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/template/section_1/1_title_layout/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_1/s2/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_1/s2/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_2/s2/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_2/s2/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_1/s3/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/template/s2/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_2/s3/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_1/s3/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_1/s4/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_2/s3/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_2/s4/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/template/s3/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_1/s4/</loc>
+    <loc>http://localhost:1313/story/scaling/challenge_2a/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_2/s4/</loc>
+    <loc>http://localhost:1313/story/scaling/challenge_3/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/template/s4/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_1/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/categories/</loc>
+    <loc>http://localhost:1313/story/dev/challenge_2/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/scaling/challenge_2a/</loc>
+    <loc>http://localhost:1313/story/dev/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/scaling/challenge_3/</loc>
+    <loc>http://localhost:1313/story/scaling/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_1/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/challenge_2/</loc>
+    <loc>http://localhost:1313/story/template/section_1/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/dev/</loc>
+    <loc>http://localhost:1313/story/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/story/scaling/</loc>
+    <loc>http://localhost:1313/story/template/</loc>
   </url><url>
-    <loc>https://dev.xylemgeo.com/</loc>
-  </url><url>
-    <loc>https://dev.xylemgeo.com/story/template/section_1/</loc>
-  </url><url>
-    <loc>https://dev.xylemgeo.com/story/</loc>
-  </url><url>
-    <loc>https://dev.xylemgeo.com/story/template/</loc>
-  </url><url>
-    <loc>https://dev.xylemgeo.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

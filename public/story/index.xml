@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stories on ResNet Scaling</title>
-    <link>https://dev.xylemgeo.com/story/</link>
+    <link>http://localhost:1313/story/</link>
     <description>Recent content in Stories on ResNet Scaling</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://dev.xylemgeo.com/story/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/story/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
