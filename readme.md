@@ -59,6 +59,7 @@ Pull this repository, navigate to the directory in vscode, run `hugo server` in 
 
 ### Documentation
 - Image formatting.
+- Spatial layers.
 
 ### Features
 - Menus/scrollspy
