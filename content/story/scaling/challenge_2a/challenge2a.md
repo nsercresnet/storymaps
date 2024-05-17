@@ -19,7 +19,7 @@ title: "Why spatial resolution matters"
 init_js: "Monteregie_map.init()"
 ---
 
-# Why does spatial resolution matter?
+# Why does spatial resolution matter? 
 
 We often need detailed data to detect change. In this example, we discuss why we need data at finer pixel sizes to detect forest losses and gains.
 

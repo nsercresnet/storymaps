@@ -75,7 +75,13 @@
       
     
       
+    
+      
       <script src="/js/main_map.js"></script>
+      
+    
+      
+      <script src="/js/carly_map.js"></script>
       
     
       
@@ -84,12 +90,6 @@
     
       
       <script src="/js/monteregie_map.js"></script>
-      
-    
-      
-    
-      
-      <script src="/js/carly_map.js"></script>
       
     
       
@@ -228,6 +228,36 @@
 
 
                 
+
+
+    
+        <section class="challenge2a"  data-scene="challenge2a" lat="445.588167" lng="-78.358333" zoom="9" layers="esri_topo" init-js="Monteregie_map.init()" style="background-image:url('img/title-bg.jpg')">
+    <div class="card mx-auto">
+        <div class="card-body">
+            <h1 id="why-does-spatial-resolution-matter">Why does spatial resolution matter?</h1>
+<p>We often need detailed data to detect change. In this example, we discuss why we need data at finer pixel sizes to detect forest losses and gains.</p>
+<h2 id="introduction">Introduction</h2>
+<p>When we change the spatial resolution of a pixel, we change the number and type of elements (for example land cover types) that compose it. This can impact the results of our studies, especially those where we attempt to classify pixels based on their composition.</p>
+<p><img src="img/ConceptualFigureMixedPixel.png" alt="conceptual_figure"></p>
+<p><em>Created by Amanda Schwantes and Peter Rodriguez</em></p>
+<h3 id="case-study">Case study</h3>
+<p>In the figure on the top right, we show two major forest disturbance agents (panel a) and the results of a geo-spatial trend analysis (panel b to d) over a relatively small study area (26,000 ha) located along the northern boundary of Algonquin Provincial Park (Ontario). The greenness of forests, as measured by the Normalized Difference Vegetation Index (NDVI), shows trend breakpoints over an 18-year long period (2003-2020). Trend breakpoints refer to structural (abrupt) changes in the trend line of a measurement. Trend breakpoints can be positive or negative and can result from natural or anthropogenic disturbances.</p>
+<p>When using satellite derived (MODIS sensor) NDVI at a 250 m resolution (panel b) we find 312 different trend breakpoints in the data. Most of these are negative breakpoints (orange color pixels), meaning that some forest areas have experienced important abrupt decreases in greenness at some point in time. However, there are also some forest areas that have seen significant abrupt increases (turquoise color pixels) in greenness at a point in time. When a 500 m resolution NDVI is used instead (panel c), the number of breakpoints drops to 71. Similarly, when a 1 km resolution NDVI is used (panel d), the number of breakpoints further decreases to 17.</p>
+<p>Interestingly, not only does the number (and direction/sign) of forest pixels with trend breakpoints change depending on the resolution of the data but also the location of these pixels over the study area. Some of these trend breakpoint pixels spatially and temporally overlap with forest harvest and fire events. The largest overlaps occur when using the finest spatial resolution (250 m) data. Thus, the spatial resolution of a dataset may influence the results obtained and in turn, the management decisions that may arise from them.</p>
+<p><img src="img/ndvi_breakpts_direction_v4.png" alt="ndvi_breaks"></p>
+<p><em>Created by Peter Rodriguez</em></p>
+<!--- Use shapefiles in resnet_upscaling_story_map folder over esri earth imagery for challenge background --->
+<h3 id="best-practices-and-opportunities">Best practices and opportunities</h3>
+<p>In cases where different data resolutions are available, the recommendation is to use data at the finest spatial resolution to ensure that potentially relevant ecological patterns are not missed.
+Even though fine scale data usually leads to improved accuracy (Fig. a &amp; b), there are several constraints to keep in mind such as data availability, data storage, computing power, time, and financial resources (Fig. c). Finer grain size (i.e., smaller pixel size) usually leads to improved accuracy but some processes actually plateau at a certain resolution and there is no need to go finer (b). This threshold is often used as a baseline for future studies. Higher resolution often comes with increases in cost and time and hence, it is important to identify the most optimal resolution (grain size) for a given study based on resources available.</p>
+<p><img src="img/resnet_upscaling_grain_size2.png" alt="grain_size"></p>
+<p><em>Created by Peter Rodriguez</em></p>
+
+        </div>
+    </div>
+</section>
+    
+    
 
                 
 	        </div>

@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/story/scaling/challenge_2a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why spatial resolution matters</title>
+      <link>http://localhost:1313/story/scaling/challenge_2a/challenge2a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/story/scaling/challenge_2a/challenge2a/</guid>
+      <description>Why does spatial resolution matter? We often need detailed data to detect change. In this example, we discuss why we need data at finer pixel sizes to detect forest losses and gains.&#xA;Introduction When we change the spatial resolution of a pixel, we change the number and type of elements (for example land cover types) that compose it. This can impact the results of our studies, especially those where we attempt to classify pixels based on their composition.</description>
+    </item>
   </channel>
 </rss>
