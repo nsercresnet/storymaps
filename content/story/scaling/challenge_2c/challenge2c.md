@@ -36,11 +36,11 @@ Often we assume a relationship between two variables is linear; however, if we i
 In this case study, we show the relationship between soil carbon and plant cover in vacant lots in Quebec city. Plant cover can be greater than one in densely vegetated vacant lots when leaves overlap. In this study, vacant lots were carefully selected to represent the entire range of plant cover. However, a less careful scientist could have selected only a subset of these vacant lots (green dots on map). The relationship between soil carbon and plant cover only within this subset (green dots on map) is linear (green line) and would lead to an incorrect extrapolation to the whole study region. When using data from the whole study region (e.g., increasing the spatial extent), we find that the relationship is actually non-linear (gray line). In vacant lots with high plant cover, other factors (e.g., soil type, land use history, etc.) might be needed to better explain the variability of carbon.
 
 
-![Image 1](img/Fig2cLeft.png) 
+![Image 1](images/Fig2cLeft.png) 
 
-![Image 2](img/Fig2cMiddle.png) 
+![Image 2](images/Fig2cMiddle.png) 
 
-![Image 3](img/Fig2cRight.png) 
+![Image 3](images/Fig2cRight.png) 
 
 Data source: Mendes P; Bourgeois B; Pellerin S; Ziter CD; Cimon-Morin J; Poulin M. Linkages between plant functional diversity and soil-based ecosystem services in urban and peri-urban vacant lots. Urban Ecosystems. 10.1007/s11252-023-01470-5
 

@@ -35,7 +35,7 @@ In addition to the resolution, boundaries used to aggregate smaller scale data m
 
 Pollination supply and demand aggregated to watersheds (left) tend to show ecosystem service surplus (i.e. higher ratios) at areas with little demand, while the supply and demand relationships represented at 3km grid cells (right) can help identify more precisely high demand areas that could benefit from more agricultural support.
 
-![supply demand ratio](img/supply-demand_ratio_rescale.png) 
+![supply demand ratio](images/supply-demand_ratio_rescale.png) 
 
 Caption: Image supply-demand ratio. Left: Ratio of pollination supply potential to the area of dependent crops summarized to the watersheds. Right: Ratio of pollination supply potential to the area of dependent crops summarized to a 3km grid
 
