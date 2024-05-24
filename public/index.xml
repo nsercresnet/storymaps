@@ -36,6 +36,27 @@
       <description>Spatial, temporal, &amp;amp; scale mismatches Sometimes, the need for an ecosystem service and the ability of the environment to provide that service don&amp;rsquo;t match up. Here we discuss mismatches occurring across space, time and scale.&#xA;Introduction Sometimes, the need for an ecosystem service (demand) and the ability of the environment to provide that service (supply) don&amp;rsquo;t match up. No-overlap between supply and demand can occur either in different places (spatial mismatch), at different times (temporal mismatch) or at different scales (scale mismatch).</description>
     </item>
     <item>
+      <title>Importance of Field Sampling</title>
+      <link>http://localhost:1313/story/scaling/challenge_1/challenge1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/story/scaling/challenge_1/challenge1/</guid>
+      <description>Challenge 1: Importance of Field Sampling The importance of field sampling and data collection for scaling of ecosystem services We often need detailed data to detect change. In this example, we discuss why we need data at finer pixel sizes to detect forest losses and gains.&#xA;Description Field studies (e.g., measuring ecosystems directly) seek to capture as much detail in time and space as possible, given the question and the availability of time and funds.</description>
+    </item>
+    <item>
+      <title>Non-linearities</title>
+      <link>http://localhost:1313/story/scaling/challenge_2c/challenge2c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/story/scaling/challenge_2c/challenge2c/</guid>
+      <description>How to consider non-linearities? Description Relationships may differ over time or space. This example discusses the consequences of generalizing our results outside of the original study area.&#xA;Introduction Often we assume a relationship between two variables is linear; however, if we increase the spatial extent we may see a nonlinear relationship appear. This is important, because we often predict in areas outside of where we sample. If we assume a relationship is linear, when it is not, then our extrapolations will be incorrect.</description>
+    </item>
+    <item>
+      <title>Non-linearities</title>
+      <link>http://localhost:1313/story/scaling/challenge_2d/challenge2d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/story/scaling/challenge_2d/challenge2d/</guid>
+      <description>How does the monitoring time period influence outcomes? Description To understand whether an ecosystem is changing, we measure it over time. However, if we only measure the ecosystem over a short time, then we may not detect a change, even when the ecosystem has changed. This example explores how the monitoring time-period influences outcomes.&#xA;Introduction Often we use time series analysis to understand whether an ecosystem property or service is changing over time.</description>
+    </item>
+    <item>
       <title>Scaling of Ecosystem Services</title>
       <link>http://localhost:1313/story/dev/challenge_1/s2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,6 +69,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/story/dev/challenge_2/s2/</guid>
       <description>Two Nature’s contributions to people: a multi-scale perspective We, as scientists and researchers, often take a multi-scale perspective to better understand how natural ecosystems improve people’s lives. These beneficial contributions by ecosystems are called Nature’s contributions to people, NCPs. NCPs can also be called nature’s gifts or ecosystem services.&#xA;We are part of ResNet, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with a common goal of improving how we monitor, model, and manage nature’s contributions to people.</description>
+    </item>
+    <item>
+      <title>Spatial aggregation</title>
+      <link>http://localhost:1313/story/scaling/challenge_2b/challenge2b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/story/scaling/challenge_2b/challenge2b/</guid>
+      <description>How to choose the scale for summarizing data? Description We often report data by summarizing individual information (e.g., at a pixel) to coarser scale analysis units (e.g., census division). In this example, we discuss the consequences of summarizing data to different units.&#xA;Introduction In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ecosystem service supply and demand information and relationships.&#xA;Case study Pollination supply and demand aggregated to watersheds (left) tend to show ecosystem service surplus (i.</description>
     </item>
     <item>
       <title>Why spatial resolution matters</title>
