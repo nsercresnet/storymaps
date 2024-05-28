@@ -10,25 +10,25 @@ background_media : "images/title-bg.jpg"
 visible: true
 layout: "wide_over_bg"
 splash: true
-title: "Scaling of Ecosystem Services"
+title: "Title Panel"
 # subtitle: "NSERC ResNet HQP Scaling Group"
 subtitle: |  
-  <img src="images/resnet_logo4x.png" class="w-25 p-3">  
+  <img src="images/logo.png" class="w-25 p-3">  
 
   ## NSERC ResNet HQP Scaling Group
 ---
 
 ## Introduction
-
 Using hugo shortcode: 
-{{< figure src="images/test.jpg" title="Caption" class="w-50 p-3 float-start" >}}
+{{< figure src="images/temp-figure.jpg" title="Caption" class="w-50 p-3 float-start" >}}
 
 Using raw HTML in markdown: 
-<div class="testclass"><img src="images/test.jpg" class="w-50 p-3 float-start"></div>
-<img src="images/test.jpg" class="w-50 p-3 float-start">
+<div class="testclass"><img src="images/temp-figure.jpg" class="w-50 p-3 float-start"></div>
+<img src="images/temp-figure.jpg" class="w-50 p-3 float-start">
+
 
 Using markdown:  
-![Test Fieldwork](images/test-fieldwork.jpeg)
+![Test Figure](images/temp-figure.jpeg)
 
 
 ## Different scale(s) are most meaningful for a given decision or research question
