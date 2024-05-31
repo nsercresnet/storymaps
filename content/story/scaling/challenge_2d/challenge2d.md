@@ -1,10 +1,10 @@
 ---
-weight: 2
+weight: 6
 name: "challenge2d"
 layers: "esri_topo"
 zoom: 9
-lat: 445.588167
-lng: -78.358333
+lat: 50.484
+lng: -119.683
 # background_media : "img/title-bg.jpg" 
 # background_media : "" 
 background_img: "img/title-bg.jpg" 
@@ -12,9 +12,9 @@ visible: true
 # layout: "wide_over_bg"
 layout: "float_card"
 menu_group: "Navigation"
-menu_name: "Non-linearities"
+menu_name: "Monitoring time period"
 splash: true
-title: "Non-linearities"
+title: "monitoring time period"
 # subtitle: "NSERC ResNet HQP Scaling Group"
 init_js: "Monteregie_map.init()"
 ---
@@ -41,13 +41,8 @@ In this example, we show how Chinook salmon populations are changing in the Salm
 Data Source: Fisheries and Oceans Canada. 2021. NuSEDS-New Salmon Escapement Database System. Retrieved [here](https://open.canada.ca/data/en/dataset/c48669a3-045b-400d-b730-48aafe8c5ee6) on Jan 13, 2022.
 
 
-![Image 1](images/Fig2cLeft.png) 
+![Image 1](images/ImageChallenge2d.png) 
 
-![Image 2](images/Fig2cMiddle.png) 
-
-![Image 3](images/Fig2cRight.png) 
-
-Data source: Mendes P; Bourgeois B; Pellerin S; Ziter CD; Cimon-Morin J; Poulin M. Linkages between plant functional diversity and soil-based ecosystem services in urban and peri-urban vacant lots. Urban Ecosystems. 10.1007/s11252-023-01470-5
 
 
 ### Best practices and opportunities
@@ -63,6 +58,6 @@ When appropriate historical baselines are unavailable, comparisons can be made w
 
 
 
-<!--- Use shapefiles in /data/challenge_2c --->
+<!--- Use shapefiles in /data/challenge_2d , also see plotly_baselines.R or http://dev.xylemgeo.com --->
 
-*Created by ?*
+*Created by Amanda Schwantes*

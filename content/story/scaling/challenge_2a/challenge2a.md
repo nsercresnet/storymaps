@@ -3,8 +3,8 @@ weight: 2
 name: "challenge2a"
 layers: "esri_topo"
 zoom: 9
-lat: 445.588167
-lng: -78.358333
+lat: 45.840
+lng: -78.405
 # background_media : "img/title-bg.jpg" 
 # background_media : "" 
 background_img: "img/title-bg.jpg" 
