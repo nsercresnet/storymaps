@@ -3,8 +3,8 @@ weight: 2
 name: "challenge1"
 layers: "esri_topo"
 zoom: 9
-lat: 445.588167
-lng: -78.358333
+lat: 45.439
+lng: -63.311
 # background_media : "img/title-bg.jpg" 
 # background_media : "" 
 background_img: "img/title-bg.jpg" 
@@ -197,7 +197,7 @@ Collecting field data for scaling requires (1) funding & resources, (2) backgrou
 
 Spending the time planning your field work is essential. Integration of modelers in this planning is even more important if the data is intended to be used in future studies of scaling. Planning ensures unexpected events and missing data can be dealt with and will not influence the overall dataset. 
 
-*Photos by Britney Roughan & David*
+*Photos by Britney Roughan & David Bysouth*
 
 <!--- Britney given instruction on what shp to use here: https://docs.google.com/document/d/1UHZfDVqn3GXgsXRaUJjF5mzvDAjjFpLBJBNfwnIFeyA/edit --->
 
