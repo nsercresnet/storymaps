@@ -1,16 +1,18 @@
 ---
 weight: 1
 name: "challenge_4"
-layers: "google_satellite, c2d"
-zoom: 3
-lat: 55.0
-lng: -97.0
+layers: "esri_topo"
+zoom: 2
+lat: 45.1856
+lng: -73.6853
 # background_media : "img/title-bg.jpg" 
-# background_media : "../img/montreal.jpeg" 
+# background_media : "" 
+background_img: "img/title-bg.jpg" 
 visible: true
-layout: "full_width_bg_img"
+layout: "wide_over_bg"
+#layout: "float_card"
 menu_group: "Navigation"
-menu_name: "Introduction"
+menu_name: "Spatial resolution"
 splash: true
 title: "The future is not like the past"
 ---
