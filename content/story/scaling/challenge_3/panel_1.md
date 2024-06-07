@@ -61,12 +61,12 @@ of the pollination process, and this is an example of scale mismatch.
 
 ## Best Practices and Opportunities
 
-Understand the service area: Think about the whole area that benefits from the ecosystem service, like pollination, and identify who or what benefits from it.
+* Understand the service area: Think about the whole area that benefits from the ecosystem service, like pollination, and identify who or what benefits from it.
 Compare across beneficiaries: Look at different groups or areas that benefit from the service and compare them. This can help identify different needs and how 
 they might be met.
-Identify the benefit gap: Try to figure out where the mismatches between supply and demand are. Where are the needs not being met? Understanding this gap can 
+* Identify the benefit gap: Try to figure out where the mismatches between supply and demand are. Where are the needs not being met? Understanding this gap can 
 help in planning how to fix it.
-Think about the arrangement and size of habitat areas: It's not just about how much habitat there is for the pollinators, but also about how this 
+* Think about the arrangement and size of habitat areas: It's not just about how much habitat there is for the pollinators, but also about how this 
 habitat is arranged. The layout and size of the land can influence how well it supports the pollinators and provides the needed service.
 
 By considering these points, we can better understand how to manage and support many ecosystem services like pollination. It helps in creating a plan that fits 
