@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 5
 name: "challenge2c"
 layers: "esri_topo"
 zoom: 9

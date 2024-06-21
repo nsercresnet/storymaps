@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 name: "challenge2a"
 layers: "esri_topo"
 zoom: 9
@@ -53,4 +53,4 @@ Even though fine scale data usually leads to improved accuracy (Fig. a & b), the
 
 ![grain_size](images/resnet_upscaling_grain_size2.png) 
 
-*Created by Peter Rodriguez*
+*Created by Peter Rodriguez & Amanda Schwantes*
