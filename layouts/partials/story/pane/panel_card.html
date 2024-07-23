@@ -1,7 +1,16 @@
-<section class="{{ replaceRE "(\\s)" "_" .Params.name }}"  data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js}}" style="background-image:url('{{ .Params.background_img }}')">
-    <div class="card mx-auto">
+<section class="{{ replaceRE "(\\s)" "_" .Params.name }} section-wrapper"  data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js}}" style="background-image:url('{{ .Params.background_img }}')">
+{{ if eq .Params.align "center" }}
+    <div class="card mx-auto panel-card w-50">
+{{ else if eq .Params.align "right" }}
+    <div class="card me-auto panel-card w-50">
+{{ else if eq .Params.align "left" }}
+    <div class="card ms-auto panel-card w-50">
+{{ else }}
+    <div class="card mx-auto panel-card w-50">
+{{ end }}
         <div class="card-body">
             {{ .Content }}
         </div>
     </div>
+
 </section>

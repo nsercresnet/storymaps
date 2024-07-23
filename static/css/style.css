@@ -443,3 +443,11 @@ section{
     margin-left:5vw;
   }
 
+.storymap-story{
+    pointer-events:none
+} 
+
+.viewing .card{
+    pointer-events:auto
+}
+

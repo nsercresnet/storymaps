@@ -1,6 +1,6 @@
 ---
-weight: -1
-name: "section_1"
+weight: 2
+name: "panel_2"
 layers: "google_satellite"
 zoom: 5
 lat: 55.0
@@ -9,9 +9,11 @@ background_media : "images/title-bg.jpg"
 # background_media : "../img/montreal.jpeg" 
 visible: true
 layout: "panel_card"
-splash: true
+# splash: true
 title: "Panel Title"
 subtitle: "Panel Subtitle"
+align: "right"
+
 ---
 # Header Level 1
 ## Header Level 2
