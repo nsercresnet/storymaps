@@ -8,8 +8,15 @@
 			{{ range .Sections}}
 			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 			<ul>
-				{{ range .Sections}}
+				{{/*  {{ range .Sections}}  */}}
+				{{/*  {{ range .Pages }}  */}}
+				{{/*  {{ range sort .Sections .Params.weight }}  */}}
+				{{/*  {{ range sort .Sections .Params.menu.weight }}  */}}
+				{{ range .Pages.ByParam "weight" }}
+
+				{{/*  {{ range sort .Pages.Params "weight" }}  */}}
 				<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+				{{/*  {{ . }}  */}}
 				{{ end }}			</ul>
 			{{ end }}
 		</ul>

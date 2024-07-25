@@ -32,6 +32,7 @@
   </div>
   {{ end }}
 
+  {{ if .Content }}
   <div class="card mx-auto">
     <div class="card-body">{{ .Content }}</div>
 
@@ -53,6 +54,7 @@
       style="border:none;" class="{{ .Params.left_html_class}}"></iframe>
     {{end}}  */}}
   </div>
+  {{ end }}
 
   <div></div>
   {{ if .Params.attribution }}

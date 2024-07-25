@@ -48,6 +48,9 @@ Super<sup>script</sup>
 
 Sub<sub>script</sub> 
 
+<a href="images/temp-figure.jpg" data-dimbox="my-test-image">
+    <img src="images/temp-figure.jpg" alt="This is an awesome image" />
+</a>
 
 `Inline Code`
 

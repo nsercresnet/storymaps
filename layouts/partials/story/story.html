@@ -12,7 +12,8 @@
 
 {{/*  {{ range $index, $section := sort .Pages "weight" }}  */}}
                 {{/*  {{/*  {{ range .Pages.ByTitle }}   */}}
-{{ range sort .Pages .Params.weight }}
+                {{ range .Pages.ByParam "weight" }}
+                {{/*  {{ range sort .Pages .Params.weight }}  */}}
 {{/*  {{ range .Pages "weight" }}  */}}
     {{ if .Params.visible }}
         {{ if eq .Params.layout "float_left" }}

@@ -1,16 +1,16 @@
 ---
 weight: 1
-name: "section_1"
+name: "markdown"
 layers: "google_satellite"
 zoom: 5
 lat: 55.0
 lng: -97.0
 background_media : "images/title-bg.jpg" 
 # background_media : "../img/montreal.jpeg" 
-visible: true
+# visible: true
 layout: "wide_over_bg"
 splash: true
-title: "Panel Title"
+title: "Markdown"
 subtitle: "Panel Subtitle"
 ---
 # Header Level 1
@@ -20,7 +20,7 @@ subtitle: "Panel Subtitle"
 ##### Header Level 5
 ###### Header Level 6
 
-Paragraph 
+Paragraph's are deliminated by ending a line with two spaces followed by a return.
 
 **Bold Text**
 
@@ -72,21 +72,3 @@ Here's a sentence with a footnote. [^1]
 
 ---
 
-## Images
-Using hugo shortcode: 
-{{< figure src="images/temp-figure.jpg" title="Image Caption" class="w-50 p-3 float-start" >}}
-{{< figure src="images/temp-figure.jpg" title="Image Caption" class="w-50 p-3 float-start" >}}
-
-Using raw HTML in markdown: 
-<div class="testclass"><img src="images/temp-figure.jpg" class="w-50 p-3 float-start"></div>
-<img src="images/temp-figure.jpg" class="w-50 p-3 float-start">
-
-
-Using markdown:  
-![Test Figure](images/temp-figure.jpeg)
-
-## Contents
-- Text Formatting
-- Panel Layouts
-- Images
-- Spatial 

@@ -13,14 +13,15 @@
 
     </head>  */}}
 	<body>
+        <script src={{ "dimbox.min.js" | relURL }}></script>
 	{{/*  {{- partial "story/nav.html" . -}}  */}}
 	{{/*  {{- partial "modal_onload.html" . -}}
 	{{- partial "modal_onmobile.html" . -}}  */}}
-
+<div> {{- partial "story/nav_test.html" . -}} </div>
 	<div id="storymap" class="container-fluid">
 	    <div class="row">
 	        <div class="col-sm-6 col-md-8 storymap-map"></div>
-	        <div class="col-sm-6 col-md-4 storymap-story w-100">
+	        <div class="col-sm-6 col-md-4 storymap-story">
                 {{ partial "story/story.html" . }}
                 {{/*  {{ range .Pages.ByTitle }}
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

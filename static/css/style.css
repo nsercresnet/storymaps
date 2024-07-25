@@ -310,7 +310,8 @@ section.viewing.left-content {
 }
 
 .card img {
-	max-width: 75vw;
+	/* max-width: 75vw; */
+	max-width: 100%;
 	max-height: 25vh;
 }
 
@@ -451,3 +452,17 @@ section{
     pointer-events:auto
 }
 
+.dummy-text{
+    font-style: italic;
+    font-weight: lighter;
+    color: grey;
+}
+
+pre{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.storymap-scroll-down{
+    display:none !important;
+}

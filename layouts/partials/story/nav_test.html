@@ -1,0 +1,21 @@
+<nav id="main-navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-navbar storymap-navbar">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">
+			<i class="fa fa-home" style="padding-right:10px;"></i>
+			{{/*  Scaling of Ecosystem Services  */}}
+      {{/*  {{ .Page.title }}  */}}
+      {{/*  {{ .Title }}  */}}
+
+    
+
+    </a>
+          {{/*  {{ .Title }}  */}}
+          {{ .Parent.Title }}
+      {{ .Page.Title }}
+
+    {{ range .CurrentSection.Pages }}
+    <a href="{{ .RelPermalink | relURL }}">{{ .LinkTitle }}</a>
+    {{ end }}
+
+    </div>
+    </nav>
