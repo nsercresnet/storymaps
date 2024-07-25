@@ -14,3 +14,7 @@ title: "Overview"
 ---
 
 Work in progress.
+- Avoid loading large files directly into the app, big performance hit. (The page will load more slowly for viewers, and other problems).
+- Large files can be hosted on the Data Portal.
+- Files can also be stored as geojson directly within the content directory.
+- Project to WGS84 or WebMerc
