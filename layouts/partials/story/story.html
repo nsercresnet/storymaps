@@ -57,12 +57,12 @@
     {{ $sections := .Parent.Sections.ByWeight }}
     {{ with $sections.Prev . }}
 {{/*  <button type="button" class="btn">  */}}
-    <a class="btn btn-primary" href="{{ .RelPermalink }}">Next: {{ .Title }} →</a>
+    <a class="btn section-nav-btn" href="{{ .RelPermalink }}">Next: {{ .Title }} →</a>
 {{/*  </button>  */}}
 {{ end }}
 {{ with $sections.Next . }}
 {{/*  <button type="button" class="btn">  */}}
-    <a class="btn btn-primary" href="{{ .RelPermalink }}">← Previous: {{ .Title }}</a>
+    <a class="btn section-nav-btn" href="{{ .RelPermalink }}">← Previous: {{ .Title }}</a>
 {{/*  </button>  */}}
 {{ end }}
 
