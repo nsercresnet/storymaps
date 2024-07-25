@@ -1,6 +1,6 @@
 baseURL = 'https://dev.xylemgeo.com/'
 languageCode = 'en-us'
-title = 'ResNet Scaling'
+title = 'ResNet Storymaps'
 theme = 'blank'
 [markup]
   [markup.goldmark]

@@ -1,4 +1,4 @@
 ---
-title: "Story Template"
+title: "Storymap Template"
 sectionPagesMenu: 'main'
 ---

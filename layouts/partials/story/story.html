@@ -42,6 +42,8 @@
             {{- partial "story/pane/float_card.html" . -}}
         {{ else if eq .Params.layout "panel_card" }}
             {{- partial "story/pane/panel_card.html" . -}}
+        {{ else if eq .Params.layout "panel_float_card" }}
+            {{- partial "story/pane/panel_float_card.html" . -}}
         {{ else if eq .Params.layout "init" }}
             {{- partial "story/pane/init.html" . -}}
         {{/*  {{ else }}  */}}

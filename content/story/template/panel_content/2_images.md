@@ -5,14 +5,18 @@ layers: "google_satellite"
 zoom: 5
 lat: 55.0
 lng: -97.0
-background_media : "images/title-bg.jpg" 
-# background_media : "../img/montreal.jpeg" 
+# background_media : "images/title-bg.jpg"  
 visible: true
-layout: "wide_over_bg"
+layout: "panel_float_card"
 splash: false
 title: "Images"
 subtitle: "Panel Subtitle"
+width: 60
 ---
+
+# Images and Figures
+
+Images and figures are also inserted using markdown syntax, with additional arguments for controlling size, position, and caption.
 
 ## Images
 

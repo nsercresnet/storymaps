@@ -5,14 +5,32 @@ layers: "google_satellite"
 zoom: 5
 lat: 55.0
 lng: -97.0
-background_media : "images/title-bg.jpg" 
-# background_media : "../img/montreal.jpeg" 
-# visible: true
-layout: "wide_over_bg"
-splash: true
+# background_media : "images/title-bg.jpg" 
+visible: true
+# layout: "wide_over_bg"
+layout: "panel_float_card"
+splash: false
 title: "Markdown"
 subtitle: "Panel Subtitle"
+# align: "right"
+width: 50
 ---
+
+# Markdown
+Markdown syntax is used to format content within a panel. Generally, paragraph's are delineated by ending a line with two spaces followed by a return.
+
+
+## Headers
+Headers are used to structure content.
+
+```markdown
+# Header Level 1
+## Header Level 2
+### Header Level 3
+#### Header Level 4
+##### Header Level 5
+###### Header Level 6
+```
 # Header Level 1
 ## Header Level 2
 ### Header Level 3
@@ -20,15 +38,30 @@ subtitle: "Panel Subtitle"
 ##### Header Level 5
 ###### Header Level 6
 
-Paragraph's are deliminated by ending a line with two spaces followed by a return.
+## Weight and Emphasis
 
-**Bold Text**
+```markdown
+**Bold Text**  
+*Italicized Text*  
+***Bold and Italic***  
+Super<sup>script</sup>  
+Sub<sub>script</sub>  
+`Inline Code` 
 
-*Italicized Text*
+> Block Quote  
+```
 
-***Bold and Italic***
+**Bold Text**  
+*Italicized Text*  
+***Bold and Italic***  
+Super<sup>script</sup>  
+Sub<sub>script</sub>  
+`Inline Code` 
 
+> Block Quote  
 
+## Lists and Tables
+```markdown
 1. Ordered List
    1. Ordered List
 2. Ordered List 
@@ -37,21 +70,24 @@ Paragraph's are deliminated by ending a line with two spaces followed by a retur
   - Unordered List
 - Unordered List
 
-> Block Quote
-> Block Quote Second Line
+Term 1
+: Definition 1
 
-Super<sup>script</sup> 
+Term 2
+: Definition 2
 
-Sub<sub>script</sub> 
-
-
-`Inline Code`
-
-<code>Code Block</code>
-```html
-<div class="testclass"><img src="images/temp-figure.jpg" class="w-50 p-3 float-start"></div>
-<img src="images/temp-figure.jpg" class="w-50 p-3 float-start">
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 ```
+1. Ordered List
+   1. Ordered List
+2. Ordered List 
+
+- Unordered List
+  - Unordered List
+- Unordered List
 
 Term 1
 : Definition 1
@@ -64,11 +100,14 @@ Term 2
 | Header | Title |
 | Paragraph | Text |
 
+## Other
+```markdown
+Here's a sentence with a footnote. [^1]
 
+[^1]: This is the footnote. 
+```
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote. 
 
-
----
 

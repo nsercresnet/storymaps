@@ -1,20 +1,22 @@
 <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-navbar storymap-navbar">
-	<div class="container-fluid">
+	<div class="container-fluid" style = "justify-content:left;">
 		<a class="navbar-brand" href="#">
 			<i class="fa fa-home" style="padding-right:10px;"></i>
 			{{/*  Scaling of Ecosystem Services  */}}
       {{/*  {{ .Page.title }}  */}}
       {{/*  {{ .Title }}  */}}
 
-    
+      {{ .Parent.Title }}
 
     </a>
-          {{/*  {{ .Title }}  */}}
-          {{ .Parent.Title }}
+
+    <div class="navbar-brand" style="font-size:medium;">
       {{ .Page.Title }}
 
+    </div>
+
     {{ range .CurrentSection.Pages }}
-    <a href="{{ .RelPermalink | relURL }}">{{ .LinkTitle }}</a>
+    <a href="{{ .RelPermalink | relURL }}" style="font:small white">{{ .LinkTitle }}</a>&nbsp
     {{ end }}
 
     </div>
