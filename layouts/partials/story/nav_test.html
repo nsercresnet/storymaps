@@ -6,18 +6,92 @@
       {{/*  {{ .Page.title }}  */}}
       {{/*  {{ .Title }}  */}}
 
-      {{ .Parent.Title }}
+      {{/*  {{ .Parent.Title }}  */}}
+      {{/*  {{ range .Parent.Sections }}
+      {{.Title}}
+      {{ end }}  */}}
 
     </a>
 
-    <div class="navbar-brand" style="font-size:medium;">
-      {{ .Page.Title }}
+    {{/*  <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">
+          <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ .Parent.Title }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {{ range .Parent.Sections }}
+            <li>
+            <a class="dropdown-item" href="{{ .RelPermalink | relURL }}">
+              {{ .LinkTitle }}
+            </a>
+          </li>
+            {{ end }}
+          </ul>
+        </li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>  */}}
+    
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle navbar-brand me-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        {{ .Parent.Title }}
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        {{ range .Parent.Sections }}
+        <li>
+        <a class="dropdown-item" href="{{ .RelPermalink | relURL }}">
+          {{ .LinkTitle }}
+        </a>
+      </li>
+        {{ end }}
+      </ul>
+      </li>
+      </ul> /
+          
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ .Page.Title }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {{ range .CurrentSection.Pages }}
+            <li>
+            {{/*  <a href="{{ .RelPermalink | relURL }}" style="font:small">  */}}
+            <a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'{{ .Params.name }}\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              {{ .LinkTitle }}
+            </a>
+          </li>
+            {{ end }}
+          </ul>
+          </li>
+      </ul> 
+      {{/*  / 
+      {{ range .CurrentSection.Pages }}
+      <a href="javascript:window.scrollBy(0, $('section[data-scene=\'{{ .Params.name }}\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+        {{ .LinkTitle }}
+      </a>&nbsp
+      {{ end }}  */}}
+
+      {{/*  {{ $sections := .Parent.Sections.ByWeight }}
+      {{ with $sections.Next . }}
+        <a href="{{ .RelPermalink }}">Previous: {{ .Title }}</a>
+      {{ end }}
+      {{ with $sections.Prev . }}
+        <a href="{{ .RelPermalink }}">Next: {{ .Title }}</a>
+      {{ end }}  */}}
     </div>
 
-    {{ range .CurrentSection.Pages }}
-    <a href="{{ .RelPermalink | relURL }}" style="font:small white">{{ .LinkTitle }}</a>&nbsp
-    {{ end }}
 
     </div>
     </nav>
+
+

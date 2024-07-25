@@ -1,4 +1,5 @@
 ---
 title: "Storymap Template"
-sectionPagesMenu: 'main'
+type: page
+layout: page
 ---
