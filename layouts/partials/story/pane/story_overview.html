@@ -1,0 +1,29 @@
+<section class='{{ replaceRE "(\\s)" "_" .Params.name }} wide-over-bg {{ .Params.name }}-bg-img {{ .Params.class }}' data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js }}" style="opacity:1;{{if .Params.background_media }}background-image:url('{{.Params.background_media}}');{{ end }}; ">
+
+    {{/*  <div class="fluid-container" style="min-height:60vw;background:black;color:white;">
+        {{ .Content }}
+        {{ .Page.Title }}
+        {{ range .CurrentSection.Pages }}
+        {{ .Title }}
+        {{ end }}
+    </div>  */}}
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            {{ range .CurrentSection.Pages }}
+            <div class="card">
+                {{/*  <img src="..." class="card-img-top" alt="...">  */}}
+                <div class="card-body">
+                    <h5 class="card-title"> {{ .Title }} </h5>
+                    <p class="card-text"> {{ .Description }} </p>
+                    <a href="{{ .RelPermalink | relURL }}" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+</section>
+
+{{/*  {{with .Params}}  */}}

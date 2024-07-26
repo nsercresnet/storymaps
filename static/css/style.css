@@ -484,3 +484,14 @@ pre{
 	color: rgba(255, 255, 255, 0.95);
 	text-shadow: 0 0 6px rgba(0, 0, 0, .95);
 }
+
+.storymap-progressline {
+	/* position: fixed;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 3px;
+	z-index: 1030; */
+	background: rgba(60, 176, 253, 0.8);
+	box-shadow: 0 0 2px rgba(0, 59, 98, 0.9);
+}
