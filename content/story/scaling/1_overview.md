@@ -1,5 +1,5 @@
 ---
-title: "Storymap Template"
+title: "Scaling Challenges"
 name: "landing"
 # type: page
 # layout: page
@@ -12,4 +12,3 @@ visible: true
 layout: "story_overview"
 ---
 
-Describes the components of a storymap and provides examples.

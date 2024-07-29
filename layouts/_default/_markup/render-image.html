@@ -1,9 +1,9 @@
 {{ if .Title }}
-<figure class="figure {{ if .Attributes.center }} d-block mx-auto text-center {{ end }}" {{with .Attributes}}style="{{ if .float }} float: {{ .float }};{{ end }} {{ if .clear }} clear: {{.clear}}; {{ end }}"{{end}}>
+<figure class="figure {{ if .Attributes.center }} d-block mx-auto text-center {{ end }}" {{with .Attributes}}style="{{ if .float }} float: {{ .float }};{{ end }} {{ if .clear }} max-width:{{ .width }}; clear: {{.clear}}; {{ end }}"{{end}}>
     <a href="{{ .Destination | safeURL }}" data-dimbox data-dimbox-caption="{{ .Title }}">
         <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" class="figure-img {{with .Attributes.class}}{{.}}{{end}}" {{with .Attributes}}style="{{ if .width }} max-width:{{ .width }}; max-height:fit-content; object-fit:contain; {{ end }}"{{end}}/>
     </a>
-    <figcaption class="figure-caption">{{ .Title }}</figcaption>
+    <figcaption class="figure-caption text-wrap">{{ .Title }}</figcaption>
 </figure>
 {{ else }}
     <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" class="{{ if .Attributes.center }} d-block mx-auto text-center {{ end }}" {{with .Attributes}}style="{{ if .float }} float: {{.float}}; {{ end }} {{ if .clear }} clear: {{.clear}}; {{ end }} {{ if .width }} max-width:{{ .width }}; max-height:fit-content; object-fit:contain; {{ end }}"{{end}}/>

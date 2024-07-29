@@ -495,3 +495,7 @@ pre{
 	background: rgba(60, 176, 253, 0.8);
 	box-shadow: 0 0 2px rgba(0, 59, 98, 0.9);
 }
+
+.storymap-story{
+    padding-bottom:25vh;
+}

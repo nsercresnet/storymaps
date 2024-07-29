@@ -1,3 +1,4 @@
 ---
-title: "Challenge 2c"
+title: "Challenge 2c: Making good predictions"
+description: "Relationships may differ over time or space. This example discusses the consequences of generalizing our results outside of the original study area."
 ---

@@ -47,7 +47,7 @@
       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
         {{ range .Parent.Sections }}
         <li>
-        <a class="dropdown-item" href="{{ .RelPermalink | relURL }}">
+        <a class="dropdown-item text-wrap" href="{{ .RelPermalink | relURL }}">
           {{ .LinkTitle }}
         </a>
       </li>
@@ -67,7 +67,7 @@
             {{ range .CurrentSection.Pages }}
             <li>
             {{/*  <a href="{{ .RelPermalink | relURL }}" style="font:small">  */}}
-            <a class="dropdown-item" href="javascript:window.scrollBy(0, $('section[data-scene=\'{{ .Params.name }}\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'{{ .Params.name }}\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
               {{ .LinkTitle }}
             </a>
           </li>

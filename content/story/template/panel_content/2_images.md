@@ -218,7 +218,7 @@ The same layout methods for `image` work for `figure`.
 ![Test Image](images/temp-figure.jpg  "Informative Figure Caption")
 {float="right"} 
 
-![Test Image](images/temp-figure-alt.jpg  "Additional Informative Figure Caption")
+![Test Image](images/temp-figure-alt.jpg  "Additional Informative Figure Caption. This one is long. So long that the the caption will need to wrap on some display widths.")
 {float="right" clear="right" width="20vw"} 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis lectus consequat ex viverra, id sagittis tortor interdum. Vestibulum sollicitudin pellentesque mi, quis malesuada mauris pulvinar eu. Nunc ut lacus ac erat eleifend ornare. Morbi eget cursus nulla. Aliquam at porttitor mi, vel viverra velit. Maecenas ex neque, varius et neque id, viverra ullamcorper erat. Quisque commodo nisl ut ex varius venenatis. Etiam vel tortor sapien. Aliquam id scelerisque lacus, at ultricies nibh. Vivamus posuere feugiat lacus, ac lacinia ante sagittis eu.
