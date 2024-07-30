@@ -23,11 +23,11 @@ We, as scientists and researchers, often take a multi-scale perspective to bette
 <div class="clearfix"></div>
 
 ![fig2](images/Intro_A2.png "Image credit: Illustration by Ágnes Vári.")
-{float="right" }
+{float="right" width="40%"}
 <!---Justify left, text listed above should be to the right of this figure --->
 
 ![fig3](images/Intro_A3.png "Image credit: Illustration by Ágnes Vári.")
-{float="right" clear="right"}
+{float="right" clear="right" width="40%"}
 <!---Justify left, text listed above should be to the right of this figure --->
 
 Taking a **multi-scale perspective**, means that we can measure things at **fine or small scales**, for example at the scale of ants or even smaller by measuring carbon in a handful of soil and we can use instruments at **broad or large scales** that give us a bird's eye perspective of larger ecological patterns and processes. 
@@ -41,7 +41,6 @@ We are part of **ResNet**, a network which unites a broad community of scholars,
 2) define what we mean by spatial and temporal scales, and
 
 3) introduce a few challenges and best practices related to scaling.
-
 
 As scientists and researchers, we often design studies at different scales, because 
 

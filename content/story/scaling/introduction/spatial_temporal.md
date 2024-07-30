@@ -45,7 +45,9 @@ When we scale up or down, many challenges can arise. For example the method choi
 
 <div class="clearfix"></div>
 
-To learn more about each challenge, click on the title below: 
+#### To learn more about each challenge, click on the title below:
+{.text-center}
+
 <!---[Add in finalized list of challenges: Matches what’s described in dropdown menu] --->
 
 
