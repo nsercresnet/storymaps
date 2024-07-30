@@ -19,11 +19,3 @@ title: "Table of Contents"
 init_js: "Monteregie_map.init()"
 ---
 
-To learn more about each challenge, click on the title below: 
-<!---[Add in finalized list of challenges: Matches what’s described in dropdown menu] --->
-
-
-
-
-
-

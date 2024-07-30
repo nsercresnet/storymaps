@@ -5,40 +5,34 @@ layers: "esri_topo"
 zoom: 9
 lat: 45.4
 lng: -75.6
-# background_media : "images/BackgroundTitleSlide1.jpg" 
-# background_media : "" 
-background_img: "img/title-bg.jpg" 
+background_media : "images/BackgroundTitleSlide1.jpg" 
 visible: true
-# layout: "wide_over_bg"
 layout: "panel_float_card"
-menu_group: "Navigation"
-menu_name: "Introduction"
 splash: true
-title: "Introduction"
+title: "Nature’s contributions to people: a multi-scale perspective"
 # subtitle: "NSERC ResNet HQP Scaling Group"
-init_js: "Monteregie_map.init()"
 ---
 
-# Nature’s contributions to people: a multi-scale perspective
+
+![fig1](images/Intro_A1.png "Image credit: Illustration by Ágnes Vári.")
+{float="right" clear="right" width="40%"}
+<!---Justify left, text listed above should be to the right of this figure --->
 
 We, as scientists and researchers, often take a multi-scale perspective to better understand how natural ecosystems improve people’s lives. These beneficial contributions by ecosystems are called **Nature’s contributions to people**, NCPs. NCPs can also be called nature’s gifts or ecosystem services.
 
-![fig1](images/Intro_A1.png) 
+<div class="clearfix"></div>
 
-Image credit: illustrated by Ágnes Vári.
+![fig2](images/Intro_A2.png "Image credit: Illustration by Ágnes Vári.")
+{float="right" }
+<!---Justify left, text listed above should be to the right of this figure --->
+
+![fig3](images/Intro_A3.png "Image credit: Illustration by Ágnes Vári.")
+{float="right" clear="right"}
 <!---Justify left, text listed above should be to the right of this figure --->
 
 Taking a **multi-scale perspective**, means that we can measure things at **fine or small scales**, for example at the scale of ants or even smaller by measuring carbon in a handful of soil and we can use instruments at **broad or large scales** that give us a bird's eye perspective of larger ecological patterns and processes. 
 
-![fig2](images/Intro_A2.png) 
-
-Image credit: illustrated by Ágnes Vári.
-<!---Justify left, text listed above should be to the right of this figure --->
-
-![fig3](images/Intro_A3.png) 
-
-Image credit: illustrated by Ágnes Vári.
-<!---Justify left, text listed above should be to the right of this figure --->
+<div class="clearfix"></div>
 
 We are part of **ResNet**, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with a common goal of improving how we monitor, model, and manage nature’s contributions to people. In the sections below, together as a subset of members of ResNet, we 
 
@@ -59,7 +53,7 @@ As scientists and researchers, we often design studies at different scales, beca
 
 
 ![fig4](images/Intro_B1.png "Image credit: Amanda Schwantes")
-{center="TRUE"}
+{center="TRUE" width="100%"}
 
 <!--- Justify middle, no text on sides --->
 
