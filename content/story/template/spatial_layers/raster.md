@@ -3,7 +3,7 @@ weight: 2
 name: "raster"
 title: "Raster"
 layers: "esri_topo,test_raster"
-zoom: 6
+zoom: 7
 lat: 45.6
 lng: -73.2
 visible: true

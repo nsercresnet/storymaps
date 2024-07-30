@@ -2,7 +2,7 @@
 weight: 1
 name: "overview"
 title: 
-layers: "monteregie_municipalities,esri_topo,test_points"
+layers: "esri_topo,test_points"
 zoom: 9
 lat: 45.6
 lng: -73.2
