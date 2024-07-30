@@ -247,6 +247,9 @@ section.viewing.left-content {
     backdrop-filter:blur(10px) brightness(50%);
 }
 
+.navbar ul .dropdown-menu{
+    min-width:30vw;
+}
 /* .fullscreen .splash-solid{ */
 .splash-solid  .body_markdown{
     background-color: rgba(255, 255, 255, 255);
@@ -445,7 +448,7 @@ section{
   }
 
 .storymap-story{
-    /* pointer-events:none */
+    pointer-events:none
 } 
 
 .viewing .card{
@@ -499,3 +502,4 @@ pre{
 .storymap-story{
     padding-bottom:25vh;
 }
+

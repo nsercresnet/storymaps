@@ -41,15 +41,10 @@
 <div class="btn-group-lg d-grid gap-2 col-6 mx-auto vw-100">
     {{ $sections := .Parent.Sections.ByWeight }}
     {{ with $sections.Prev . }}
-{{/*  <button type="button" class="btn">  */}}
     <a class="btn section-nav-btn" href="{{ .RelPermalink }}">Next: {{ .Title }} →</a>
-{{/*  </button>  */}}
 {{ end }}
 {{ with $sections.Next . }}
-{{/*  <button type="button" class="btn">  */}}
     <a class="btn section-nav-btn" href="{{ .RelPermalink }}">← Previous: {{ .Title }}</a>
-{{/*  </button>  */}}
 {{ end }}
 
   </div>
-  

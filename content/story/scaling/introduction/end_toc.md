@@ -1,6 +1,6 @@
 ---
 weight: 999
-name: "introduction"
+name: "toc"
 layers: "esri_topo"
 zoom: 9
 lat: 45.4
