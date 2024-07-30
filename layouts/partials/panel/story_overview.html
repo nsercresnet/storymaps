@@ -70,7 +70,7 @@
 
                     <h4>Table of Contents:</h4>
                     <div class="list-group">
-                        {{ range .CurrentSection.Pages }}
+                        {{ range .CurrentSection.Sections }}
                         <a href="{{ .RelPermalink | relURL }}" class="list-group-item list-group-item-action">
                           <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">{{ .Title }}</h5>

@@ -10,6 +10,7 @@ lat: 55.0
 lng: -97.0
 visible: true
 layout: "panel_float_card"
+type: "story/story"
 ---
 
 basdgggdg

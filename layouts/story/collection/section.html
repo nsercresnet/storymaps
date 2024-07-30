@@ -2,7 +2,7 @@
 
 {{- partial "nav_collection.html" . -}} 
 
-<div>
+<div style="padding-top:3lh">
     <ul>
 {{ range .Site.Sections }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
@@ -14,7 +14,7 @@
         {{/*  {{ range .Pages }}  */}}
         {{/*  {{ range sort .Sections .Params.weight }}  */}}
         {{/*  {{ range sort .Sections .Params.menu.weight }}  */}}
-        {{ range .Pages.ByParam "weight" }}
+        {{ range .Sections.ByParam "weight" }}
 
         {{/*  {{ range sort .Pages.Params "weight" }}  */}}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

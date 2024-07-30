@@ -13,10 +13,10 @@
 
     </head>  */}}
 	<body>
-        <script src={{ "dimbox.min.js" | relURL }}></script>
-	{{/*  {{- partial "story/nav.html" . -}}  */}}
-	{{/*  {{- partial "modal_onload.html" . -}}
-	{{- partial "modal_onmobile.html" . -}}  */}}
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+        {{/*  <script src={{ "dimbox.min.js" | relURL }}></script>
 <div> {{- partial "story/nav_test.html" . -}} </div>
 	<div id="storymap" class="container-fluid">
 	    <div class="row">
@@ -27,6 +27,6 @@
 	        </div>
             
 	    </div>
-	</div>
+	</div>  */}}
 	</body>
 </html>
