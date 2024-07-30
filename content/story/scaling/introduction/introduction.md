@@ -10,7 +10,7 @@ lng: -75.6
 background_img: "img/title-bg.jpg" 
 visible: true
 # layout: "wide_over_bg"
-layout: "float_card"
+layout: "panel_float_card"
 menu_group: "Navigation"
 menu_name: "Introduction"
 splash: true
@@ -58,8 +58,8 @@ As scientists and researchers, we often design studies at different scales, beca
 3) there are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.
 
 
-![fig4](images/Intro_B1.png) 
-Image credit: Amanda Schwantes
+![fig4](images/Intro_B1.png "Image credit: Amanda Schwantes")
+{center="TRUE"}
 
 <!--- Justify middle, no text on sides --->
 
@@ -72,43 +72,3 @@ Sometimes data is only available (or can only be collected) at one scale; howeve
 3) **Management and policy decisions** may require data at a different scale (e.g., study area or amount of detail) compared to the scale of available data. For example, we may collect field data about a management intervention within a smaller local study area; however, we may rely on models to test how scaling these interventions could affect outcomes for a broader larger study region.
 
 4) Sometimes data are only available for a large region (e.g., population data of a neighborhood), but we may **need data at a finer resolution** to answer key questions (e.g., how many people within a neighborhood live along a river prone to flooding?).
-
-
-## Spatial and temporal scales
-
-As scientists and researchers, we often work at different scales to measure different parts of a landscape or ecosystem. We can measure ecosystems at different scales across **space** (e.g., spatial) or across **time** (e.g., temporal). We can also ask “**how big?**” (e.g., what is the extent?) or “**how much detail?**” (e.g., what is the resolution?).
-
-![fig5](images/Intro_C1.png) 
-Caption: When we move from the bottom to the top images, we are increasing the size of the study area (e.g., spatial extent). When we move from the left to the right images, we are increasing the number of pixels per area (e.g., spatial resolution), which allows for individual flowers to be distinguished. Image credit: Amanda Schwantes.
-
-<!--- Justify middle, no text on sides -->
-
-![fig6](images/Intro_C2.png) 
-Caption: When we move from the bottom to the top images, we are expanding the time period for which we are collecting data. When we move from the left to the right images, we are increasing the detail (e.g., number of data points per year). Image credit: Amanda Schwantes.
-
-<!--- Justify middle, no text on sides -->
-
-
-## The spatial and temporal scales of our studies
-
-Research within ResNet takes place across Canada. Here, we show the spatial extent of a selection of our research projects. Each polygon or group of polygons represents the area of study for a project. The icons within the scatter graph represent a subset of  research projects within ResNet. Hover over each icon to learn more about each project.
-
-<!---[Add story map and scatter graphs of the scales at which we work] --->
-
-
-## Sometimes we move between scales, which creates key challenges and opportunities
-
-When we scale up or down, many challenges can arise. For example the method choices we make can lead to misleading results as we extend our research to other scales. Here, we, as a subset of students and researchers in ResNet, illustrate many of these challenges and provide opportunities for overcoming them.
-
-
-![fig7](images/Intro_D1.png) 
-Image credit: Amanda Schwantes.
-
-To learn more about each challenge, click on the title below: 
-<!---[Add in finalized list of challenges: Matches what’s described in dropdown menu] --->
-
-
-
-
-
-

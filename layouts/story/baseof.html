@@ -2,6 +2,7 @@
 <html>
     {{- partial "story/head.html" . -}}
     <body>
+        <script src={{ "dimbox.min.js" | relURL }}></script>
         <main>
             {{ block "main" . }}{{ end }}
         </main>
