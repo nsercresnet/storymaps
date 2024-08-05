@@ -11,8 +11,8 @@ align: "center" # align the entire panel
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
 zoom: 9
-lat: 45.439
-lng: -63.311
+lat: 0
+lng: 0
 ---
 
 ### Case Study 2: Soil carbon trade-offs associated with agricultural land use change in the Northwest Territories

@@ -360,8 +360,10 @@ section{
 }
 
 .section-splash{
-    padding-top:25vh;
-    padding-bottom:25vh;
+    /* padding-top:25vh;
+    padding-bottom:25vh; */
+    padding-top:10rem;
+    padding-bottom:10rem;
 }
 
 .section-splash h1{

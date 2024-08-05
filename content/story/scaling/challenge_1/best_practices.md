@@ -8,7 +8,7 @@ opacity: .8 # lower values show more of the underlying map
 width: 80 # translates to % of browser window
 align: "center" # align the entire panel
 background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
-splash: true # display the title and subtitle above the panel
+# splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
 zoom: 9
 lat: 45.439

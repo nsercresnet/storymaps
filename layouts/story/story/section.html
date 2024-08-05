@@ -4,10 +4,21 @@
 
 <div id="storymap" class="container-fluid">
     <div class="row">
-        <div class="col-sm-6 col-md-8 storymap-map"></div>
-        <div class="col-sm-6 col-md-4 storymap-story">
-            {{ partial "story/story.html" . }}
+        {{/*  <div class="col-sm-6 col-md-8 storymap-map"></div>  */}}
+        <div class="col-sm-6 col-md-4 storymap-story" style="padding-bottom:0;">
+            <input type="hidden" id="language" value="{{ $.Language.Lang}}">
 
+            {{ range $index, $layer := .Site.Data.layers }}
+            <input type="hidden" class="layers" layer-id="{{$index}}" layer-name="{{$layer.name}}" base-layer="{{$layer.base_layer}}" {{ printf "layer-src=%q" $layer.link | safeHTMLAttr }} layer-type="{{$layer.src_type}}">
+            {{ range $ind, $opt := $layer.options }} 
+                <input type="hidden" class="layer-options" layer="{{$layer.name}}" opt-name="{{ $ind }}" opt-value="{{ $opt }}">
+            {{ end }}
+            {{ range $ind, $opt := $layer.style }}
+                <input type="hidden" class="layer-style" layer="{{$layer.name}}" style-name="{{ $ind }}" style-value="{{ $opt }}">
+            {{ end }}
+            {{ end }}
+            {{/*  {{ partial "story/story.html" . }}  */}}
+            {{- partial "panel/story_overview.html" . -}}
         </div>
         
     </div>

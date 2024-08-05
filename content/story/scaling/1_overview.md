@@ -1,5 +1,5 @@
 ---
-title: "Scaling Challenges"
+title: "Nature’s contributions to people: a multi-scale perspective"
 name: "landing"
 # type: page
 # layout: page
@@ -10,5 +10,6 @@ lat: 55.0
 lng: -97.0
 visible: true
 layout: "story_overview"
+splash: true
 ---
 

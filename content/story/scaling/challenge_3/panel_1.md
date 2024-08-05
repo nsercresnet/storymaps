@@ -20,9 +20,9 @@ title: "Spatial, temporal, & scale mismatches"
 
 <!--- Use MRCV-VR.shp over esri earth imagery for challenge background - folder Data--->
 
-# Spatial, temporal, & scale mismatches
+<!-- # Spatial, temporal, & scale mismatches
 Sometimes, the need for an ecosystem service and the ability of the environment to provide that service don't match up. Here we discuss mismatches 
-occurring across space, time and scale.
+occurring across space, time and scale. -->
 
 ## Introduction
 
