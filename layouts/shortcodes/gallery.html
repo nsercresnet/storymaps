@@ -1,0 +1,10 @@
+
+{{ $seed := now }}
+{{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+<div class="img-gallery {{ .Get "class" }}">
+            <ul class="justify-content-center">
+                {{ .Inner }}
+            </ul>
+        <figcaption class="figure-caption text-center">{{ .Get "caption" }}</figcaption>
+    </div>

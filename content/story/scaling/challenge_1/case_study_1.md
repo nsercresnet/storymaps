@@ -28,8 +28,9 @@ lng: -63.311
 
 #### Step 2:  Collection of sediment cores
 
-Caption:  Three random points within each zone were chosen for core extraction using Geographic Information System (GIS) software (ArcGIS Pro) and the location of each point was surveyed using a high-accuracy GPS system. In total, nine cores were collected from each study site. The photo above shows someone surveying core locations at the Aulac site. The map below shows the location of nine cores in the Wood Point Rest Stop study site within the three elevation zones. 
 
+
+<!-- <div class="images-container"> 
 ![fig3](images/survey.jpg " ") 
 {width="50%"}
 
@@ -37,7 +38,14 @@ Caption:  Three random points within each zone were chosen for core extraction u
 {width="40%"}
 
 ![fig5](images/image17.png " ") 
-{width="40%"}
+{width="40%"} 
+</div> -->
+
+{{< gallery caption="Three random points within each zone were chosen for core extraction using Geographic Information System (GIS) software (ArcGIS Pro) and the location of each point was surveyed using a high-accuracy GPS system. In total, nine cores were collected from each study site. The photo above shows someone surveying core locations at the Aulac site. The map below shows the location of nine cores in the Wood Point Rest Stop study site within the three elevation zones.">}}
+    {{< gallery-img src="images/survey.jpg" >}}
+    {{< gallery-img src="images/image40.png" >}}
+    {{< gallery-img src="images/image17.png" >}}
+{{< /gallery >}}
 
 Caption:  Cores were collected using a gouge auger, one of the many types of ‘corers’ available to use by soil carbon scientists. Other coring types include the ‘Russian peat corer’ (extracts half a core) and manual extraction (hammering a sharpened tube into the ground). Each of these methods will create different levels of core ‘compaction’, which can affect the overall length of the core and influence the estimate of how much soil organic carbon is contained within each core. Depending on the length of the core, the process of pushing the coring device into the ground and extracting a core can be physically demanding and often requires teamwork.
 

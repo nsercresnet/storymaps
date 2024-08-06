@@ -5,7 +5,7 @@ layers: "esri_topo"
 zoom: 9
 lat: 45.4
 lng: -75.6
-background_media : "images/BackgroundTitleSlide1.jpg" 
+background_media : "images/Front_image.jpg" 
 visible: true
 layout: "panel_float_card"
 splash: true
@@ -14,21 +14,21 @@ subtitle: "AUTHOR1, AUTHOR2"
 ---
 
 
-![fig1](images/Intro_A1.png "Image credit: Illustration by Ágnes Vári.")
-{float="right" clear="right" width="40%"}
+<!-- ![fig1](images/Intro_A1.png "Image credit: Illustration by Ágnes Vári.")
+{float="right" clear="right" width="40%"} -->
+
 <!---Justify left, text listed above should be to the right of this figure --->
+{{< figure src="images/Intro_A1.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50">}}
 
 We, as scientists and researchers, often take a multi-scale perspective to better understand how natural ecosystems improve people’s lives. These beneficial contributions by ecosystems are called **Nature’s contributions to people**, NCPs. NCPs can also be called nature’s gifts or ecosystem services.
 
 <div class="clearfix"></div>
 
-![fig2](images/Intro_A2.png "Image credit: Illustration by Ágnes Vári.")
-{float="right" width="40%"}
 <!---Justify left, text listed above should be to the right of this figure --->
+{{< figure src="images/Intro_A2.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50">}}
 
-![fig3](images/Intro_A3.png "Image credit: Illustration by Ágnes Vári.")
-{float="right" clear="right" width="40%"}
 <!---Justify left, text listed above should be to the right of this figure --->
+{{< figure src="images/Intro_A3.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50">}}
 
 Taking a **multi-scale perspective**, means that we can measure things at **fine or small scales**, for example at the scale of ants or even smaller by measuring carbon in a handful of soil and we can use instruments at **broad or large scales** that give us a bird's eye perspective of larger ecological patterns and processes. 
 
@@ -51,9 +51,9 @@ As scientists and researchers, we often design studies at different scales, beca
 3) there are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.
 
 
-![fig4](images/Intro_B1.png "Image credit: Amanda Schwantes")
-{center="TRUE" width="100%"}
-
+<!-- ![fig4](images/Intro_B1.png "Image credit: Amanda Schwantes") -->
+<!-- {center="TRUE" width="100%"} -->
+{{< figure src="images/Intro_B1.png" caption="Image credit: Amanda Schwantes" class="mx-auto w-100">}}
 <!--- Justify middle, no text on sides --->
 
 Sometimes data is only available (or can only be collected) at one scale; however, we need information at a different scale to inform a decision or to understand an ecological process. We may scale up or down for many reasons, including…
