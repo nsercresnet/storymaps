@@ -312,11 +312,10 @@ section.viewing.left-content {
     max-width: 75vw;
 }
 
-.card img {
-	/* max-width: 75vw; */
+/* .card img {
 	max-width: 100%;
 	max-height: 25vh;
-}
+} */
 
 #status-warning{
     margin:60px;
@@ -528,8 +527,8 @@ pre{
 
 .img-gallery {
     clear:both;
-    background-color: #fff;
-    border:1px solid #dee2e6;
+    /* background-color: #fff; */
+    /* border:1px solid #dee2e6; */
     padding:.25rem;
     margin:.25rem;
 }

@@ -10,7 +10,7 @@ visible: true
 layout: "panel_float_card"
 splash: true
 title: "Nature’s contributions to people: a multi-scale perspective"
-subtitle: "AUTHOR1, AUTHOR2"
+# subtitle: "AUTHOR1, AUTHOR2"
 ---
 
 

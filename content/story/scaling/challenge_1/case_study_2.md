@@ -5,16 +5,15 @@ visible: true # whether to include this panel in the output, useful for testing
 title: "Case Study 2: Soil carbon trade-offs associated with agricultural land use change in the Northwest Territories"
 layout: "panel_float_card" # template to use
 opacity: .8 # lower values show more of the underlying map
-width: 80 # translates to % of browser window
-align: "center" # align the entire panel
+width: 40 # translates to % of browser window
+align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
 zoom: 9
-lat: 0
-lng: 0
+lat: 60.9710593
+lng: -117.4743051
 ---
-
 ### Case Study 2: Soil carbon trade-offs associated with agricultural land use change in the Northwest Territories
 
 #### Step 1: Choosing representative sites and study areas
