@@ -574,3 +574,9 @@ pre{
   .single-figure img{
     max-height: 100%;
   }
+
+
+  /* override fading out inactive elements for smoother transition */
+  .invisible{
+    visibility: visible !important;
+  }
