@@ -580,3 +580,7 @@ pre{
   .invisible{
     visibility: visible !important;
   }
+
+  .section-splash{
+    pointer-events: all;
+  }

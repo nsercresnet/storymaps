@@ -14,7 +14,7 @@ title: "Who we are"
 # subtitle: "Figure"
 opacity: 1
 # align: "right"
-# width: 50
+width: 50
 ---
 
 {{< figure src="images/resnet-logo.jpg" class="float-end w-25" >}}
