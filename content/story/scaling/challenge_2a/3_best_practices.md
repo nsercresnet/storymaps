@@ -5,8 +5,8 @@ visible: true # whether to include this panel in the output, useful for testing
 title: "Best practices and opportunities"
 layout: "panel_float_card" # template to use
 opacity: 1 # lower values show more of the underlying map
-width: 40 # translates to % of browser window
-align: "left" # align the entire panel
+width: 80 # translates to % of browser window
+align: "center" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers

@@ -2,7 +2,7 @@
 weight: 1 # the order to render
 name: "intro" # must be unique within section and not include special characters
 visible: true # whether to include this panel in the output, useful for testing
-title: "Why does spatial resolution matter?"
+title: "How to choose the scale for summarizing data?"
 layout: "panel_float_card" # template to use
 opacity: 1 # lower values show more of the underlying map
 width: 80 # translates to % of browser window
@@ -11,16 +11,11 @@ align: "center" # align the entire panel
 splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
 zoom: 9
-lat: 45.840
-lng: -78.405
+lat: 45.382
+lng: -73.315
 ---
 ### Introduction
 
-We often need detailed data to detect change. In this example, we discuss why we need data at finer pixel sizes to detect forest losses and gains.
+We often report data by summarizing individual information (e.g., at a pixel) to coarser scale analysis units (e.g., census division). In this example, we discuss the consequences of summarizing data to different units.
 
-When we change the spatial resolution of a pixel, we change the number and type of elements (for example land cover types) that compose it. This can impact the results of our studies, especially those where we attempt to classify pixels based on their composition.
-
-{{< figure src="images/ConceptualFigureMixedPixel.png" 
-class="mx-auto w-50 d-block" 
-caption="Created by Amanda Schwantes and Peter Rodriguez" 
->}}
+In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ecosystem service supply and demand information and relationships.

@@ -15,7 +15,11 @@ lat: 53.8611551
 lng: -91.2538155
 ---
 ### Best Practices and Opportunities
-Collecting field data for scaling requires (1) funding & resources, (2) background research to plan the most effective sampling scheme to capture as much variability as possible, (3) a network of researchers, stakeholders, and community members using standard methodologies to allow for the comparison of data across time and space, and (4) collaboration with people using the data (e.g. modelers) to help identify the type of data that will be needed before it is collected. 
+Collecting field data for scaling requires:
+1. Funding and resources. 
+2. Background research to plan the most effective sampling scheme to capture as much variability as possible. 
+3. A network of researchers, stakeholders, and community members using standard methodologies to allow for the comparison of data across time and space. 
+4. Collaboration with people using the data (e.g. modelers) to help identify the type of data that will be needed before it is collected. 
 
 Spending the time planning your field work is essential. Integration of modelers in this planning is even more important if the data is intended to be used in future studies of scaling. Planning ensures unexpected events and missing data can be dealt with and will not influence the overall dataset. 
 
