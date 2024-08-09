@@ -16,12 +16,27 @@ lng: -71.365
 ---
 ### Case study
 
-In this case study, we show the relationship between soil carbon and plant cover in vacant lots in Quebec city. Plant cover can be greater than one in densely vegetated vacant lots when leaves overlap. In this study, vacant lots were carefully selected to represent the entire range of plant cover. However, a less careful scientist could have selected only a subset of these vacant lots (green dots on map). The relationship between soil carbon and plant cover only within this subset (green dots on map) is linear (green line) and would lead to an incorrect extrapolation to the whole study region. When using data from the whole study region (e.g., increasing the spatial extent), we find that the relationship is actually non-linear (gray line). In vacant lots with high plant cover, other factors (e.g., soil type, land use history, etc.) might be needed to better explain the variability of carbon.
+In this case study, we show the relationship between soil carbon and plant cover in vacant lots in Quebec city.  In this study, vacant lots were carefully selected to represent the entire range of plant cover. However, a less careful scientist could have selected only a subset of these vacant lots, for example only the green dots on the map. The relationship between soil carbon and plant cover only within this subset (green dots on map) is linear (green line) and would lead to an incorrect extrapolation to the whole study region. When using data from the whole study region (e.g., increasing the spatial extent), we find that the relationship is actually non-linear (gray line). In vacant lots with high plant cover, other factors (e.g., soil type, land use history, etc.) might be needed to better explain the variability of carbon.
 
 
-{{< gallery 
+<!-- {{< gallery 
 caption="Data source: Mendes P; Bourgeois B; Pellerin S; Ziter CD; Cimon-Morin J; Poulin M. Linkages between plant functional diversity and soil-based ecosystem services in urban and peri-urban vacant lots. Urban Ecosystems. 10.1007/s11252-023-01470-5" >}}
     {{< gallery-img src="images/fig2cLeft.png" >}}
     {{< gallery-img src="images/fig2cMiddle.png" >}}
     {{< gallery-img src="images/fig2cRight.png" >}}
-{{< /gallery >}}
+{{< /gallery >}} -->
+
+<div class="d-flex">
+{{< figure src="images/fig2cLeft.png" 
+class="mx-auto w-25" 
+caption="Locations of sampled vacant lots." 
+>}}{{< figure src="images/fig2cMiddle.png" 
+class="mx-auto w-25" 
+caption="Linear relationship observed when only a subset of the vacant lots is considered (green dots)." 
+>}}{{< figure src="images/fig2cRight.png" 
+class="mx-auto w-25" 
+caption="Non-linear relationship when all vacant lots are considered. Plant cover (%) can be greater than 100% when there is more than one layer of vegetation (for example trees and herbs)." 
+>}}
+</div>
+
+<figcaption class="figure-caption text-center">Data source: Mendes P; Bourgeois B; Pellerin S; Ziter CD; Cimon-Morin J; Poulin M. Linkages between plant functional diversity and soil-based ecosystem services in urban and peri-urban vacant lots. Urban Ecosystems. 10.1007/s11252-023-01470-5</figcaption>

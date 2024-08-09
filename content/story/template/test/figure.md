@@ -17,13 +17,13 @@ opacity: 1
 # width: 50
 ---
 
-```
+```markdown
 {{< figure src="images/" 
 class="mx-auto w-75 d-block" 
 caption="" 
 >}}
 ```
-```
+```markdown
 {{< gallery 
 caption="" >}}
     {{< gallery-img src="images/" >}}
