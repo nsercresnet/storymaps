@@ -16,6 +16,22 @@ opacity: 1
 # align: "right"
 # width: 50
 ---
+
+```
+{{< figure src="images/" 
+class="mx-auto w-75 d-block" 
+caption="" 
+>}}
+```
+```
+{{< gallery 
+caption="" >}}
+    {{< gallery-img src="images/" >}}
+    {{< gallery-img src="images/" >}}
+{{< /gallery >}}
+
+```
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis lectus consequat ex viverra, id sagittis tortor interdum. Vestibulum sollicitudin pellentesque mi, quis malesuada mauris pulvinar eu. Nunc ut lacus ac erat eleifend ornare. Morbi eget cursus nulla. Aliquam at porttitor mi, vel viverra velit. Maecenas ex neque, varius et neque id, viverra ullamcorper erat. Quisque commodo nisl ut ex varius venenatis. Etiam vel tortor sapien. Aliquam id scelerisque lacus, at ultricies nibh. Vivamus posuere feugiat lacus, ac lacinia ante sagittis eu.
 
 

@@ -14,7 +14,6 @@ zoom: 5
 lat: 53.8611551
 lng: -91.2538155
 ---
-
 ### Best Practices and Opportunities
 Collecting field data for scaling requires (1) funding & resources, (2) background research to plan the most effective sampling scheme to capture as much variability as possible, (3) a network of researchers, stakeholders, and community members using standard methodologies to allow for the comparison of data across time and space, and (4) collaboration with people using the data (e.g. modelers) to help identify the type of data that will be needed before it is collected. 
 
