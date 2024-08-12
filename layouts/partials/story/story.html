@@ -1,6 +1,51 @@
-<input type="hidden" id="language" value="{{ $.Language.Lang}}">
+{{/*  list all spatial layers in page resources and site.Data.layers  */}}
+{{ $allLyrs := slice }}
+{{/*  workaround for comparisons (can't parse child .Params into slice inline)  */}}
+{{ $allLyrsName := slice }}
 
-{{ range $index, $layer := .Site.Data.layers }}
+{{/*  loop through current page resources  */}}
+{{ range .Resources.Match "layers/*" }}
+    {{ with . | transform.Unmarshal }}
+        {{ $allLyrs = $allLyrs | append . }}
+        {{ $allLyrsName = $allLyrsName | append .name }}
+    {{ end }}
+{{ end }}
+
+{{/*  loop through site.data  */}}
+{{ range .Site.Data.layers }}
+    {{/*  if in page, skip  */}}
+    {{ if not (in $allLyrsName .name) }}
+        {{ $allLyrs = $allLyrs | append . }}
+        {{ $allLyrsName = $allLyrsName | append .name }}
+    {{ end }}
+{{ end }}
+
+{{/*  loop through story panel headmatter and list layers  */}}
+{{ $storyLyrs := slice }}
+    {{ range .Pages }}
+      {{ $storyLyrs = $storyLyrs | append (split .Params.layers ",") }}
+    {{ end }}
+{{ $storyLyrs = $storyLyrs | uniq }}
+
+{{/*  filter to only layers used */}}
+{{ $activeLyrs := slice }}
+{{ range $allLyrs }}
+    {{ if in $storyLyrs .name }}
+    {{ $activeLyrs = $activeLyrs | append . }}
+    {{ end }}
+{{ end }}
+
+{{/* debug  */}}
+{{/*  <div style="background:white;position:absolute;top:100px;">
+{{ range $activeLyrs }}
+    {{ .name }}
+{{ end }}
+</div>  */}}
+
+<input type="hidden" id="language" value="{{ $.Language.Lang }}">
+
+{{ range $index, $layer := $activeLyrs }}
+{{/*  {{ range $index, $layer := .Site.Data.layers }}  */}}
   <input type="hidden" class="layers" layer-id="{{$index}}" layer-name="{{$layer.name}}" base-layer="{{$layer.base_layer}}" {{ printf "layer-src=%q" $layer.link | safeHTMLAttr }} layer-type="{{$layer.src_type}}">
   {{ range $ind, $opt := $layer.options }} 
     <input type="hidden" class="layer-options" layer="{{$layer.name}}" opt-name="{{ $ind }}" opt-value="{{ $opt }}">
@@ -10,12 +55,7 @@
   {{ end }}
 {{ end }}
 
-
-{{/*  {{ range $index, $section := sort .Pages "weight" }}  */}}
-                {{/*  {{/*  {{ range .Pages.ByTitle }}   */}}
-                {{ range .Pages.ByParam "weight" }}
-                {{/*  {{ range sort .Pages .Params.weight }}  */}}
-{{/*  {{ range .Pages "weight" }}  */}}
+{{ range .Pages.ByParam "weight" }}
     {{ if .Params.visible }}
         {{ if eq .Params.layout "wide_over_bg" }}
             {{- partial "panel/wide_over_bg.html" . -}}
@@ -42,9 +82,8 @@
     {{ $sections := .Parent.Sections.ByWeight }}
     {{ with $sections.Prev . }}
     <a class="btn section-nav-btn" href="{{ .RelPermalink }}">Next: {{ .Title }} →</a>
-{{ end }}
-{{ with $sections.Next . }}
+    {{ end }}
+    {{ with $sections.Next . }}
     <a class="btn section-nav-btn" href="{{ .RelPermalink }}">← Previous: {{ .Title }}</a>
-{{ end }}
-
-  </div>
+    {{ end }}
+</div>

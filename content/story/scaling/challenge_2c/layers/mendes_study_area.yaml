@@ -1,0 +1,11 @@
+name: "mendes_study_area"
+src_type: "L.tileLayer.wms"
+# link: "https://data.nsercresnet.ca/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3Auser_test_raster&bbox=-73.48786%2C45.04368%2C-72.49971%2C46.07541&width=735&height=768&srs=EPSG%3A4326&styles=&format=image%2Fpng"
+link: "https://data.nsercresnet.ca/geoserver/geonode/wms"
+# layers: "geonode:user_test_raster"
+options:
+  layers: 'geonode:mendespoliana1'
+  format: 'image/png'
+  transparent: true
+base_layer: false
+# script_src: "../js/main_map.js"

@@ -2,7 +2,7 @@
 weight: 1
 name: "overview"
 title: 
-layers: "esri_topo,test_points"
+layers: "esri_topo,test_points,test_layer"
 zoom: 9
 lat: 45.6
 lng: -73.2

@@ -9,10 +9,10 @@ width: 40 # translates to % of browser window
 align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
-layers: "google_satellite" # basemap and overlaying layers
-zoom: 9
+layers: "google_satellite,mendes_study_area" # basemap and overlaying layers
+zoom: 10
 lat: 46.842
-lng: -71.365
+lng: -71.565
 ---
 ### Case study
 
