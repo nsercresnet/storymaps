@@ -593,6 +593,7 @@ pre{
 
   .storymap-legend{
     width:fit-content;
+    max-width: 10rem;
     margin-top:40px;
     z-index: 900;
     top:30%;
