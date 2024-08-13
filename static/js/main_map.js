@@ -4,5 +4,6 @@ var Main_map = {
 		if(typeof map.legend !== 'undefined'){
 			map.removeControl(map.legend)
 		}
+		this.cont = map.addControl(new legend());
 	}
 }

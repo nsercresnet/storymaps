@@ -9,7 +9,8 @@ width: 40 # translates to % of browser window
 align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
-layers: "google_satellite" # basemap and overlaying layers
+layers: "bombus_pcrop_watershed_monteregie,bombus_pcrop_3km_monteregie" # basemap and overlaying layers
+# layers: "google_satellite,bombus_pcrop_watershed_monteregie,bombus_pcrop_3km_monteregie" # basemap and overlaying layers
 zoom: 9
 lat: 45.382
 lng: -73.315
