@@ -591,10 +591,12 @@ pre{
     height: auto;
   }
 
-  .storymap-legend{
-    width:fit-content;
-    max-width: 10rem;
-    margin-top:40px;
-    z-index: 900;
-    top:30%;
-  }
+  .storymap-legend {
+	width: fit-content;
+	max-width: 10rem;
+	margin-top: 40px;
+	z-index: 900;
+	top: 30%;
+	background: none;
+	box-shadow: none;
+}
