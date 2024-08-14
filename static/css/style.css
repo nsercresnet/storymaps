@@ -584,13 +584,7 @@ pre{
   .section-splash{
     pointer-events: all;
   }
-
-  .storymap-legend .card img{
-    width:fit-content;
-    /* max-width:50rem; */
-    height: auto;
-  }
-
+  
   .storymap-legend {
 	width: fit-content;
 	max-width: 10rem;
@@ -599,4 +593,14 @@ pre{
 	top: 30%;
 	background: none;
 	box-shadow: none;
+}
+
+.storymap-legend .card{
+    opacity: 50%;
+  }
+
+.storymap-legend .card img{
+width:fit-content;
+/* max-width:50rem; */
+height: auto;
 }

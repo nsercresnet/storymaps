@@ -101,11 +101,6 @@ var MapZ = {
                 L.control.zoom({
                     position: 'bottomright'
                 }).addTo(map);
-            //    L.control.layers(
-            //     layers[baselayer],
-            //     layers,
-            //     {position: 'bottomright'
-            //     }).addTo(map);
                 return map;
             }
         });
