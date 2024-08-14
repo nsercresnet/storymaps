@@ -12,7 +12,7 @@ align: "left" # align the entire panel
 layers: "google_satellite,algonquin_forest_disturbance_2003_2020" # basemap and overlaying layers
 zoom: 11
 lat: 46.140
-lng: -78.405
+lng: -78.305
 ---
 ### Case study
 
