@@ -13,7 +13,7 @@ splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
 zoom: 9
 lat: 50.484
-lng: -119.683
+lng: -119.983
 ---
 ### Introduction
 
