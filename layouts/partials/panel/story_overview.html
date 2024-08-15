@@ -19,8 +19,10 @@
             </div>
             <div class="col">
               <h5 class="">{{ .Title }}</h5>
-              <p class="">{{ .Description }}
-              </p>
+              <p class="">{{ .Description }}</p>
+              {{ if .Params.authors }}
+              <p class="section-author blockquote-footer">Authors: {{ .Params.authors }}</p>
+              {{ end }}
             </div>
             
           </div>

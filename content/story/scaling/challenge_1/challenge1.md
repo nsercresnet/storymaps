@@ -3,7 +3,7 @@ weight: 1 # the order to render
 name: "intro" # must be unique within section and not include special characters
 visible: true # whether to include this panel in the output, useful for testing
 title: "The importance of field sampling and data collection for scaling of ecosystem services" # human friendly title. KEEP IT SHORT
-# subtitle: "Some settings used." # a longer description to be displayed under the title, in some places
+subtitle: "Authors: Brittney Roughan, David Bysouth" # a longer description to be displayed under the title, in some places
 layout: "panel_float_card" # template to use
 opacity: .8 # lower values show more of the underlying map
 width: 80 # translates to % of browser window

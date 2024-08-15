@@ -13,6 +13,7 @@ layers: "google_satellite" # basemap and overlaying layers
 zoom: 9
 lat: 45.840
 lng: -78.405
+subtitle: "Authors: Peter Rodriguez, Hugo Thierry, Yiyi Zhang, Amanda Schwantes"
 ---
 ### Introduction
 
