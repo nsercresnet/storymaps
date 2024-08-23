@@ -10,7 +10,7 @@ align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite,global_hf" # basemap and overlaying layers
-zoom: 7
+zoom: 6
 lat: 57.1701121
 lng: -125.510678
 ---

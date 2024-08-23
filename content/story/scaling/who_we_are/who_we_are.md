@@ -10,7 +10,7 @@ background_media : "images/Front_image.jpg"
 visible: true
 layout: "panel_float_card"
 splash: true
-title: "Who we are"
+title: "Who We Are"
 # subtitle: "Figure"
 opacity: 1
 # align: "right"
@@ -29,7 +29,7 @@ Learn more about ResNet here: https://www.nsercresnet.ca/
 <tr>
 <td class="align-top">
 
-### Content Authors 
+##### Content Authors 
 </td>
 <td> 
 <span class="text-muted fs-6 fw-lighter fst-italic">(surname alphabetical order)</span>
@@ -55,7 +55,7 @@ and Yiyi Zhang
 <tr>
 <td class="align-top">
 
-### Developer
+##### Developer
 </td>
 <td>
 
@@ -66,7 +66,7 @@ John Clark
 <tr>
 <td class="align-top">
 
-### Project Coordinators
+##### Project Coordinators
 </td>
 
 <td>
