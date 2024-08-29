@@ -1,0 +1,16 @@
+name: "test_poly"
+src_type: "L.geoJson.ajax"
+link: "https://data.nsercresnet.ca/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Auser_test_poly&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326"
+base_layer: false
+options : 
+  weight: 3
+  opacity: 0.2
+  zIndex: 999
+style: 
+  opacity: 0.2
+  fillOpacity: 0.3
+  color: '#99c63d'
+  fillColor: '#99c63d'
+  stroke: true
+  strokeOpacity: 1
+# script_src: "../js/main_map.js"

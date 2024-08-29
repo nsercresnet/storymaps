@@ -1,0 +1,19 @@
+{{- $src := .Get "src" -}}
+{{- with .Parent -}}
+{{/*  <div class="img-gallery__item" style="background:red">  */}}
+{{/*  <li>  */}}
+{{/*  {{ .Parent.Ordinal }}  */}}
+{{ $id := printf "gallery-%03d" $.Parent.Ordinal }}
+<figure class="figure">
+    <a href="{{ $src }}" data-dimbox="{{$id}}" data-dimbox-caption="{{ .Get "caption" }}" >
+        {{/*  <img src="{{ $src }}" class="{{ .Get "class" }}-image rounded img-thumbnail img-fluid">  */}}
+        <img src="{{ $src }}" class="img-thumb">
+    </a>
+    {{/*  <figcaption class="figure-caption text-wrap">test title</figcaption>  */}}
+</figure>
+{{/*  </div>  */}}
+{{/*  </li>  */}}
+{{- else -}}
+  <img src="{{ $src }}">
+{{- end -}}
+

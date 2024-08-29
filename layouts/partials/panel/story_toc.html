@@ -1,0 +1,59 @@
+<section class='{{ replaceRE "(\\s)" "_" .Params.name }} wide-over-bg {{ .Params.name }}-bg-img {{ .Params.class }}' data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js }}" style="opacity:1;{{if .Params.background_media }}background-image:url('{{.Params.background_media}}');{{ end }}">
+
+    {{ if .Params.splash }}
+    <div class="section-splash justify-content-center text-center">
+      {{ if .Params.title }}
+      <h1>{{ .Params.title }}</h1>
+      {{ end }}
+  
+      {{/*  {{ if .Params.subtitle }}
+      <h2>{{ .Params.subtitle }}</h2>
+      {{ end }}  */}}
+  
+      {{ if .Params.subtitle }}
+      <p>{{ .Params.subtitle | markdownify }}</p>
+      {{ end }}
+    </div>
+    {{ end }}
+  
+  
+  {{ $panel_align := "mx-auto"}}
+  {{ if in .Params.align "center" }}
+    {{ $panel_align = "mx-auto"}}
+  {{ else if in .Params.align "right" }}
+    {{ $panel_align = "ms-auto"}}
+  {{ else if in .Params.align "left" }}
+    {{ $panel_align = "me-auto"}}
+  {{ end }}
+  
+  {{ $panel_width := 50 }}
+  {{ if .Params.width }}
+    {{ $panel_width = .Params.width }}
+  {{ end }}
+  
+    <div class="card panel-card {{ $panel_align }}" style="width:{{$panel_width}}vw;{{ if .Params.opacity }}opacity: {{ .Params.opacity }};{{ end }}">
+      <div class="card-body">{{ .Content }}
+ 
+            {{/*  <div class="card-title h3">{{ .Title }}</div>  */}}
+    
+            <div class="list-group">
+                {{ range .Parent.Parent.Sections }}
+                <a href="{{ .RelPermalink | relURL }}" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">{{ .Title }}</h5>
+                  </div>
+                  <p class="mb-1">{{ .Description }}
+                    <small class="text-muted pull-right">View→</small>
+                  </p>
+                </a>
+                {{ end }}
+              </div>
+      </div>
+    </div>
+  
+    <div></div>
+    {{ if .Params.attribution }}
+    <div class="attribution">{{ .Params.attribution }}</div>
+    {{end}}
+   
+  </section>

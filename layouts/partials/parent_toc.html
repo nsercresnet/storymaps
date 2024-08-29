@@ -1,0 +1,21 @@
+<div class="card panel-card mx-auto">
+    <div class="card-body">
+        {{/*  <div class="card-title h3">{{ .Title }}</div>  */}}
+
+        {{ .Content }}
+
+        <h4>Table of Contents:</h4>
+        <div class="list-group">
+            {{ range .Parent.Sections }}
+            <a href="{{ .RelPermalink | relURL }}" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ .Title }}</h5>
+              </div>
+              <p class="mb-1">{{ .Description }}
+                <small class="text-muted pull-right">View→</small>
+              </p>
+            </a>
+            {{ end }}
+          </div>
+    </div>
+  </div>

@@ -1,8 +1,13 @@
-baseURL = 'https://dev.xylemgeo.com/'
+baseURL = 'https://story.xylemgeo.com/'
 languageCode = 'en-us'
-title = 'ResNet Scaling'
+title = 'ResNet Storymaps'
 theme = 'blank'
 [markup]
   [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+          block = true
+          title = true
     [markup.goldmark.renderer]
       unsafe = true

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "geojson_points",
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "a", "group": "Type 2", "value": 0.056842613033950003 }, "geometry": { "type": "Point", "coordinates": [ -72.7055335, 45.8465103 ] } },
+{ "type": "Feature", "properties": { "id": 2, "name": "b", "group": "Type 3", "value": 0.37585398694500299 }, "geometry": { "type": "Point", "coordinates": [ -72.5241728, 45.2485737 ] } },
+{ "type": "Feature", "properties": { "id": 3, "name": "c", "group": "Type 1", "value": 0.70134122157469403 }, "geometry": { "type": "Point", "coordinates": [ -72.5778014, 45.9153299 ] } },
+{ "type": "Feature", "properties": { "id": 4, "name": "d", "group": "Type 2", "value": 0.36941406805999599 }, "geometry": { "type": "Point", "coordinates": [ -72.9220603, 45.1833959 ] } },
+{ "type": "Feature", "properties": { "id": 5, "name": "e", "group": "Type 3", "value": 0.41446305206045497 }, "geometry": { "type": "Point", "coordinates": [ -73.1002744, 45.8590436 ] } },
+{ "type": "Feature", "properties": { "id": 6, "name": "f", "group": "Type 1", "value": 0.241832671454176 }, "geometry": { "type": "Point", "coordinates": [ -73.4403107, 45.7912868 ] } },
+{ "type": "Feature", "properties": { "id": 7, "name": "g", "group": "Type 2", "value": 0.77622775570489499 }, "geometry": { "type": "Point", "coordinates": [ -72.8060257, 45.9922918 ] } },
+{ "type": "Feature", "properties": { "id": 8, "name": "h", "group": "Type 1", "value": 0.85231396718882002 }, "geometry": { "type": "Point", "coordinates": [ -73.0711861, 46.0698005 ] } },
+{ "type": "Feature", "properties": { "id": 9, "name": "i", "group": "Type 2", "value": 0.29678581445477897 }, "geometry": { "type": "Point", "coordinates": [ -72.6300057, 45.383501 ] } }
+]
+}
