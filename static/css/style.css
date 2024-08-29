@@ -604,3 +604,7 @@ width:fit-content;
 /* max-width:50rem; */
 height: auto;
 }
+
+.leaflet-top{
+    top:50px;
+}

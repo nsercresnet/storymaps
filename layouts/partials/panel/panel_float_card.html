@@ -1,4 +1,4 @@
-<section class='{{ replaceRE "(\\s)" "_" .Params.name }} wide-over-bg {{ .Params.name }}-bg-img {{ .Params.class }}' data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js }}" style="opacity:1;background-image:url('{{.Params.background_media}}');">
+<section class='{{ replaceRE "(\\s)" "_" .Params.name }} wide-over-bg {{ .Params.name }}-bg-img {{ .Params.class }}' data-scene="{{ .Params.name }}" lat="{{ .Params.lat }}" lng="{{ .Params.lng }}" zoom="{{ .Params.zoom }}" layers="{{ .Params.layers }}" init-js="{{ .Params.init_js }}" style="opacity:1;background-image:url('{{.Params.background_media}}');" layercontrol="{{ .Params.layercontrol }}">
 
   {{ if .Params.splash }}
   <div class="section-splash justify-content-center text-center">

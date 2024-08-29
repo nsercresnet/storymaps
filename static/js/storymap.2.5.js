@@ -42,6 +42,7 @@
             scrolldown: true,
             progressline: true,
             mapinteraction: false,
+            layercontrol: true,
             createMap: function () {
                 var map = L.map($('.storymap-map')[0], {zoomControl: false}).setView([44, -120], 7);
                 // L.tileLayer('http://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}@2x.png').addTo(map);
@@ -145,7 +146,6 @@
             var currentLayerGroup = L.layerGroup().addTo(map);
             var nav = $("nav");
 
-
             if (settings.baselayer) {
                 // add an base map, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
                 settings.baselayer.layer.addTo(map);
@@ -155,6 +155,8 @@
                 $(".storymap").append("<div class='storymap-legend' />")
             }
 
+
+            
             if (settings.scrolldown) {
                 $(".storymap").append("<div class='zoomIn infinite material-icons d-flex fixed-bottom mb-5 storymap-scroll-down'>keyboard_arrow_down</div>")
             }
@@ -305,6 +307,28 @@
 
                 var scene = scenes[key];
                 var legendContent = "";
+
+                console.log(scene.layercontrol)
+                console.log(settings.layercontrol)
+                if (settings.layercontrol && scene.layercontrol) {
+                    if(typeof layerControl == "undefined") {
+
+                    var layerControl = L.control.layers(null,null,
+                        {collapsed:false}).addTo(map);
+                    }
+
+                    for (var i = 0; i < scene.layers.length; i++) {
+
+                        console.log(scene.layers[i])
+                        console.log(scene.layers[i].name)
+                        layerControl.addOverlay(scene.layers[i].layer, scene.layers[i].name);
+                    }
+
+                } else {
+                    if(typeof layerControl !== "undefined") {
+                        layerControl.remove()
+                    }
+                }
 
                 if (typeof $("section[data-scene='" + key + "']").data("background") !== 'undefined') {
 

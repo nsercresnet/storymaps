@@ -13,6 +13,7 @@ layers: "google_satellite,algonquin_forest_disturbance_2003_2020" # basemap and 
 zoom: 11
 lat: 46.140
 lng: -78.305
+layercontrol: true
 ---
 ### Case study
 
