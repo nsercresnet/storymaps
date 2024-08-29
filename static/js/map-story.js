@@ -81,7 +81,6 @@ var MapZ = {
                 script: fn,
             }
         })
-
         $('#storymap').storymap({
             scenes: scenes,
             baselayer: layers[baselayer],
@@ -96,7 +95,7 @@ var MapZ = {
             navbar: false,
             mapinteraction: true,
             createMap: function () {
-                map = L.map($(".storymap-map")[0], {zoomControl: false}).setView([45, -73], 1);
+                map = L.map($(".storymap-map")[0], {zoomControl: false}).setView([53, -91], 5);
                 basemap = this.baselayer.layer.addTo(map);
                 L.control.zoom({
                     position: 'bottomright'

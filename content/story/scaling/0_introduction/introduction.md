@@ -14,25 +14,26 @@ subtitle: "Authors: Amanda Schwantes, Ágnes Vári, Yiyi Zhang, Gabriela Maria T
 ---
 
 
-<!-- ![fig1](images/Intro_A1.png "Image credit: Illustration by Ágnes Vári.")
-{float="right" clear="right" width="40%"} -->
-
 <!---Justify left, text listed above should be to the right of this figure --->
-{{< figure src="images/Intro_A1.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50">}}
+{{< figure src="images/Intro_A1.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50 pe-3">}}
 
 We, as scientists and researchers, often take a multi-scale perspective to better understand how natural ecosystems improve people’s lives. These beneficial contributions by ecosystems are called **Nature’s contributions to people**, NCPs. NCPs can also be called nature’s gifts or ecosystem services.
 
 <div class="clearfix"></div>
 
-<!---Justify left, text listed above should be to the right of this figure --->
-{{< figure src="images/Intro_A2.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50">}}
-
-<!---Justify left, text listed above should be to the right of this figure --->
-{{< figure src="images/Intro_A3.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50">}}
+<div class="row">
+    <div class="col" style="align-content:end;height:20rem;">
+{{< figure src="images/Intro_A2.png" caption="Image credit: Illustration by Ágnes Vári.">}}
+</div>
+    <div class="col" style="align-content:end;height:20rem;">
+    {{< figure src="images/Intro_A3.png" caption="Image credit: Illustration by Ágnes Vári.">}}
+    </div>
+</div>
 
 Taking a **multi-scale perspective**, means that we can measure things at **fine or small scales**, for example at the scale of ants or even smaller by measuring carbon in a handful of soil and we can use instruments at **broad or large scales** that give us a bird's eye perspective of larger ecological patterns and processes. 
 
 <div class="clearfix"></div>
+
 
 We are part of **ResNet**, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with a common goal of improving how we monitor, model, and manage nature’s contributions to people. In the sections below, together as a subset of members of ResNet, we 
 
