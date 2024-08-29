@@ -55,6 +55,7 @@ var MapZ = {
                 layer: layer,
                 legend: $(this).attr("legend"),
                 name: $(this).attr("layer-name"),
+                title: $(this).attr("title"),
             }
         })
 
@@ -74,7 +75,7 @@ var MapZ = {
             zoom=parseInt($(this).attr("zoom"))
             eval('var fn = function(){'+$(this).attr("init-js")+'}')
 
-            var layercontrol=false
+            var layercontrol=$(this).attr("layercontrol")
 
             scenes[$(this).attr("data-scene")] = {
                 lat: lat,

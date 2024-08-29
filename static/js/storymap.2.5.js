@@ -301,6 +301,9 @@
 
             });
 
+            var layerControl = L.control.layers(null,null,
+                {collapsed:false});
+
             function showMap(key) {
 
                 currentLayerGroup.clearLayers();
@@ -308,23 +311,35 @@
                 var scene = scenes[key];
                 var legendContent = "";
 
+                // var layerControl = L.control.layers(null,null,
+                //     {collapsed:false})
+
                 console.log(scene.layercontrol)
                 console.log(settings.layercontrol)
-                if (settings.layercontrol && scene.layercontrol) {
-                    if(typeof layerControl == "undefined") {
+                layerControl = L.control.layers(null,null,
+                    {collapsed:false, position:'bottomright'});
+                layerControl.addTo(map)
 
-                    var layerControl = L.control.layers(null,null,
-                        {collapsed:false}).addTo(map);
-                    }
+                if (settings.layercontrol && scene.layercontrol) {
+                    // if(typeof layerControl == "undefined") {
+                        // console.log("added")
+                        // layerControl = L.control.layers(null,null,
+                        //     {collapsed:false}).addTo(map);
+                    // }
 
                     for (var i = 0; i < scene.layers.length; i++) {
-
+                        console.log("layers added")
                         console.log(scene.layers[i])
                         console.log(scene.layers[i].name)
-                        layerControl.addOverlay(scene.layers[i].layer, scene.layers[i].name);
+                        layer_title = scene.layers[i].name
+                        if(scene.layers[i].title !== "undefined") {
+                            layer_title = scene.layers[i].title
+                        }
+                        layerControl.addOverlay(scene.layers[i].layer, layer_title);
                     }
 
                 } else {
+                    console.log("removed")
                     if(typeof layerControl !== "undefined") {
                         layerControl.remove()
                     }
@@ -435,6 +450,8 @@
                     scrollDown
                         .removeClass("animated");
                 }
+                
+                map.removeControl(layerControl)
 
                 showMap($(this).data('scene'));
 

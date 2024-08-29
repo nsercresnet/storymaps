@@ -46,7 +46,7 @@
 
 {{ range $index, $layer := $activeLyrs }}
 {{/*  {{ range $index, $layer := .Site.Data.layers }}  */}}
-  <input type="hidden" class="layers" layer-id="{{ $index }}" layer-name="{{ $layer.name }}" base-layer="{{ $layer.base_layer }}" {{ printf "layer-src=%q" $layer.link | safeHTMLAttr }} layer-type="{{ $layer.src_type }}" legend="{{ $layer.legend }}">
+  <input type="hidden" class="layers" layer-id="{{ $index }}" layer-name="{{ $layer.name }}" base-layer="{{ $layer.base_layer }}" {{ printf "layer-src=%q" $layer.link | safeHTMLAttr }} layer-type="{{ $layer.src_type }}" legend="{{ $layer.legend }}" title="{{ $layer.title }}">
   {{ range $ind, $opt := $layer.options }} 
     <input type="hidden" class="layer-options" layer="{{$layer.name}}" opt-name="{{ $ind }}" opt-value="{{ $opt }}">
   {{ end }}

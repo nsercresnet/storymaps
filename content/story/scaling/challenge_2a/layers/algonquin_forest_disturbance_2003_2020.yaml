@@ -7,6 +7,7 @@ options:
   transparent: true
 base_layer: false
 # script_src: "../js/main_map.js"
+title: "Algonquin Forest Disturbance"
 legend: >
   <div class="card">
   <div class="card-body">Algonquin Forest Disturbance</div>

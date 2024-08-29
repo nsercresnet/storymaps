@@ -1,4 +1,5 @@
 name: "google_satellite"
+title: "Google Satellite"
 src_type: "L.tileLayer"
 link: "https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}"
 base_layer: true

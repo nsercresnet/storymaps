@@ -608,3 +608,8 @@ height: auto;
 .leaflet-top{
     top:50px;
 }
+
+.leaflet-control-layers-list{
+    opacity: 1;
+    padding: 0;
+}
