@@ -11,9 +11,9 @@ align: "left" # align the entire panel
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite,global_hf,national_hf,provincial_hf" # basemap and overlaying layers
 layercontrol: true
-zoom: 6
+zoom: 7
 lat: 57.1701121
-lng: -125.510678
+lng: -125.210678
 ---
 ### Case study
 The human footprint is a cumulative index that quantifies the extent and the intensity of human pressures on ecosystems and biodiversity. We compared the Human footprint at three scales: global (Williams et al., 2020), national (Hirsh-Pearson et al., 2022), and provincial. 

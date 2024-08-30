@@ -616,4 +616,5 @@ height: auto;
 
 .storymap-story section{
     margin:0;
+    border-radius: 0;
 }

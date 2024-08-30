@@ -9,12 +9,12 @@ background_media: "images/Front_image.jpg"
 visible: true
 layout: "panel_float_card"
 splash: false
-title: "Spatial and temporal scales"
+title: "Moving between scales: challenges and opportunities"
 # subtitle: "NSERC ResNet HQP Scaling Group"
 init_js: "Monteregie_map.init()"
 ---
 
-### Moving between scales: Challenges and opportunities
+### Moving between scales: challenges and opportunities
 
 Sometimes we move between scales, which creates key challenges and opportunities. For example, the methodological choices we make at a given scale can lead to misleading results as we extend our research to other scales. In this story map, we illustrate many of these challenges and provide opportunities for overcoming them.
 

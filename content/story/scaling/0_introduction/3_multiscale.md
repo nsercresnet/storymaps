@@ -11,7 +11,7 @@ layout: "panel_float_card"
 width: 40 # translates to % of browser window
 align: "right" # align the entire panel
 splash: false
-title: "Spatial and temporal scales"
+title: "A multi-scale perspective"
 # subtitle: "NSERC ResNet HQP Scaling Group"
 init_js: "Monteregie_map.init()"
 ---
