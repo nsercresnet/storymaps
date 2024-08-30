@@ -6,33 +6,30 @@ zoom: 5
 lat: 55.0
 lng: -97.0
 background_media : "images/Front_image.jpg" 
-# background_media : "../img/montreal.jpeg" 
 visible: true
 layout: "panel_float_card"
 splash: false
 title: "Who We Are"
-# subtitle: "Figure"
 opacity: 1
-# align: "right"
 width: 50
-init_js: "Monteregie_map.init()"
 ---
 
 
 ## Who we are
+
+{{< figure src="images/resnet-logo.jpg" class="float-end w-25" >}}
+We are part of NSERC ResNet, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with a common goal of improving how we monitor, model, and manage nature’s contributions to people. 
+
+Learn more about ResNet here: <a href="https://www.nsercresnet.com/" target="_blank">https://www.nsercresnet.com/</a>
 
 {{< figure src="images/landscapes_original1.png" 
 class="mx-auto w-100 d-block" 
 caption="Landscapes where ResNet research and activities take place." 
 >}}
 
-{{< figure src="images/resnet-logo.jpg" class="float-end w-25" >}}
-We are part of NSERC/ResNet, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with a common goal of improving how we monitor, model, and manage nature’s contributions to people. 
-
-Learn more about ResNet here: https://www.nsercresnet.ca/ 
 
 <div class="clearfix"></div>
-
+<hr>
 <div class="table-responsive">
 <table class="align-top w-100">
 <tr>

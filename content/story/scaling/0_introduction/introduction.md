@@ -14,7 +14,7 @@ subtitle: "Authors: Amanda Schwantes, Ágnes Vári, Yiyi Zhang, Gabriela Maria T
 ---
 
 
-## Background
+### Background
 
 Scientists often work at different scales to analyze different parts of a landscape or ecosystem. We can study ecosystems at different scales across **space** (i.e., spatial scale) or across **time** (i.e., temporal scale). We can also ask “**how big?**” (i.e., what is the extent?) or “**how much detail?**” (i.e., what is the resolution?).  
 

@@ -613,3 +613,7 @@ height: auto;
     opacity: 1;
     padding: 0;
 }
+
+.storymap-story section{
+    margin:0;
+}

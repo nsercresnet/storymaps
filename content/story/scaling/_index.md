@@ -5,7 +5,7 @@ background_media: "images/Front_image.jpg"
 
 ---
 
-We are a team of researchers from the **NSERC/ResNet** [network]([https://www.nsercresnet.ca/]), interested in exploring the issues around scale while dealing with ecosystem services. This story map summarizes the insights and experiences we have gathered while working on our projects.
+We are a team of researchers from the <a href="https://www.nsercresnet.com/" target="_blank">**NSERC ResNet network**</a>, interested in exploring the issues around scale while dealing with ecosystem services. This story map summarizes the insights and experiences we have gathered while working on our projects.
 
 <!---Justify left, text listed above should be to the right of this figure --->
 <!---{{< figure src="images/Intro_A1.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50 pe-3">}} --->

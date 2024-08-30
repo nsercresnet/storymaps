@@ -14,7 +14,7 @@ title: "Spatial and temporal scales"
 init_js: "Monteregie_map.init()"
 ---
 
-## Spatial and temporal scales
+### Spatial and temporal scales
 
 When we move from the bottom to the top images below, we are increasing the size of the study area (i.e., spatial extent). When we move from the left to the right images below, we are increasing the number of pixels per area (i.e., spatial resolution), which allows for individual flowers to be distinguished.
 
@@ -27,7 +27,7 @@ In the image below, when we move from the bottom to the top images, we are expan
 <!--- Justify middle, no text on sides -->
 
 
-## A multi-scale perspective
+### A multi-scale perspective
 
 As scientists and researchers, we often design studies at different scales, because:
 
@@ -51,7 +51,7 @@ Sometimes data is only available (or can only be collected) at one scale; howeve
 4. sometimes data is only available for a large region but we may **need data at a finer resolution** to answer key questions. For example, we may want to know how many people within city neighbourhoods or villages live along a river prone to flooding. However, we may only have population data at the larger city or county levels.
 
 
-## Moving between scales \- challenges and opportunities
+### Moving between scales - challenges and opportunities
 
 Sometimes we move between scales, which creates key challenges and opportunities. For example, the methodological choices we make at a given scale can lead to misleading results as we extend our research to other scales. In this story map, we illustrate many of these challenges and provide opportunities for overcoming them.
 
@@ -60,14 +60,14 @@ Sometimes we move between scales, which creates key challenges and opportunities
 {{< figure src="images/Intro_D1.png" class="mx-auto w-100" caption="Image credit: Amanda Schwantes.">}}
 
 Learn more about:   
-[Detecting change](http://story.xylemgeo.com/story/scaling/challenge\_2a/)  
-[Model outputs at multiple scales](http://story.xylemgeo.com/story/scaling/challenge\_5/)  
-[Summarizing data to different units](http://story.xylemgeo.com/story/scaling/challenge\_2b/)  
-[Collecting field data](http://story.xylemgeo.com/story/scaling/challenge\_1/)  
-[Origin story](http://story.xylemgeo.com/story/scaling/challenge\_4/)   
-[Consequences of generalizing results](http://story.xylemgeo.com/story/scaling/challenge\_2c/)   
-[Mismatches](http://story.xylemgeo.com/story/scaling/challenge\_3/)   
-[Monitoring time-period influences outcomes](http://story.xylemgeo.com/story/scaling/challenge\_2d/) 
+- [Detecting change](../challenge_2a/)  
+- [Model outputs at multiple scales](../challenge_5/)  
+- [Summarizing data to different units](../challenge_2b/)  
+- [Collecting field data](../challenge_1/)  
+- [Origin story](../challenge_4/)   
+- [Consequences of generalizing results](../challenge_2c/)   
+- [Mismatches](../challenge_3/)   
+- [Monitoring time-period influences outcomes](../challenge_2d/) 
 
 
 
