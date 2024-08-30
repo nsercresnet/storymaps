@@ -4,12 +4,12 @@ name: "case_study_2" # must be unique within section and not include special cha
 visible: true # whether to include this panel in the output, useful for testing
 title: "Case Study 2: Soil carbon trade-offs associated with agricultural land use change in the Northwest Territories"
 layout: "panel_float_card" # template to use
-opacity: .8 # lower values show more of the underlying map
+opacity: 1 # lower values show more of the underlying map
 width: 40 # translates to % of browser window
 align: "right" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 splash: true # display the title and subtitle above the panel
-layers: "google_satellite" # basemap and overlaying layers
+layers: "google_satellite,kakisa_study_area_p4326" # basemap and overlaying layers
 zoom: 8.5
 lat: 60.9710593
 lng: -115.4743051

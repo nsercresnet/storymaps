@@ -9,7 +9,7 @@ width: 40 # translates to % of browser window
 align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
-layers: "google_satellite" # basemap and overlaying layers
+layers: "google_satellite,monteregie_p4326" # basemap and overlaying layers
 zoom: 9
 lat: 45.6
 lng: -73.8

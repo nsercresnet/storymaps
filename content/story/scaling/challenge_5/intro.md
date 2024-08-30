@@ -16,12 +16,15 @@ lat: 53.3701121
 lng: -132.010678
 ---
 ### Introduction
-Decision-making and research questions are meaningful at specific scales and often need scale-specific models. 
 
 {{< figure src="images/unknownSourceAskM.png" 
 class="float-end w-50 d-block" 
 caption="" 
 >}}
+
+Decision-making and research questions are meaningful at specific scales and often need scale-specific models. 
+
+
 
 Choosing the right size to study natural phenomena is hard for scientists (Oreskes et al., 1994). The scale chosen will determine how much detail and how accurate the model is, and also, how much area the model can cover. The scale of a study significantly impacts the models complexity, their accuracy, spatial extent, and generalizability (Brimicombe, 2010).
 

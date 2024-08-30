@@ -44,11 +44,8 @@ caption="Landscapes where ResNet research and activities take place."
 Miguel Arias   
 David Bysouth  
 John Clark  
-David Ferguson  
-Evan McNamara  
 Poliana Mendes  
 Peter Morrison  
-Ehsan Pashanejad  
 Peter Rodriguez  
 Brittney Roughan  
 Amanda Schwantes  
@@ -98,6 +95,8 @@ Amanda Schwantes (2022-2023)
 <hr> 
 
 ### Acknowledgements
+
+> We thank David Ferguson, Evan McNamara, and Ehsan Pashanejad for participating in ES Scaling HQP meetings and providing valuable feedback.
 
 > We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC), [funding reference number NSERC NETGP 523374–18]. 
 
