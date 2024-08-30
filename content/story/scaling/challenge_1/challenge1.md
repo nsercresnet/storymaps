@@ -17,12 +17,18 @@ lng: -91.2538155
 ---
 ## Introduction
 
-Scaling requires data. For many ecosystem services, data is collected through field sampling. Many challenges exist when conducting field work to collect data, including the trade-off between the number of data points needed and the time and resources available to collect, process, and analyze field samples. 
+Scaling requires data. For many ecosystem services, data is collected through field sampling. Many challenges exist when conducting field work to collect data, including:
 
-Background research is conducted to choose a proper sampling scheme for the ecological questions being explored. Data collected for one study’s questions may not be applicable to a study that aims to scale ecosystem services up (or down). 
+- The trade-off between the number of data points needed and the time and resources available to collect, process, and analyze field samples.
 
-Further, methodologies used to collect field data may not be the same between similar studies exploring the same ecosystem service. Unexpected situations often occur while conducting field or lab work (e.g. equipment breaking or weather events) and often information can be missing from datasets. 
+- Thorough background research is needed to choose a proper sampling scheme for the ecological questions being explored.
 
-Finally, the heterogeneity of the environment does not guarantee that data points collected reflect the true spatial and temporal variability that exists in the ecosystem being studied. 
+- Data collected for one study’s questions may not be applicable to a study that aims to scale ecosystem services up (or down).
 
-This section will describe the challenges and best practices of collecting soil carbon data from two different ecosystems - salt marshes along the Bay of Fundy and forests and agricultural land in the Northwest Territories. 
+- Methodologies used to collect field data may not be the same between similar studies exploring the same ecosystem service.
+
+- Unexpected situations often occur while conducting field or lab work (e.g. equipment breaking or weather events) and often information can be missing from datasets.
+
+- The heterogeneity of the environment does not guarantee that data points collected reflect the true spatial and temporal variability that exists in the ecosystem being studied.
+
+This section will describe the challenges and best practices of collecting soil carbon data from two different ecosystems \- salt marshes along the Bay of Fundy and forests and agricultural land in the Northwest Territories.”

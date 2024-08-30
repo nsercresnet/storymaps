@@ -45,7 +45,7 @@ caption="The Wood Point Rest Stop (WPRS) will be used as an example in this case
 </div> -->
 
 {{< gallery 
-caption="Three random points within each zone were chosen for core extraction using Geographic Information System (GIS) software (ArcGIS Pro) and the location of each point was surveyed using a high-accuracy GPS system. In total, nine cores were collected from each study site. The photo above shows someone surveying core locations at the Aulac site. The map below shows the location of nine cores in the Wood Point Rest Stop study site within the three elevation zones.">}}
+caption="Three random points within each zone were chosen for core extraction using Geographic Information System (GIS) software (ArcGIS Pro) and the location of each point was surveyed using a high-accuracy GPS system. In total, nine cores were collected from each study site. The photo above shows someone surveying core locations at the Aulac site. The map above shows the location of nine cores in the Wood Point Rest Stop study site within the three elevation zones.">}}
     {{< gallery-img src="images/survey.jpg" >}}
     {{< gallery-img src="images/image40.png" >}}
     {{< gallery-img src="images/image17.png" >}}
@@ -55,11 +55,10 @@ caption="Three random points within each zone were chosen for core extraction us
 caption="Cores were collected using a gouge auger, one of the many types of ‘corers’ available to use by soil carbon scientists. Other coring types include the ‘Russian peat corer’ (extracts half a core) and manual extraction (hammering a sharpened tube into the ground). Each of these methods will create different levels of core ‘compaction’, which can affect the overall length of the core and influence the estimate of how much soil organic carbon is contained within each core. Depending on the length of the core, the process of pushing the coring device into the ground and extracting a core can be physically demanding and often requires teamwork." >}}
     {{< gallery-img src="images/corer1.jpg" >}}
     {{< gallery-img src="images/corer2.jpg" >}}
-    {{< gallery-img src="images/corer3.jpg" >}}
 {{< /gallery >}}
 
 {{< gallery 
-caption="Transport and handling of cores after they are taken out of the ground is another important consideration for field work. Sometimes cores are cut apart and sampled in the field, and other times cores are packed in rigid plastic shells, wrapped in plastic-wrap, and refrigerated or frozen before being processed back in the lab. In salt marshes, researchers often have to walk far into study sites across uneven terrain with heavy equipment (like the corer and a cooler) to retrieve cores and bring them back." >}}
+caption="Transport and handling of cores after they are taken out of the ground is another important consideration for field work. Sometimes cores are cut apart and sub-sampled in the field, and other times cores are packed in rigid plastic shells, wrapped in plastic-wrap, and refrigerated or frozen before being processed back in the lab. In salt marshes, researchers often have to walk far into study sites across uneven terrain with heavy equipment (like the corer and a cooler) to retrieve cores and bring them back." >}}
     {{< gallery-img src="images/corePVC.jpg" >}}
     {{< gallery-img src="images/cooler.jpg" >}}
 {{< /gallery >}}
@@ -67,15 +66,13 @@ caption="Transport and handling of cores after they are taken out of the ground 
 #### Step 3:  Processing of cores in the lab
 
 {{< gallery 
-caption="Once back in the lab, processing the core starts. The cores are photographed and different features like soil colour and texture are described and recorded. Then cores are divided into different increments depending on the goals of the study. For this study, 5 cm increments were chosen for a total of 10 per 50 cm core, which means that 360 individual samples were processed! When dividing cores, a compression factor should be used to adjust the increment length based on the compaction measured in the field. Compaction is often assumed equal across the entirety of the core." >}}
+caption="Once back in the lab, processing the core starts. The cores are photographed and different features like soil colour and texture are described and recorded. Then cores are divided into different increments depending on the goals of the study. For this study, 5 cm increments were chosen for a total of 10 per 50 cm core, which means that 360 individual samples were processed! When dividing cores, a compression factor should be used to adjust the increment length based on the compaction measured in the field. Compaction is often assumed equal across the entirety of the core, unless compaction is measured periodically throughout the core extraction process in the field." >}}
     {{< gallery-img src="images/con_h3.jpg" >}}
     {{< gallery-img src="images/cutcore.jpg" >}}
 {{< /gallery >}}
 
 {{< gallery 
 caption="To calculate how much organic carbon is in a core, two measurements are needed - ‘bulk density’ and ‘organic carbon content’ or ‘% organic carbon’. Core increments are usually sampled for bulk density first, which is a measure of the dry weight of soil within a known volume of the core. In the photo above, a metal cylinder was inserted into the centre of each 5 cm increment. The soil sample was extracted using a syringe plunger and then dried in an oven (see Step 4). Often the same soil sample is also used to determine the organic carbon content of the increment, but others can be cut from the core and stored until they are processed." >}}
-    {{< gallery-img src="images/bd1.jpg" >}}
-    {{< gallery-img src="images/bd2.jpg" >}}
     {{< gallery-img src="images/bd3.jpg" >}}
     {{< gallery-img src="images/bd4.jpg" >}}
 {{< /gallery >}}
@@ -93,20 +90,19 @@ caption="Once processing is done, any remaining core segments are often archived
 #### Step 4:  Lab analyses for bulk density and loss-on-ignition (LOI)
 
 {{< gallery 
-caption="The soil samples of known volume taken from the core are first dried to determine the bulk density. Wet samples are placed in individually labeled tins, weighed, and then dried at 60 ℃ in a drying oven for 24-72 hours (or until a consistent dried weight is reached). After they are completely dry, they are re-weighed to determine dry weight of the soil sample. The photos above show the dried soil cylinders in a dessicator after the oven, which ensures the samples are fully dried before being re-weighed. Bulk density is written as the dry weight of soil divided by the known volume of the sample (g/cm3). Low bulk density means there is not a lot of soil within the volume of core sampled, which means the soil is less densely packed and there are more air pockets. Soils with low bulk density often have high organic matter content and water-holding capacity (like a sponge!)." >}}
+caption="The soil samples of known volume taken from the core are first dried to determine the bulk density. Wet samples are placed in individually labeled tins, weighed, and then dried at 60 ℃ in a drying oven for 24-72 hours (or until a consistent dried weight is reached). After they are completely dry, they are re-weighed to determine dry weight of the soil sample. The photos above show the dried soil cylinders in a dessicator after the oven, which ensures the samples are fully dried before being re-weighed. Bulk density is written as the dry weight of soil divided by the known volume of the sample (grams per cm [^3]). Low bulk density means there is not a lot of soil within the volume of core sampled, which means the soil is less densely packed and there are more air pockets. Soils with low bulk density often have high organic matter content and water-holding capacity (like a sponge!)." >}}
     {{< gallery-img src="images/dry1.jpg" >}}
     {{< gallery-img src="images/dry2.jpg" >}}
 {{< /gallery >}}
 
 {{< gallery 
-caption="After the soil samples are dried and bulk density is determined, the soil samples are often processed for loss-on-ignition (LOI), which is an estimate of how much ‘organic matter’ is a soil sample. Before the samples are put into the furnace, small roots (> 2 mm) should be removed and the soil sample needs to be crushed into a homogenous sample, often using a mortar and pestle. Sometimes a sieve can be used to remove the small root particles, but often this step requires picking out small pieces of roots by hand using tweezers, which can be quite time consuming! Roots >2 mm are considered belowground biomass, which is different from the organic carbon that is stored in the soil." >}}
+caption="After the soil samples are dried and bulk density is determined, the soil samples are often processed for loss-on-ignition (LOI), which is an estimate of how much ‘organic matter’ is a soil sample. Before the samples are put into the furnace, the soil sample needs to be crushed into a homogenous sample, often using a mortar and pestle. Depending on how much organic matter is in the sample, this can be time consuming." >}}
     {{< gallery-img src="images/mortar1.jpg" >}}
-    {{< gallery-img src="images/roots.jpg" >}}
     {{< gallery-img src="images/mortar2.jpg" >}}
 {{< /gallery >}}
 
 {{< gallery 
-caption="LOI involves combusting the soil sample at a high temperature (550 ℃) in a muffle furnace for 4 hours. Before the soil samples are put into the furnace, they are placed in a ceramic crucible and weighed to a consistent starting weight. After the samples are combusted, they are re-weighed to determine how much mass was lost, which corresponds to how much organic matter was burnt off from the sample and is represented by ‘% organic matter’ of the sample. Sometimes accidents happen but often duplicate or triplicate samples are done for LOI. For this study, half the samples had duplicates, for a total of 480 samples processed. As only 15 can fit in the muffle furnace at once, and the furnace often sits overnight to cool off after 4 hours, it can take a significant amount of time to get through that many samples (480 / 15 = 32 days!). Soil carbon scientists often use different methods for LOI, which may affect the comparison of results between datasets. As there is no standard method, it is recommended to report and be consistent in three parameters: ignition temperature, exposure time, and starting weight." >}}
+caption="LOI involves combusting the soil sample at a high temperature (550 ℃) in a muffle furnace for 4 hours. Before the soil samples are put into the furnace, they are placed in a ceramic crucible and weighed to a consistent starting weight. After the samples are combusted, they are re-weighed to determine how much mass was lost, which corresponds to how much organic matter was burnt off from the sample and is represented by ‘% organic matter’ of the sample. Sometimes accidents happen but often duplicate or triplicate samples are done for LOI, so it can take a significant amount of time to get through that many samples. Soil carbon scientists often use different methods for LOI, which may affect the comparison of results between datasets. As there is no standard method, it is recommended to report and be consistent in three parameters: ignition temperature, exposure time, and starting weight." >}}
     {{< gallery-img src="images/loi1.jpg" >}}
     {{< gallery-img src="images/loi2.jpg" >}}
     {{< gallery-img src="images/loi3.jpg" >}}
@@ -122,8 +118,8 @@ caption="Once bulk density and % organic matter are determined, the ‘organic c
 
 
 {{< figure src="images/carbonstock.jpg" 
-class="mx-auto w-75 d-block" 
-caption="Once %OC of the increment is determined, this can be multiplied by the bulk density (g/cm3) to determine the organic carbon density of the core. Organic carbon density (g OC/cm3) is then multiplied by the height of each increment (5 cm in this example) to determine the amount of carbon within each core depth increment (g OC/cm2). Then all increments are added together to get the total ‘soil organic carbon stock’ throughout the core’s depth. This organic carbon stock (g OC/cm2 to 50 cm depth) can be scaled up to larger areas and compared to other studies. A common unit for carbon stock is megagrams (or tonnes) per hectare (Mg/ha). The figure above shows how to get from bulk density and %OC to total organic carbon stock and how to convert g/cm2 to Mg/ha using an example core from this case study. It’s important to note that if the Craft et al. 1991 equation was used to convert from %OM to %OC in this system, the organic carbon stock in this core would be overestimated by 100% or double (62 Mg/ha vs 31 Mg/ha OC)." 
+class="mx-auto w-100 d-block" 
+caption="Once %OC of the increment is determined, this can be multiplied by the bulk density (g/cm[^3]) to determine the organic carbon density of the core. Organic carbon density (g OC/cm[^3]) is then multiplied by the height of each increment (5 cm in this example) to determine the amount of carbon within each core depth increment (g OC/cm[^2]). Then all increments are added together to get the total ‘soil organic carbon stock’ throughout the core’s depth. This organic carbon stock (g OC/cm[^2] to 50 cm depth) can be scaled up to larger areas and compared to other studies. A common unit for carbon stock is megagrams (or tonnes) per hectare (Mg/ha). The figure above shows how to get from bulk density and %OC to total organic carbon stock and how to convert g/cm[^2] to Mg/ha using an example core from this case study." 
 >}}
 
 

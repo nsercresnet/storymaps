@@ -14,10 +14,14 @@ subtitle: "Authors: Amanda Schwantes, Ágnes Vári, Yiyi Zhang, Gabriela Maria T
 ---
 
 
-<!---Justify left, text listed above should be to the right of this figure --->
+## Background
+
+Scientists often work at different scales to analyze different parts of a landscape or ecosystem. We can study ecosystems at different scales across **space** (i.e., spatial scale) or across **time** (i.e., temporal scale). We can also ask “**how big?**” (i.e., what is the extent?) or “**how much detail?**” (i.e., what is the resolution?).  
+
+
+<!---Justify left, text listed above should be to the right of this figure 
 {{< figure src="images/Intro_A1.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50 pe-3">}}
 
-We, as scientists and researchers, often take a multi-scale perspective to better understand how natural ecosystems improve people’s lives. These beneficial contributions by ecosystems are called **Nature’s contributions to people**, NCPs. NCPs can also be called nature’s gifts or ecosystem services.
 
 <div class="clearfix"></div>
 
@@ -30,7 +34,7 @@ We, as scientists and researchers, often take a multi-scale perspective to bette
     </div>
 </div>
 
-Taking a **multi-scale perspective**, means that we can measure things at **fine or small scales**, for example at the scale of ants or even smaller by measuring carbon in a handful of soil and we can use instruments at **broad or large scales** that give us a bird's eye perspective of larger ecological patterns and processes. 
+
 
 <div class="clearfix"></div>
 
@@ -49,15 +53,15 @@ As scientists and researchers, we often design studies at different scales, beca
 
 2) scientists seek to understand how ecosystem processes and properties vary across scales, and 
 
-3) there are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.
+3) there are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision. -->
 
 
 <!-- ![fig4](images/Intro_B1.png "Image credit: Amanda Schwantes") -->
 <!-- {center="TRUE" width="100%"} -->
-{{< figure src="images/Intro_B1.png" caption="Image credit: Amanda Schwantes" class="mx-auto w-100">}}
+<!---{{< figure src="images/Intro_B1.png" caption="Image credit: Amanda Schwantes" class="mx-auto w-100">}} -->
 <!--- Justify middle, no text on sides --->
 
-Sometimes data is only available (or can only be collected) at one scale; however, we need information at a different scale to inform a decision or to understand an ecological process. We may scale up or down for many reasons, including…
+<!---Sometimes data is only available (or can only be collected) at one scale; however, we need information at a different scale to inform a decision or to understand an ecological process. We may scale up or down for many reasons, including…
    
 1) It can be expensive, time-consuming, and dangerous to **collect data in the field** at every possible location. Instead, we divide a larger landscape into smaller similar areas and take representative samples within each group.
 
@@ -65,4 +69,4 @@ Sometimes data is only available (or can only be collected) at one scale; howeve
 
 3) **Management and policy decisions** may require data at a different scale (e.g., study area or amount of detail) compared to the scale of available data. For example, we may collect field data about a management intervention within a smaller local study area; however, we may rely on models to test how scaling these interventions could affect outcomes for a broader larger study region.
 
-4) Sometimes data are only available for a large region (e.g., population data of a neighborhood), but we may **need data at a finer resolution** to answer key questions (e.g., how many people within a neighborhood live along a river prone to flooding?).
+4) Sometimes data are only available for a large region (e.g., population data of a neighborhood), but we may **need data at a finer resolution** to answer key questions (e.g., how many people within a neighborhood live along a river prone to flooding?). --->
