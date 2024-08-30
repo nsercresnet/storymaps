@@ -14,11 +14,14 @@ zoom: 6
 lat: 53.3701121
 lng: -132.010678
 ---
+
 ### Best practices and opportunities
-Models are very sensitive to the input data, so the more accurate the input data, the higher the reliability of the model. On the other hand, models are developed to be applied at a certain scale (spatial and temporal), and most times they are not useful to be directly applied at other scales. A model acceptable at one scale might not be at another. Another important consideration: Model evaluation can be a complex process itself. The larger the spatial and temporal scale of the phenomena, the evaluation of the model is more complex and challenging. 
+
+Models are very sensitive to the input data, so the more accurate the input data, the higher the reliability of the model. On the other hand, models are developed to be applied at a certain scale (spatial and temporal), and most times they are not useful to be directly applied at other scales. A model acceptable at one scale might not be at another. Another important consideration is that model evaluation can be a complex process itself. So, the larger the spatial and temporal scale of the phenomena, the evaluation of the model is more complex and challenging.
 
 Taking this into account, we suggest the following to improve reliability of model:
-- Be clear about the purpose of the model. And verify that it applies to the scale considered. 
-- Document all decisions made regarding the input data (sources, decisions made to incorporate it, etc.).
-- Create clear and explicit criteria for every step of the model evaluation. Always document what you did and why!
-- Conduct a sensitivity analysis to test the consistency of the model under a range of input parameters.
+
+1. Be clear about the purpose of the model and verify that it applies to the scale considered.  
+2. Document all decisions made regarding the input data (sources, decisions made to incorporate it, etc.).  
+3. Create clear and explicit criteria for every step of the model evaluation. Always document what you did and why  
+4. Conduct a sensitivity analysis to test the consistency of the model under a range of input parameters.

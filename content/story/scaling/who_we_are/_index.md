@@ -1,6 +1,7 @@
 ---
-title: "Who we are"
-description: "About this project and it's contributors."
+title: "Conclusion"
+weight: 19
+description: "Things change as we change scales. Environmental processes & properties can shift as we change scales — whether in terms of spatial or temporal resolution and extent."
 thumbnail: "images/resnet-logo.jpg"
 ---
 
@@ -20,3 +21,4 @@ Images: who_we_are_1.jpg; who_we_are_2.jpg; who_we_are_3.jpg
 
 Acknowledgements
 We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC), [funding reference number NSERC NETGP 523374–18]. Cette recherche a été financée par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG), [numéro de référence NSERC NETGP 523374–18]. -->
+
