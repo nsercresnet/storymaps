@@ -7,12 +7,12 @@ layout: "panel_float_card" # template to use
 opacity: 1 # lower values show more of the underlying map
 width: 80 # translates to % of browser window
 align: "center" # align the entire panel
-#background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
+background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
-zoom: 9
+zoom: 8.5
 lat: 60.9710593
-lng: -117.4743051
+lng: -115.4743051
 ---
 
 ### References

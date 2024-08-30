@@ -10,9 +10,9 @@ align: "center" # align the entire panel
 background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
-zoom: 5
-lat: 53.8611551
-lng: -91.2538155
+zoom: 8.5
+lat: 60.9710593
+lng: -115.4743051
 ---
 ### Best Practices and Opportunities
 Collecting field data for scaling requires:
