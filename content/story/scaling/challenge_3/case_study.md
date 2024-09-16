@@ -42,4 +42,5 @@ Researchers from ResNet are investigating the mismatches between supply and dema
 
 <!--- Torchio, G. M.; Cimon-Morin, J.; Mendes, P.; Goyette, J-O.; Schwantes, A.M.; Arias-Patino, M.; Bennett, E.M.; Destrempes, C.; Pellerin, S.  and Poulin, M. From Marginal Croplands to Natural Habitats: A Framework for Assessing the Restoration Potential to Enhance Wild-Bee Pollination in Agricultural Landscapes. Submitted for publication. --->
 
-{{< figure src="images/matrixForLegend.png" title="The three types of mismatches" class="w-50 mx-auto">}}
+{{< figure src="images/matrixForLegend.png" title="The three types of mismatches" class="w-50 mx-auto" caption="The coloring scheme above makes it easier to visualize the potential spatial matches and mismatches between pollination supply and demand, shown in the map on the right." >}}
+

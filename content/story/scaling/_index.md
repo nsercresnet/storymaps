@@ -5,7 +5,8 @@ background_media: "images/Front_image.jpg"
 
 ---
 
-We are a team of researchers from the <a href="https://www.nsercresnet.com/" target="_blank">**NSERC ResNet network**</a>, interested in exploring the issues around scale while dealing with ecosystem services. This story map summarizes the insights and experiences we have gathered while working on our projects.
+People obtain many benefits from ecosystems (sometimes called **ecosystem services** (ES) or **nature’s contributions to people** (NCPs)). As <a href="https://www.nsercresnet.com/" target="_blank">**NSERC ResNet**</a> researchers, we have studied these benefits at  different scales. This story map provides a summary of some of our work related to scales and the lessons we have learned. 
+
 
 <!---Justify left, text listed above should be to the right of this figure --->
 <!---{{< figure src="images/Intro_A1.png" caption="Image credit: Illustration by Ágnes Vári." class="float-start w-50 pe-3">}} --->
@@ -15,7 +16,7 @@ class="mx-auto w-50 d-block"
 caption="Image credit: Illustration by Ágnes Vári." 
 >}}
 
-We, as scientists and researchers, often take a multi-scale perspective to better understand how natural ecosystems improve people’s lives. These beneficial contributions by ecosystems are called **ecosystem services** (ES) or **Nature’s contributions to people** (NCPs). ES or NCPs can also be called nature’s gifts.
+Taking a **multi-scale perspective**, means that we can measure things at **fine or small scales**, for example at the scale of ants or even smaller by measuring carbon in a handful of soil, or at  **broad or large scales** using techniques like remote sensing that give us a bird’s eye perspective of larger ecological patterns and processes.
 
 <div class="clearfix"></div>
 
@@ -32,7 +33,6 @@ We, as scientists and researchers, often take a multi-scale perspective to bette
 
 <div class="clearfix"></div>
 
-Taking a **multi-scale perspective**, means that we can measure things at **fine or small scales**, for example at the scale of ants or even smaller by measuring carbon in a handful of soil, or at **broad or large scales** that give us a bird’s eye perspective of larger ecological patterns and processes.
 
 We are part of **ResNet**, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with the common goal of improving how we monitor, model, and manage NCPs. In the next sections we:
 

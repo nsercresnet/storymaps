@@ -22,9 +22,9 @@ We are part of NSERC ResNet, a network which unites a broad community of scholar
 
 Learn more about ResNet here: <a href="https://www.nsercresnet.com/" target="_blank">https://www.nsercresnet.com/</a>
 
-{{< figure src="images/landscapes_original1.png" 
+{{< figure src="images/resnet_map_jackie.png" 
 class="mx-auto w-100 d-block" 
-caption="Landscapes where ResNet research and activities take place." 
+caption="Landscapes where ResNet research and activities take place. Art by Jackie Hamilton" 
 >}}
 
 
@@ -41,18 +41,19 @@ caption="Landscapes where ResNet research and activities take place."
 <span class="text-muted fs-6 fw-lighter fst-italic">(surname alphabetical order)</span>
 
 
-Miguel Arias   
-David Bysouth  
-John Clark  
-Poliana Mendes  
-Peter Morrison  
-Peter Rodriguez  
-Brittney Roughan  
-Amanda Schwantes  
-Hugo Thierry  
-Gabriela María Torchio  
-Ágnes Vári  
-and Yiyi Zhang  
+Miguel Arias (Landscape 5)  
+David Bysouth (Landscape 4)  
+John Clark (Central Team)  
+Poliana Mendes (Landscape 2)  
+Peter Morrison (Synthesis Team)  
+Peter Rodriguez (Theme 3)  
+Brittney Roughan (Landscape 1)  
+Amanda Schwantes (Theme 3)  
+Hugo Thierry (Theme 2)  
+Gabriela María Torchio (Landscape 2)  
+Ágnes Vári (Synthesis Team)  
+and Yiyi Zhang (Theme 2)  
+
 </td>
 </tr>
 <tr>
@@ -74,9 +75,9 @@ John Clark
 
 <td>
 
-Peter Rodriguez (2024)  
-Poliana Mendes (2024)  
 Amanda Schwantes (2022-2023)  
+Poliana Mendes (2024)  
+Peter Rodriguez (2024)  
 </td>
 </tr>
 </table>
@@ -91,13 +92,16 @@ Amanda Schwantes (2022-2023)
 {{< /gallery >}}
 
 
-
+<!--
 <hr> 
 
 ### Acknowledgements
 
-> We thank David Ferguson, Evan McNamara, and Ehsan Pashanejad for participating in ES Scaling HQP meetings and providing valuable feedback.
+> We thank David Ferguson, Evan McNamara, and Ehsan Pashanejad for participating in ES Scaling HQP meetings and providing valuable feedback.  
+
+> A special thanks to Elena Bennett, the head of the ResNet network. We are deeply thankful for her exceptional leadership and for bringing together this diverse group of social-ecological scientists dedicated to fostering sustainable and resilient ecosystems across Canada.  
 
 > We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC), [funding reference number NSERC NETGP 523374–18]. 
 
 > Cette recherche a été financée par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG), [numéro de référence NSERC NETGP 523374–18]. 
+-->
