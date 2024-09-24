@@ -18,13 +18,13 @@ width: 50
 ## Who we are
 
 {{< figure src="images/resnet-logo.jpg" class="float-end w-25" >}}
-We are part of NSERC ResNet, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with a common goal of improving how we monitor, model, and manage nature’s contributions to people. 
+We are part of **NSERC ResNet**, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with a common goal of improving how we monitor, model, and manage nature’s contributions to people. 
 
-Learn more about ResNet here: <a href="https://www.nsercresnet.com/" target="_blank">https://www.nsercresnet.com/</a>
+Learn more about **NSERC ResNet** here: <a href="https://www.nsercresnet.ca/" target="_blank">https://www.nsercresnet.ca/</a>
 
 {{< figure src="images/resnet_map_jackie.png" 
 class="mx-auto w-100 d-block" 
-caption="Landscapes where ResNet research and activities take place. Art by Jackie Hamilton" 
+caption="Landscapes where NSERC ResNet research and activities take place. Art by Jackie Hamilton" 
 >}}
 
 

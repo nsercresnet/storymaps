@@ -22,6 +22,7 @@ Sometimes we move between scales, which creates key challenges and opportunities
 
 {{< figure src="images/Intro_D1.png" class="mx-auto w-100" caption="Image credit: Amanda Schwantes.">}}
 
+<!-- 
 Learn more about:   
 - [Detecting change](../challenge_2a/)  
 - [Model outputs at multiple scales](../challenge_5/)  
@@ -30,7 +31,7 @@ Learn more about:
 - [Origin story](../challenge_4/)   
 - [Consequences of generalizing results](../challenge_2c/)   
 - [Mismatches](../challenge_3/)   
-- [Monitoring time-period influences outcomes](../challenge_2d/) 
+- [Monitoring time-period influences outcomes](../challenge_2d/) --->
 
 
 
