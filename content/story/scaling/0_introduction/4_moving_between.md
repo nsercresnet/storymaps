@@ -20,7 +20,7 @@ Sometimes we move between scales, which creates key challenges and opportunities
 
 <div class="clearfix"></div>
 
-{{< figure src="images/Intro_D1.png" class="mx-auto w-100" caption="Image credit: Amanda Schwantes.">}}
+{{< figure src="images/Intro_D1_v2.png" class="mx-auto w-100" caption="Image credit: Amanda Schwantes.">}}
 
 <!-- 
 Learn more about:   

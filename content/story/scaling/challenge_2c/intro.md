@@ -17,4 +17,5 @@ lng: -71.565
 ---
 ###  Introduction
 
-Often we assume a relationship between two variables is linear; however, if we increase the spatial extent we may see a nonlinear relationship appear. This is important, because we often predict in areas outside of where we sample. If we assume a relationship is linear, when it is not, then our extrapolations will be incorrect.
+We often assume that a relationship between two variables is linear; however, if we increase or reduce the spatial extent of a study, we may see a nonlinear relationship appear. This matters because we often use data from one area to make predictions for other areas. If we assume the relationship is linear when it’s not, our predictions will be wrong.
+

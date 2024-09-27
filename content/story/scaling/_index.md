@@ -16,7 +16,7 @@ class="mx-auto w-50 d-block"
 caption="Image credit: Illustration by Ágnes Vári." 
 >}}
 
-Taking a **multi-scale perspective** means that we can measure things at **fine or small scales**, for example measuring carbon in a handful of soil, or at  **broad or large scales**, for example when studying a landscape of fields and forests by using techniques like remote sensing that give us a bird’s eye perspective of larger ecological patterns and processes.
+Taking a **multi-scale perspective** means that we can measure things at **fine or small scales**, for example measuring carbon in a handful of soil, or at  **broad or large scales**, for example when studying a landscape of fields and forests. For the latter, we can use techniques like remote sensing that give us a bird’s-eye perspective of larger ecological patterns and processes.
 
 
 
@@ -31,7 +31,7 @@ Taking a **multi-scale perspective** means that we can measure things at **fine 
     </div>
 </div> --->
 
-{{< figure src="images/Intro_A2_A3.png" caption="Looking at nature at the scale of ants (small scale) or through a birds-eye view (large scale). Image credit: Illustration by Ágnes Vári." class="mx-auto w-50 d-block">}}
+{{< figure src="images/Intro_A2_A3.png" caption="Looking at nature at the scale of ants (small scale) or through a bird's-eye view (large scale). Image credit: Illustration by Ágnes Vári." class="mx-auto w-50 d-block">}}
 
 <div class="clearfix"></div>
 

@@ -17,7 +17,7 @@ lng: -73.8
 ### Case study
 The following case study illustrates some of the challenges with scaling up in time, and the differences between scaling up information from the past and predictions for the future.
 
-People obtain ecosystem services when they harvest wild plants (such as berries or mushrooms) from forested land. Such harvests go back hundreds of years in Canada, first by Indigenous peoples, then by settlers and now by a mix of different users (Kumar et al., 2019; MacKinnon et al., 2015; Turner, 2020). With the adoption and spread of industrial agriculture, and the reduction in forested land, the relative importance of such food sources in Canadian diets has dropped. 
+People obtain ecosystem services when they harvest wild plants (such as berries or mushrooms) from forested land. Such harvests go back hundreds of years in Canada, first by Indigenous peoples, then by settlers and now by a mix of different users (Kumar et al., 2019 [^11]; MacKinnon et al., 2015 [^12]; Turner, 2020 [^13]). With the adoption and spread of industrial agriculture, and the reduction in forested land, the relative importance of such food sources in Canadian diets has dropped. 
 
 Here, we create a “snapshot” of the present – to understand the ecosystem services from harvesting wild plants found in Canada’s forests. For this case study, we have focussed just on the Montérégie region of Quebec, but have considered the methods used to scale up in time – either back into the past or forward into the future. [Note: this case study excludes trees harvested for timber or fuel wood, and maple syrup.]
 

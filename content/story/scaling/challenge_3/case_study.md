@@ -38,7 +38,7 @@ of the pollination process, and this is an example of scale mismatch.
 {{< figure src="images/fig1.png" title="The three types of mismatches" class="w-100 p-3">}}
 <!--- Make image larger, possibly lightbox --->
 
-Researchers from ResNet are investigating the mismatches between supply and demand of pollination in the agricultural fields of the county of La Vallée-du-Richelieu (region outlined in blue), and how restoration of wild-bee habitat could enhance crop pollination (Torchio et al. Submitted).
+Researchers from ResNet are investigating the mismatches between supply and demand of pollination in the agricultural fields of the county of La Vallée-du-Richelieu (region outlined in blue), and how restoration of wild-bee habitat could enhance crop pollination (Torchio et al. Submitted) [^3].
 
 <!--- Torchio, G. M.; Cimon-Morin, J.; Mendes, P.; Goyette, J-O.; Schwantes, A.M.; Arias-Patino, M.; Bennett, E.M.; Destrempes, C.; Pellerin, S.  and Poulin, M. From Marginal Croplands to Natural Habitats: A Framework for Assessing the Restoration Potential to Enhance Wild-Bee Pollination in Agricultural Landscapes. Submitted for publication. --->
 
