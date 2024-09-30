@@ -15,8 +15,14 @@ lat: 45.582
 lng: -73.315
 ---
 ### Case study
+
+{{< figure src="images/fig1.png" title="The three types of mismatches" class="w-100 p-3">}}
+<!--- Make image larger, possibly lightbox --->
+
 We'll explore some examples of when demand and supply don't line up using the ecosystem service of pollination as an example. This mismatch 
 can happen in three main ways:
+
+<!--
 
 1) **Spatial mismatch**: If we look at different landscapes, even when there's the same amount of space for pollinators, some farmlands may have 
 more pollinators simply because their crops are closer to nesting sites. The location and the configuration of nesting sites can influence the 
@@ -34,9 +40,14 @@ establish a nice hedgerow or a flower strip to support the pollinators, or arran
 they might be able to create the right conditions for pollinators. This means that encouraging cooperation between farmers might be more successful 
 than asking one farmer to increase bee-friendly habitats. This is because the size of a single farm might be too small to match the large-scale needs 
 of the pollination process, and this is an example of scale mismatch.
+-->
 
-{{< figure src="images/fig1.png" title="The three types of mismatches" class="w-100 p-3">}}
-<!--- Make image larger, possibly lightbox --->
+1. **Spatial mismatch**: Let's think of bees, as an example of pollinators. Bees fly from their nests to flowering crops, which are a good source of pollen or nectar. In the process of feeding, bees pollinate crops by transporting pollen among flowers. In this example, bees can be regarded as the "supply" of pollination, whereas the crops that are pollinated represent the "demand" for pollination. Empirical studies in crop fields show that the abundance of pollinators tends to be higher in smaller crop fields (e.g., 2 ha) than in large ones (e.g., 100 ha). Why is that? One explanation is that if bees' nesting habitat is located relatively close to crop fields (including plants located in the center of the field), then they will find it easier to fly and pollinate all plants present in the field. In that case, there is a spatial match between the supply of pollination (bees) and the demand (crops). Now imagine a very large crop, where plants located in the middle of the field are far from bees' nesting habitat, so far that bees won't fly there. In that case, there is a spatial mismatch between pollination supply and demand.
+
+2. **Temporal mismatch**: Not all pollinators are active at the same time nor during all seasons of crop blooming. Crops may bloom at times that do not always coincide with all pollinators’ periods of high activity. This represents a temporal mismatch of pollination supply (insect polliantors) and demand (crops). As the climate changes, the periods of time when crops bloom and the periods of time when pollinators have high activity may no longer align, which may result in greater temporal mismatches.
+
+3. **Scale mismatch**: Now let's move from a single farm to a whole agricultural region (many farms). Securing pollination supply for the whole region implies a specific arrangement of pollinators' habitat around crop fields. For instance, one farmer might not have enough land to establish a nice hedgerow or a flower strip to support the pollinators or arrange it in the best way for them. Or maybe the farmer can create one nice habitat for bees, but if the field is too big, it might no be enough (because of the spatial mismatch!). However, if many farmers work together, they might be able to create a network of habitat with the right conditions for pollinators. This means that encouraging cooperation between farmers might be more successful than asking one farmer alone to increase pollinator-friendly habitats. In this example, the difference between one farm versus many farms is an example of scale mismatch.
+
 
 Researchers from ResNet are investigating the mismatches between supply and demand of pollination in the agricultural fields of the county of La Vallée-du-Richelieu (region outlined in blue), and how restoration of wild-bee habitat could enhance crop pollination (Torchio et al. Submitted) [^3].
 
