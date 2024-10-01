@@ -2,8 +2,8 @@
 weight: 1 # the order to render
 name: "intro" # must be unique within section and not include special characters
 visible: true # whether to include this panel in the output, useful for testing
-title: "How to consider non-linearities?"
-subtitle: "Authors: Amanda Schwantes, Poliana Mendes"
+title: "Making good predictions"
+subtitle: "Authors: Poliana Mendes, Amanda Schwantes"
 layout: "panel_float_card" # template to use
 opacity: 1 # lower values show more of the underlying map
 width: 80 # translates to % of browser window
@@ -17,4 +17,5 @@ lng: -71.565
 ---
 ###  Introduction
 
-Often we assume a relationship between two variables is linear; however, if we increase the spatial extent we may see a nonlinear relationship appear. This is important, because we often predict in areas outside of where we sample. If we assume a relationship is linear, when it is not, then our extrapolations will be incorrect.
+We often assume that a relationship between two variables is linear; however, if we increase or reduce the spatial extent of a study, we may see a nonlinear relationship appear. This matters because we often use data from one area to make predictions for other areas. If we assume the relationship is linear when it’s not, our predictions will be wrong.
+

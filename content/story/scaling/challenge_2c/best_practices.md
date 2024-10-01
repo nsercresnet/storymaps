@@ -16,11 +16,11 @@ lng: -71.565
 ---
 ### Best practices and opportunities
 
-1) If funding and time allows, sample across a larger spatial extent to capture the full range of each variable.
+1. Always choose the spatial extent that makes most sense for the question you are asking
 
-2) When extrapolating outside of the original study region consider whether the new study region’s environmental variables are within the same range as the original study. If not, consider whether a non-linear relationship is likely.
+2. When making predictions for a new area, check if the environmental conditions are similar to the original study area. If not, think about whether the relationship between variables might be non-linear
 
-3) Seasonality can also result in nonlinear relationships between a variable and time (e.g., temperature). To account for variables that vary across a year, we may need to monitor at the same time each year or more frequently within the year. Phenological changes are shifting with continuing climate change, which makes monitoring more frequently over time especially important.
+3. Seasonal changes can also create non-linear relationships (like between temperature and time). To handle this, it might be necessary to collect data at the same time each year or more often throughout the year
 
 
 

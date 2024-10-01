@@ -16,7 +16,7 @@ lng: -71.565
 ---
 ### Case study
 
-In this case study, we show the relationship between soil carbon and plant cover in vacant lots in Quebec city.  In this study, vacant lots were carefully selected to represent the entire range of plant cover. However, a less careful scientist could have selected only a subset of these vacant lots, for example only the green dots on the map. The relationship between soil carbon and plant cover only within this subset (green dots on map) is linear (green line) and would lead to an incorrect extrapolation to the whole study region. When using data from the whole study region (e.g., increasing the spatial extent), we find that the relationship is actually non-linear (gray line). In vacant lots with high plant cover, other factors (e.g., soil type, land use history, etc.) might be needed to better explain the variability of carbon.
+In this case study, we explore the relationship between soil carbon and plant cover in vacant lots in Quebec City. The vacant lots were carefully chosen to cover the full range of plant cover. However, if a scientist only picked a few of these lots (like the green dots on the two left-hand figures), they might mistakenly think the relationship between soil carbon and plant cover is linear (as shown by the green line). This would lead to incorrect predictions for the entire area. But when we look at data from the whole study region (shown on the right), we see the relationship is actually non-linear (the gray line). In areas with high plant cover, other factors, like soil type or land use history, may play a role in explaining the carbon levels.
 
 
 <!-- {{< gallery 
