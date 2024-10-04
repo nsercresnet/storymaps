@@ -2,7 +2,7 @@
 weight: 1 # the order to render
 name: "intro" # must be unique within section and not include special characters
 visible: true # whether to include this panel in the output, useful for testing
-title: "How to choose the scale for summarizing data?"
+title: "The choice of scale for summarizing data"
 subitle: "Authors: Yiyi Zhang, Hugo Thierry, Peter Rodriguez"
 layout: "panel_float_card" # template to use
 opacity: 1 # lower values show more of the underlying map

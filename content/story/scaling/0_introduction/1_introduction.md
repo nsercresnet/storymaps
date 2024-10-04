@@ -9,7 +9,7 @@ background_media : "images/Front_image.jpg"
 visible: true
 layout: "panel_float_card"
 splash: true
-title: "Nature’s contributions to people: a multi-scale perspective"
+title: "Introduction"
 subtitle: "Authors: Amanda Schwantes, Ágnes Vári, Yiyi Zhang, Gabriela Maria Torchio, Poliana Mendes"
 ---
 

@@ -16,7 +16,7 @@ lng: -119.983
 ---
 ### Best practices and opportunities
 
-Even when monitoring data are available for 30+ years, we know ecosystems have been changing over centuries. For example, current observations of salmon in the Salmon River are very different from historical reports [^1].
+Even when monitoring data are available for 30+ years, we know ecosystems have been changing over centuries. For example, current observations of salmon in the Salmon River are very different from historical reports [^2]  <sup>2</sup>.
 
 <figure>
   <blockquote class="blockquote">
@@ -35,5 +35,5 @@ When appropriate historical baselines are unavailable, comparisons can be made w
 
 <!--- Use shapefiles in /data/challenge_2d , also see plotly_baselines.R or http://dev.xylemgeo.com --->
 
-[^1]:   Burt DW and Wallis M. 1997. Assessment of salmonid habitat in the salmon river, salmon arm. Department of Fisheries and Oceans. Vancouver, B.C. 
+<!--- [^1]:   Burt DW and Wallis M. 1997. Assessment of salmonid habitat in the salmon river, salmon arm. Department of Fisheries and Oceans. Vancouver, B.C. --->
 
