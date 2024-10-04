@@ -10,9 +10,9 @@ align: "center" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
-zoom: 6
-lat: 53.3701121
-lng: -132.010678
+zoom: 7
+lat: 57.1701121
+lng: -125.210678
 ---
 ### References
 Brimicombe, A. (2010). GIS, Environmental Modeling and Engineering. CRC Press.

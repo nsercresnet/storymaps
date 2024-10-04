@@ -1,10 +1,10 @@
 ---
 weight: 5
-name: " land acknowledgements"
+name: "land acknowledgements"
 layers: "google_satellite"
-zoom: 5
-lat: 55.0
-lng: -97.0
+zoom: 4
+lat: 45.4
+lng: -120.6
 background_media : "images/Front_image.jpg" 
 visible: true
 layout: "panel_float_card"

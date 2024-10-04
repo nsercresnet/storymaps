@@ -1,5 +1,5 @@
 ---
-title: "Nature’s contributions to people: a multi-scale perspective"
+title: "Nature at multiple scales"
 type: "story/story"
 background_media: "images/Front_image.jpg"
 
@@ -38,7 +38,10 @@ Taking a **multi-scale perspective** means that we can measure things at **fine 
 
 We are part of <a href="https://www.nsercresnet.ca/" target="_blank">**NSERC ResNet**</a>, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with the common goal of improving how we monitor, model, and manage NCPs. In the next sections we:
 
+<div class="d-flex justify-content-center">
+
 1. define what we mean by **spatial and temporal scales**,  
 2. discuss the importance of taking a **multi-scale perspective**, and  
 3. introduce a few **challenges and best practices** related to scaling.
 
+</div>

@@ -1,12 +1,17 @@
 ---
 weight: 1
-name: "References"
+name: "references"
 background_media : "images/Front_image.jpg" 
 visible: true
 layout: "panel_float_card"
 splash: true
 title: "References"
 subtitle: ""
+zoom: 4
+lat: 45.4
+lng: -120.6
+opacity: 1 # lower values show more of the underlying map
+layers: "google_satellite"
 ---
 
 
