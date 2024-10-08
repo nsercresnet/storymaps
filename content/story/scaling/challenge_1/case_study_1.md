@@ -11,8 +11,8 @@ align: "left" # align the entire panel
 splash: true # display the title and subtitle above the panel
 layers: "google_satellite,bof_sites" # basemap and overlaying layers
 zoom: 11
-lat: 45.7216634
-lng: -64.304746
+lat: 45.8
+lng: -64.8
 ---
 
 <!-- ### Case Study 1: Organic carbon stocks of restored salt marshes along the upper Bay of Fundy -->
