@@ -618,3 +618,14 @@ height: auto;
     margin:0;
     border-radius: 0;
 }
+
+.blockquote{
+    font-size:.9rem;
+    margin:0 2rem 1rem 2rem;
+    font-family: serif;
+    text-align:justify;
+}
+.blockquote-footer{
+    text-align: right;
+    margin-right: 2rem;
+}

@@ -9,10 +9,10 @@ width: 40 # translates to % of browser window
 align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 splash: true # display the title and subtitle above the panel
-layers: "google_satellite" # basemap and overlaying layers
+layers: "google_satellite,bof_sites" # basemap and overlaying layers
 zoom: 11
-lat: 45.8
-lng: -64.8
+lat: 45.7216634
+lng: -64.304746
 ---
 
 <!-- ### Case Study 1: Organic carbon stocks of restored salt marshes along the upper Bay of Fundy -->

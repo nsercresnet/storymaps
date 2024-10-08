@@ -10,9 +10,9 @@ align: "center" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
-zoom: 9
-lat: 45.840
-lng: -78.405
+zoom: 11
+lat: 46.140
+lng: -78.305
 subtitle: "Authors: Peter Rodriguez, Hugo Thierry, Yiyi Zhang, Amanda Schwantes"
 ---
 ### Introduction
