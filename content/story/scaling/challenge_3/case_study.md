@@ -10,9 +10,9 @@ align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite,pollinationsupplydemandmismatch,mrc_vr_border" # basemap and overlaying layers
-zoom: 10
-lat: 45.582
-lng: -73.315
+zoom: 11
+lat: 45.6
+lng:  -73.5
 ---
 ### Case study
 
@@ -22,7 +22,7 @@ lng: -73.315
 We'll explore some examples of when demand and supply don't line up using the ecosystem service of pollination as an example. This mismatch 
 can happen in three main ways:
 
-<!--
+<!-- #45.582, -73.315
 
 1) **Spatial mismatch**: If we look at different landscapes, even when there's the same amount of space for pollinators, some farmlands may have 
 more pollinators simply because their crops are closer to nesting sites. The location and the configuration of nesting sites can influence the 
@@ -49,7 +49,7 @@ of the pollination process, and this is an example of scale mismatch.
 3. **Scale mismatch**: Now let's move from a single farm to a whole agricultural region (many farms). Securing pollination supply for the whole region implies a specific arrangement of pollinators' habitat around crop fields. For instance, one farmer might not have enough land to establish a nice hedgerow or a flower strip to support the pollinators or arrange it in the best way for them. Or maybe the farmer can create one nice habitat for bees, but if the field is too big, it might no be enough (because of the spatial mismatch!). However, if many farmers work together, they might be able to create a network of habitat with the right conditions for pollinators. This means that encouraging cooperation between farmers might be more successful than asking one farmer alone to increase pollinator-friendly habitats. In this example, the difference between one farm versus many farms is an example of scale mismatch.
 
 
-Researchers from ResNet are investigating the mismatches between supply and demand of pollination in the agricultural fields of the county of La Vallée-du-Richelieu (region outlined in blue), and how restoration of wild-bee habitat could enhance crop pollination (Torchio et al. Submitted) [^3].
+Researchers from ResNet are investigating the mismatches between supply and demand of pollination in the agricultural fields of the county of La Vallée-du-Richelieu (region outlined in blue), and how restoration of wild-bee habitat could enhance crop pollination (Torchio et al. Submitted) <a href="../references/">[6]</a>.
 
 <!--- Torchio, G. M.; Cimon-Morin, J.; Mendes, P.; Goyette, J-O.; Schwantes, A.M.; Arias-Patino, M.; Bennett, E.M.; Destrempes, C.; Pellerin, S.  and Poulin, M. From Marginal Croplands to Natural Habitats: A Framework for Assessing the Restoration Potential to Enhance Wild-Bee Pollination in Agricultural Landscapes. Submitted for publication. --->
 

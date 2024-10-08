@@ -18,6 +18,8 @@ subtitle: "Authors: Yiyi Zhang, Hugo Thierry, Peter Rodriguez"
 ---
 ### Introduction
 
-We often report data by summarizing individual information (e.g., at a pixel) to coarser scale analysis units (e.g., census division). In this example, we discuss the consequences of summarizing data to different units.
+<!-- We often report data by summarizing individual information (e.g., at a pixel) to coarser scale analysis units (e.g., census division). In this example, we discuss the consequences of summarizing data to different units.
 
-In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ecosystem service supply and demand information and relationships.
+In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ecosystem service supply and demand information and relationships. -->
+
+We often report data by summarizing fine-scale information (e.g., at a pixel) to coarse-scale analysis or reporting units (e.g., census division). In this example, we discuss this challenge known as Modifiable Areal Unit Problem (MAUP) and how it may visually bias our understanding of ecosystem service supply and demand relationships. 

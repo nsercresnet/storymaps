@@ -16,7 +16,7 @@ lng: -119.983
 ---
 ### Best practices and opportunities
 
-Even when monitoring data are available for 30+ years, we know ecosystems have been changing over centuries. For example, current observations of salmon in the Salmon River are very different from historical reports [^2]  <sup>2</sup>.
+Even when monitoring data are available for 30+ years, we know ecosystems have been changing over centuries. For example, current observations of salmon in the Salmon River are very different from historical reports <a href="../references/">[5]</a>.
 
 <figure>
   <blockquote class="blockquote">

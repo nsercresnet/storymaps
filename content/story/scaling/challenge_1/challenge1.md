@@ -17,7 +17,7 @@ lng: -91.2538155
 ---
 ## Introduction
 
-Scaling requires data. For many ecosystem services, data is collected through field sampling. Many challenges exist when conducting field work to collect data, including:
+<!-- Scaling requires data. For many ecosystem services, data is collected through field sampling. Many challenges exist when conducting field work to collect data, including:
 
 - The trade-off between the number of data points needed and the time and resources available to collect, process, and analyze field samples.
 
@@ -31,4 +31,11 @@ Scaling requires data. For many ecosystem services, data is collected through fi
 
 - The heterogeneity of the environment does not guarantee that data points collected reflect the true spatial and temporal variability that exists in the ecosystem being studied.
 
-This section will describe the challenges and best practices of collecting soil carbon data from two different ecosystems \- salt marshes along the Bay of Fundy and forests and agricultural land in the Northwest Territories.”
+This section will describe the challenges and best practices of collecting soil carbon data from two different ecosystems \- salt marshes along the Bay of Fundy and forests and agricultural land in the Northwest Territories.”-->
+
+
+When studying ecosystems, scientists often collect data in the field. For example, soil samples can be taken in the field to estimate how much carbon there is in a particular location. Often, we use local field data together with models to understand what may be happening over a larger area. 
+
+Below we show two case studies where NSERC ResNet scientists collected and processed soil carbon data in two ecosystems: salt marshes along the Bay of Fundy and forests and farmlands in the Northwest Territories.
+
+

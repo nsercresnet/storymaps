@@ -17,8 +17,13 @@ lng: -73.315
 
 ### Best practices and opportunities
 
+<!---
 1) Carefully consider the aggregation, reporting, or zonal unit by assessing variance or representativeness (i.e., percentage of outcome agreement and disagreement between scales).
-2) Consider the effects of aggregating information at the ecologically meaningful level into a socially meaningful or management level.
+2) Consider the effects of aggregating information at the ecologically meaningful level into a socially meaningful or management level. -->
+
+1. Choose reporting unit based on the research question or management context. If these are not clear, assess and report the results from a range of scales and assess the representativeness of the assessed relationship. For example, it is recommended to quantify the percentage of outcome agreement and disagreement between scales, such as supply-demand relationship between cells and watersheds discussed in the case study.
+
+2. Addressing MAUP provides an opportunity to identify most suitable units for the accounting of various ecosystem assets and ecosystem services, given scale-dependent relationships between ecological functions and social activities. 
 
 
 <!--- Use shapefiles in /data/challenge_2b --->

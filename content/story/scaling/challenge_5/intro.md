@@ -19,16 +19,15 @@ lng: -132.010678
 
 {{< figure src="images/unknownSourceAskM.png" 
 class="float-end w-50 d-block" 
-caption="" 
+caption="Multiscale models comparison by complexity, precision, generalization and spatial extent." 
 >}}
 
 Decision-making and research questions are meaningful at specific scales and often need scale-specific models. 
 
 
+Choosing the right size (extent) to study natural phenomena is hard for scientists (Oreskes et al., 1994 <a href="../references/">[18]</a>). The scale chosen will determine how much detail and how accurate the model is, and also, how much area the model can cover. The scale of a study significantly impacts the models complexity, their accuracy, spatial extent, and generalizability (figure on the right) (Brimicombe, 2010 <a href="../references/">[19]</a>).
 
-Choosing the right size to study natural phenomena is hard for scientists (Oreskes et al., 1994 [^15]). The scale chosen will determine how much detail and how accurate the model is, and also, how much area the model can cover. The scale of a study significantly impacts the models complexity, their accuracy, spatial extent, and generalizability (Brimicombe, 2010 [^16]).
-
-Researching at a local scale or a small proportion of the territory requires more complex analyses. Researchers need to consider more variables and their relationships to achieve a reliable approximation of the natural phenomena under investigation. Also, the identification of patterns could be more difficult at smaller scales. Furthermore, obtaining more detailed results demands more computational resources. Nevertheless, higher scales at a finer resolution do not always lead to higher accuracy (Brimicombe, 2010 [^16]).
+Researching at a local scale or a small proportion of the territory requires more complex analyses. Researchers need to consider more variables and their relationships to achieve a reliable approximation of the natural phenomena under investigation. Also, the identification of patterns could be more difficult at smaller scales. Furthermore, obtaining more detailed results demands more computational resources. Nevertheless, higher scales at a finer resolution do not always lead to higher accuracy (Brimicombe, 2010 <a href="../references/">[19]</a>).
 
 On the other hand, examining natural phenomena at larger scales, such as regional or global studies, may enhance comprehension of the phenomena. Coarser resolutions lead to reduced complexity, simplifying models’ inputs and outputs. Also, some relationships or patterns emerge to significant geographical extents. Furthermore, policymakers tend to favor regional and global scales, as they provide a broader perspective on reality.
 
