@@ -10,7 +10,7 @@ align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
 layers: "google_satellite,algonquin_boundary_v1,algonquin_pilot_study_area_v1,forest_fire_year_2003_2020_v1,forest_harvest_year_2003_2020_v1,ndvi_break_1km,ndvi_break_500m,ndvi_break_250m" # basemap and overlaying layers
-zoom: 11
+zoom: 12
 lat: 46.140
 lng: -78.305
 layercontrol: true
@@ -25,8 +25,12 @@ Interestingly, not only does the number (and direction/sign) of forest pixels wi
 
 {{< figure src="images/ndvi_breakpts_direction_v4.png" 
 class="mx-auto w-100 d-block" 
-caption="Forest disturbance (a) and NDVI trend breaks (b, c & d) in pilot study area within Algonquin Provincial Park. Created by Peter Rodriguez." 
->}}
+caption="Forest disturbance (a) and NDVI trend breaks (b, c and d) in pilot study area within Algonquin Provincial Park. Created by Peter Rodriguez." >}}
+
+
+{{< figure src="images/legend1.png" 
+class="mx-auto w-50 d-block" 
+caption="NDVI trend break types at three different resolutions (not to scale). This is a legend for the map on the right.">}}
 
 
 <!--- Use shapefiles in resnet_upscaling_story_map folder over esri earth imagery for challenge background --->
