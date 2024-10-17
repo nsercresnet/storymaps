@@ -1,5 +1,6 @@
 ---
 title: "Nature at multiple scales"
+longtitle: "Nature’s contributions to people: a multi-scale perspective"
 type: "story/story"
 background_media: "images/Front_image.jpg"
 

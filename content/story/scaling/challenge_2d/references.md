@@ -1,7 +1,7 @@
 ---
 weight: 4 # the order to render
 name: "references" # must be unique within section and not include special characters
-visible: true # whether to include this panel in the output, useful for testing
+visible: false # whether to include this panel in the output, useful for testing
 title: "References"
 #subtitle: "Author: Amanda Schwantes"
 layout: "panel_float_card" # template to use

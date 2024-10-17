@@ -1,7 +1,7 @@
 ---
 weight: 4 # the order to render
 name: "intro" # must be unique within section and not include special characters
-visible: true # whether to include this panel in the output, useful for testing
+visible: false # whether to include this panel in the output, useful for testing
 title: "References"
 layout: "panel_float_card" # template to use
 opacity: 1 # lower values show more of the underlying map
