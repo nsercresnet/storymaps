@@ -589,19 +589,22 @@ pre{
 	width: fit-content;
 	max-width: 10rem;
 	margin-top: 40px;
-	z-index: 900;
+	/* z-index: 900; */
 	top: 30%;
 	background: none;
 	box-shadow: none;
+    max-height: 30vh;
+    overflow-y:auto;
 }
 
 .storymap-legend .card{
-    opacity: 50%;
+    /* opacity: 50%; */
+    pointer-events: none;
   }
 
 .storymap-legend .card img{
 width:fit-content;
-/* max-width:50rem; */
+max-width:50vw;
 height: auto;
 }
 
