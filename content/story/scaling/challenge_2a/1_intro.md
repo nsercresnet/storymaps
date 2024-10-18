@@ -12,7 +12,7 @@ splash: true # display the title and subtitle above the panel
 layers: "google_satellite" # basemap and overlaying layers
 zoom: 11.5
 lat: 46.140
-lng: -78.30
+lng: -78.29
 subtitle: "Authors: Peter Rodriguez, Hugo Thierry, Yiyi Zhang, Amanda Schwantes"
 ---
 ### Introduction

@@ -16,9 +16,9 @@ lat: 58.2
 lng: -125.210678
 ---
 ### Case study
-The human footprint is a cumulative index that quantifies the extent and the intensity of human pressures on ecosystems and biodiversity. We compared the Human footprint at three scales: global (Williams et al., 2020 <a href="../references/">[20]</a>), national (Hirsh-Pearson et al., 2022 <a href="../references/">[21]</a>), and provincial. 
+The human footprint is a cumulative index that quantifies the extent and the intensity of human pressures on ecosystems and biodiversity. We compared the Human footprint at three scales: global (Williams et al., 2020 <a href="../references/">[20]</a>), national (Hirsh-Pearson et al., 2022 <a href="../references/">[21]</a>), and provincial <a href="../references/">[22]</a>. 
 
-The map on the right represents the state of human pressures in the northeast of British Columbia. From coarse (global) to detailed (provincial) scales, we can easily identify how roads are represented to different extents. The global model captures a broad perspective of human interventions, in which roads and settlements are the most visible features. This global map is improved with the national model, which integrates 12 layers of information, providing the appearance of more levels of detail such as oil and gas infrastructure and mining. The provincial map, which incorporates 16 layers of information, shows a more comprehensive state of the human footprint, including seismic lines, oil and gas wells, and infrastructure, and even recreational features.
+The map on the right represents the state of human pressures in the northeast of British Columbia. From coarse (global) to detailed (provincial) scales, we can easily identify how roads are represented to different extents. The global model captures a broad perspective of human disturbances, in which roads and settlements are the most visible features. This global map is improved with the national model, which integrates 12 layers of information, providing the appearance of more levels of detail such as oil and gas infrastructure and mining. The provincial map, which incorporates 16 layers of information, shows a more comprehensive state of the human footprint, including seismic lines, oil and gas wells, and infrastructure, and even recreational features.
 
 {{< figure src="images/Legend_HF.png" 
 class="mx-auto w-25 d-block"

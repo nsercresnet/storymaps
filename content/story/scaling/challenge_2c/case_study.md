@@ -16,7 +16,7 @@ lng: -71.565
 ---
 ### Case study
 
-In this case study, we explore the relationship between soil carbon and plant cover in vacant lots in Quebec City. The vacant lots were carefully chosen to cover the full range of plant cover. However, if a scientist only picked a few of these lots (like the green dots on the two left-hand figures), they might mistakenly think the relationship between soil carbon and plant cover is linear (as shown by the green line). This would lead to incorrect predictions for the entire area. But when we look at data from the whole study region (shown on the right), we see the relationship is actually non-linear (the gray line). In areas with high plant cover, other factors, like soil type or land use history, may play a role in explaining the carbon levels.
+In this case study, we explore the relationship between soil carbon and plant cover in vacant lots in Quebec City. The vacant lots were carefully chosen to cover the full range of plant cover. However, if a scientist only picked a few of these lots (like the green dots on the two left-hand figures), they might mistakenly think the relationship between soil carbon and plant cover is linear (as shown by the green line). This could lead to incorrect predictions for the entire area because when we look at data from the whole study region (shown on the right), we see the relationship is actually non-linear (the gray line). This nonlinear relationship could happen because in areas with high plant cover, other factors, like soil type or land use history, may play a role in explaining the carbon levels.
 
 
 <!-- {{< gallery 
@@ -40,3 +40,4 @@ caption="Non-linear relationship when all vacant lots are considered. Plant cove
 </div>
 
 <figcaption class="figure-caption text-center">Data source: Mendes P; Bourgeois B; Pellerin S; Ziter CD; Cimon-Morin J; Poulin M. Linkages between plant functional diversity and soil-based ecosystem services in urban and peri-urban vacant lots. Urban Ecosystems. 10.1007/s11252-023-01470-5</figcaption>
+

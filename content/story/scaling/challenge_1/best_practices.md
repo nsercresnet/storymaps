@@ -34,7 +34,7 @@ Field sampling is important for assessing many ecosystem services. However, it i
 5. Data collected for one study might not work for another study that is trying to look at ecosystem services on a different scale. Integration of modellers in field planning is important if the data is intended to be used in future studies of scaling.
 6. Unexpected things, like equipment breaking or bad weather, can happen during field or lab work causing missing data. Spending the time planning ensures unexpected events and missing data can be dealt with and will not influence the overall dataset.
 
-*Photos by Britney Roughan & David Bysouth*
+*Photos by Brittney Roughan & David Bysouth*
 
 <!--- Britney given instruction on what shp to use here: https://docs.google.com/document/d/1UHZfDVqn3GXgsXRaUJjF5mzvDAjjFpLBJBNfwnIFeyA/edit --->
 

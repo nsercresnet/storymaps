@@ -16,7 +16,7 @@ lng: -119.983
 ---
 ### Case study
 
-In this example, we show how Chinook salmon populations are changing in the Salmon river, British Columbia, Canada. In this region, Chinook salmon are important for the way of life for Indigenous communities, the economy, and the environment. Here, we show differences in trend significance depending on the start of a monitoring program. For example, if salmon monitoring only started 10 or 20 years ago (click on “since 2010” or “since 2000” buttons), then no significant downward trend would have been detected. However, if we begin our time-series analysis in 1984, then we see a significant downward trend: slope = -0.046 and p-value < 0.001.gm
+In this example, we show how Chinook salmon populations are changing in the Salmon river, British Columbia, Canada. In this region, Chinook salmon are important for the way of life for Indigenous communities, the economy, and the environment. Here, we show differences in trend significance depending on the start of a monitoring program. For example, if salmon monitoring only started 10 or 20 years ago (click on “since 2010” or “since 2000” buttons), then no significant downward trend would have been detected. However, if we begin our time-series analysis in 1984, then we see a significant downward trend: slope = -0.046 and p-value < 0.001.
 
 {{< iframe width="100%" height="400" src="/embed/c2d_plotly.html" frameborder="0" style="border:0" >}}
 

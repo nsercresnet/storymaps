@@ -19,7 +19,7 @@ lng: -125.210678
 
 Models are very sensitive to the input data, so the more accurate the input data, the higher the reliability of the model. On the other hand, models are developed to be applied at a certain scale (spatial and temporal), and most times they are not useful to be directly applied at other scales. A model acceptable at one scale might not be at another. Another important consideration is that model evaluation can be a complex process itself. So, the larger the spatial and temporal scale of the phenomena, the evaluation of the model is more complex and challenging.
 
-Taking this into account, we suggest the following to improve reliability of model:
+Regarding these aspects, we suggest the following to improve reliability of model:
 
 1. Be clear about the purpose of the model and verify that it applies to the scale considered.  
 2. Document all decisions made regarding the input data (sources, decisions made to incorporate it, etc.).  

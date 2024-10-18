@@ -20,7 +20,7 @@ init_js: "Monteregie_map.init()"
 
 When we move from the bottom to the top images below, we are increasing the size of the study area (i.e., spatial extent). When we move from the left to the right images below, we are increasing the number of pixels per area (i.e., spatial resolution), which allows for individual flowers to be distinguished.
 
-{{< figure src="images/Intro_C1.png" class="d-block mx-auto w-75" caption="Moving across images increases spatial extent or resoltion. Image credit: Amanda Schwantes.">}}
+{{< figure src="images/Intro_C1.png" class="d-block mx-auto w-75" caption="Moving across images increases spatial extent or resolution. Image credit: Amanda Schwantes.">}}
 <!--- Justify middle, no text on sides -->
 
 In the image below, when we move from the bottom to the top images, we are expanding the time period for which we are collecting data. When we move from the left to the right images, we are increasing the detail (e.g., number of data points per year).

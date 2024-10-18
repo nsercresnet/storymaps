@@ -19,7 +19,7 @@ width: 50
 
 In this story map we feature studies done in various regions of Canada which take place in traditional and ongoing territory of many diverse First Nations, Métis and Inuit People, such as:
 
-1. The traditional and unceded territory of the Mi’kmaq people in the Siknikt (drainage area) region of Mi'kma'ki, also known as the upper Bay of Fundy in New Brunswick and Nova Scotia
+1. The traditional and unceded territory of the Mi’kmaq People in the Siknikt (drainage area) region of Mi'kma'ki, also known as the Upper Bay of Fundy in New Brunswick and Nova Scotia
 2. The territory of the Ka'a'gee Tu First Nation, a Dene FIrst Nations band, located in the  Dehcho region of the Northwest Territories in the community of Kakisa
 3. The unsurrendered territory of the Algonquin Nations in the area known as Algonquin Provincial Park, Ontario 
 4. The traditional territory Akwesasne and Kahnawake of the Kanien'kehá:ka in South-West Quebec
