@@ -1,5 +1,5 @@
 ---
-weight: 3 # the order to render
+weight: 4 # the order to render
 name: "case_study_2" # must be unique within section and not include special characters
 visible: true # whether to include this panel in the output, useful for testing
 title: "Case Study 2: Soil carbon trade-offs associated with agricultural land use change in the Northwest Territories"

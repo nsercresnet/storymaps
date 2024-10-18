@@ -37,5 +37,4 @@ caption="Photos of the four study sites: Converse, Aulac, John Lusby, and Wood P
 {{< /gallery >}}
 
 
-
 <!--The Wood Point Rest Stop (WPRS) will be used as an example in this case study. Each site was divided into three elevation zones that are flooded by tides differently throughout the year: the low zone is flooded by 75% of high tides in a year, the mid zone flooded by 50% of high tides, and the high zone is flooded by 25% of high tides. These zones are based on flooding frequency because decomposition of organic matter by microbes is slowed down in flooded, low-oxygen conditions. -->

@@ -5,7 +5,7 @@
 {{/*  {{ .Parent.Ordinal }}  */}}
 {{ $id := printf "gallery-%03d" $.Parent.Ordinal }}
 <figure class="figure">
-    <a href="{{ $src }}" data-dimbox="{{$id}}" data-dimbox-caption="{{ .Get "caption" }}" >
+    <a href="{{ $src }}" data-dimbox="{{$id}}{{ .Get "caption" }}" data-dimbox-caption="{{ .Get "caption" }}" >
         {{/*  <img src="{{ $src }}" class="{{ .Get "class" }}-image rounded img-thumbnail img-fluid">  */}}
         <img src="{{ $src }}" class="img-thumb">
     </a>

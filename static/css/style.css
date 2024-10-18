@@ -595,6 +595,7 @@ pre{
 	box-shadow: none;
     max-height: 30vh;
     overflow-y:auto;
+    overflow-x:hidden
 }
 
 .storymap-legend .card{
@@ -604,7 +605,7 @@ pre{
 
 .storymap-legend .card img{
 width:fit-content;
-max-width:50vw;
+/* max-width:50vw; */
 height: auto;
 }
 

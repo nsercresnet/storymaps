@@ -1,5 +1,5 @@
 ---
-weight: 6 # the order to render
+weight: 7 # the order to render
 name: "references" # must be unique within section and not include special characters
 visible: false # whether to include this panel in the output, useful for testing
 title: "References"

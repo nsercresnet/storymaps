@@ -1,5 +1,5 @@
 ---
-weight: 4 # the order to render
+weight: 6 # the order to render
 name: "best_practices" # must be unique within section and not include special characters
 visible: true # whether to include this panel in the output, useful for testing
 title: "Best Practices and Opportunities"
