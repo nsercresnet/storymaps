@@ -9,10 +9,10 @@ width: 40 # translates to % of browser window
 align: "left" # align the entire panel
 # background_media : "images/BackgroundTitleSlide1.jpg"  # background image rendered behind the panel, covering map
 # splash: true # display the title and subtitle above the panel
-layers: "google_satellite,algonquin_boundary_v1,algonquin_pilot_study_area_v1,forest_fire_year_2003_2020_v1,forest_harvest_year_2003_2020_v1,ndvi_break_1km,ndvi_break_500m,ndvi_break_250m" # basemap and overlaying layers
-zoom: 12
+layers: "google_satellite,algonquin_pilot_study_area_v1,forest_fire_year_2003_2020_v1,forest_harvest_year_2003_2020_v1,ndvi_break_1km,ndvi_break_500m,ndvi_break_250m" # basemap and overlaying layers
+zoom: 11.5
 lat: 46.140
-lng: -78.305
+lng: -78.30
 layercontrol: true
 ---
 ### Case study

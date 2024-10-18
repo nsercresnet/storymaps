@@ -6,6 +6,7 @@ options:
   format: 'image/png'
   transparent: true
 base_layer: false
+toggle: false
 title: "Algonquin Provincial Park boundary"
 legend: >
   <div class="card">

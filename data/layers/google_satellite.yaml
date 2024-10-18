@@ -7,3 +7,4 @@ options :
   zIndex: 1
   zoomControl: false
 script_src: "../js/main_map.js"
+toggle: false

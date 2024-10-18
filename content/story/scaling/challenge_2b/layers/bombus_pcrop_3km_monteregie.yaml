@@ -10,8 +10,8 @@ options:
   transparent: true
 base_layer: false
 # script_src: "../js/main_map.js"
-legend: >
-  <div class="card">
-  <div class="card-body">Supply/Demand per 3km</div>
-  <img class="card-img-bottom img-fluid" src="https://data.nsercresnet.ca/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:bombus_pcrop_3km_monteregie&STYLE=bombus_pcrop_3km_monteregie&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on">
-  </div>
+# legend: >
+#   <div class="card">
+#   <div class="card-body">Supply/Demand per 3km</div>
+#   <img class="card-img-bottom img-fluid" src="https://data.nsercresnet.ca/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:bombus_pcrop_3km_monteregie&STYLE=bombus_pcrop_3km_monteregie&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on">
+#   </div>

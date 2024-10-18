@@ -56,6 +56,8 @@ var MapZ = {
                 legend: $(this).attr("legend"),
                 name: $(this).attr("layer-name"),
                 title: $(this).attr("title"),
+                active: $(this).attr("active"),
+                toggle: $(this).attr("toggle"),
             }
         })
 

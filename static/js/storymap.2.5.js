@@ -153,6 +153,7 @@
 
             if (settings.legend) {
                 $(".storymap").append("<div class='storymap-legend' />")
+                // $(".leaflet-bottom").prepend("<div class='storymap-legend' />")
             }
 
 
@@ -328,14 +329,31 @@
                     // }
 
                     for (var i = 0; i < scene.layers.length; i++) {
-                        console.log("layers added")
-                        console.log(scene.layers[i])
-                        console.log(scene.layers[i].name)
-                        layer_title = scene.layers[i].name
-                        if(scene.layers[i].title !== "undefined") {
-                            layer_title = scene.layers[i].title
+                        lyr = scene.layers[i]
+                        // if(!lyr.toggle) {
+                            console.log(lyr.name)
+
+                        if(lyr.toggle === "false") {
+                            // if(lyr.toggle !== "undefined" && lyr.toggle===) {
+                                console.log("layer not toggleable")
+                        } else {
+                            console.log("layers added")
+                            // console.log(lyr)
+                            // console.log(lyr.name)
+                            layer_title = lyr.name
+                            if(lyr.title !== "undefined") {
+                                layer_title = lyr.title
+                            }
+                            layerControl.addOverlay(lyr.layer, layer_title);
                         }
-                        layerControl.addOverlay(scene.layers[i].layer, layer_title);
+                        console.log(lyr.active)
+
+                        if(lyr.active === "false") {
+                            console.log("hide layer")
+                            // scene.layers[i].remove()
+                            map.removeLayer(lyr.layer)
+                        }
+
                     }
 
                 } else {
@@ -353,7 +371,10 @@
 
                     for (var i = 0; i < scene.layers.length; i++) {
                         $(".storymap-loader").fadeTo(0, 1);
-                        currentLayerGroup.addLayer(scene.layers[i].layer);
+
+                        if(scene.layers[i].active !== "false"){
+                            currentLayerGroup.addLayer(scene.layers[i].layer);
+                        }
 
                         if (typeof scene.layers[i].legend !== 'undefined') {
                             legendContent += scene.layers[i].legend;
