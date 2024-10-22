@@ -13,6 +13,7 @@ layers: "google_satellite,cumberlandbasin,cnwi_nb_ns,bof_sites" # basemap and ov
 zoom: 11
 lat: 45.8
 lng: -64.5
+suppress_nav: true
 ---
 
 #### Step 5:  Data processing and interpretation

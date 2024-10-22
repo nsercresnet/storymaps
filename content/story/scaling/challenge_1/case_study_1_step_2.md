@@ -13,6 +13,7 @@ layers: "google_satellite,wprs_floodingzones,cores_wprs" # basemap and overlayin
 zoom: 18
 lat: 45.8245
 lng: -64.402
+suppress_nav: true
 ---
 
 #### Step 2:  Collection of sediment cores

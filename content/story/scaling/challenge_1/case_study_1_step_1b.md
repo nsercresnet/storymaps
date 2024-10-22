@@ -13,6 +13,7 @@ layers: "google_satellite,wprs_floodingzones,bof_sites" # basemap and overlaying
 zoom: 17
 lat: 45.823
 lng: -64.402
+suppress_nav: true
 ---
 
 Each site was divided into three elevation zones that are flooded by tides differently throughout the year: the low zone is flooded by ~75% of high tides in a year, the mid zone is flooded by ~50% of high tides, and the high zone is flooded by ~25% of high tides. These zones were based on flooding frequency because decomposition of organic matter by microbes is slowed down in flooded, low-oxygen conditions. The photos below show just how much water moves in and out of the study sites in a short amount of time during a spring high tide.

@@ -13,6 +13,7 @@ layers: "google_satellite" # basemap and overlaying layers
 zoom: 11
 lat: 45.8
 lng: -64.5
+suppress_nav: true
 ---
 
 ### Acknowledgements

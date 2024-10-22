@@ -10,7 +10,7 @@ visible: true
 layout: "panel_float_card"
 splash: true
 title: "Nature’s contributions to people: a multi-scale perspective"
-layers: "google_satellite,case_studies"
+layers: "google_satellite,case_studies,test_points"
 opacity: 1 # lower values show more of the underlying map
 width: 40 # translates to % of browser window
 align: "left"
@@ -32,5 +32,5 @@ Here we explore the challenges of scale in ecosystem services science and share 
 Research within ResNet takes place across Canada. Here, we show the approximate location of the case studies presented here. These are a subset of research projects within ResNet. 
 
 
-{{< figure src="https://data.nsercresnet.ca/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:study_cases_web&STYLE=study_cases_web&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on" class="mx-auto w-50 d-block" 
->}}
+<!-- {{< figure src="https://data.nsercresnet.ca/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:study_cases_web&STYLE=study_cases_web&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on" class="mx-auto w-50 d-block" 
+>}} -->
