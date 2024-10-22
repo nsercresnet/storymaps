@@ -18,7 +18,7 @@ lng: -115.4743051
 
 #### Step 1: Choosing representative sites and study areas
 
-We partnered with communities in the Northwest Territories, Canada such as Kakisa (shown here) to understand carbon and fertility trade-offs associated with agricultural cultivation of the boreal forest
+We partnered with communities in the Northwest Territories, Canada such as Kakisa (shown here) to understand carbon and fertility trade-offs associated with agricultural cultivation of the boreal forest.
 
 {{< figure src="images/image23.jpg" 
 class="mx-auto d-block" 
@@ -32,7 +32,7 @@ class="mx-auto w-75 d-block"
 caption="Image by David Bysouth." 
 >}}
 
-In 2021, a soil collection effort was undertaken to understand how soil fertility and carbon change between three different land use types; pre-cultivated forest soil, active agricultural soils, and abandoned agricultural soils. In partnership with seven farmers, 22 total sites were sampled.
+In 2021, a soil collection effort was undertaken to understand how soil fertility and carbon change between three different land use types: pre-cultivated forest soil, active agricultural soils, and abandoned agricultural soils. In partnership with seven farmers, 22 total sites were sampled.
 
 {{< figure src="images/image19.png" 
 class="mx-auto w-75 d-block" 
@@ -50,12 +50,12 @@ caption="30m transects were established at each selected sample location."
 Cores were collected using a 30cm or 60cm stainless steel soil corer to capture the entire organic layer of the site. For each transect, six soil cores were collected. Once extracted from the ground, cores were placed and sealed in plastic tubes.
 
 {{< gallery 
-caption="Image by David Bysouth." >}}
+caption="Images by David Bysouth." >}}
     {{< gallery-img src="images/image14.jpg" >}}
     {{< gallery-img src="images/image33.jpg" >}}
 {{< /gallery >}}
 
-Soil cores were stored in a freezer to limit decomposition processes. Upon departure from the Northwest territories, samples were shipped back to the University of Guelph and stored at 4 degrees celsius.
+Soil cores were stored in a freezer to limit decomposition processes. Upon departure from the Northwest Territories, samples were shipped back to the University of Guelph and stored at 4 degrees celsius.
 
 {{< figure src="images/image25.jpg" 
 class="mx-auto d-block" 
@@ -78,7 +78,7 @@ class="mx-auto d-block"
 caption="Image by David Bysouth." 
 >}}
 
-In total over 1500lbs of soil was analyzed and processed  from 2019-2022 in support of this project. 
+In total over 1500 lbs of soil were analyzed and processed from 2019-2022 in support of this project. 
 
 {{< figure src="images/image28.png" 
 class="mx-auto d-block" 

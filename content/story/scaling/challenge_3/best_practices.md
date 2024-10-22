@@ -16,7 +16,7 @@ lng: -73.315
 ---
 ### Best practices and opportunities
 
-1. **Understand the service area**: Think about the whole area that benefits from the ecosystem service, like pollination, and identify who or what benefits from it.
+1. **Understand the ecosystem service area**: Think about the whole area that benefits from the ecosystem service, like pollination, and identify who or what benefits from it.
 2. **Compare across beneficiaries**: Look at different groups or areas that benefit from the service and compare them. This can help identify different needs and how 
 they might be met.
 3. **Identify the benefit gap**: Try to figure out where the mismatches between supply and demand are. Where are the needs not being met? Understanding this gap can 
