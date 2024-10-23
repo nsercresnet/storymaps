@@ -5,7 +5,7 @@ src_type: "L.tileLayer.wms"
 link: "https://data.nsercresnet.ca/geoserver/geonode/wms"
 # layers: "geonode:user_test_raster"
 options:
-  layers: 'geonode:bombus_pcrop_3km_monteregie'
+  layers: 'geonode:bombus_sd_3km_pixel_monteregie'
   format: 'image/png'
   transparent: true
 base_layer: false
