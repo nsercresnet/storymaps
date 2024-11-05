@@ -116,3 +116,4 @@ layers: "google_satellite"
 
 23. Agriculture and Agri-Food Canada. (2014). Native Pollinators and Agriculture in Canada.https://publications.gc.ca/site/archivee-archived.html?url=https://publications.gc.ca/collections/collection_2014/aac-aafc/A59-12-2014-eng.pdf
 
+24. Service New Brunswick. (2018). LiDAR Derived Digital Elevation Model (DEM). [2017 DEM]. Government of New Brunswick. http://www.snb.ca/geonb1/e/dc/NBDEM.asp.

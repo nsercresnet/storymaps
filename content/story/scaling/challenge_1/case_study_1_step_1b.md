@@ -16,7 +16,7 @@ lng: -64.402
 suppress_nav: true
 ---
 
-Each site was divided into three elevation zones that are flooded by tides differently throughout the year: the low zone is flooded by ~75% of high tides in a year, the mid zone is flooded by ~50% of high tides, and the high zone is flooded by ~25% of high tides. These zones were based on flooding frequency because decomposition of organic matter by microbes is slowed down in flooded, low-oxygen conditions. The photos below show just how much water moves in and out of the study sites in a short amount of time during a spring high tide.
+Each site was divided into three elevation zones that are flooded by tides differently throughout the year: the low zone is flooded by ~75% of high tides in a year, the mid zone is flooded by ~50% of high tides, and the high zone is flooded by ~25% of high tides. These zones were based on flooding frequency because decomposition of organic matter by microbes is slowed down in flooded, low-oxygen conditions. The layers displayed on the basemap for the Wood Point Rest Stop site were created by simulating different tidal flooding heights over a publicly available Digital Elevation Model (DEM) for New Brunswick <a href="../references/">[24]</a>
 
 <!--{{< figure src="images/image7.png" 
 class="mx-auto w-100 d-block" 
