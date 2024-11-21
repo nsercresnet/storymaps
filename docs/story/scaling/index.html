@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html><head>
+
+    <title>Nature at multiple scales</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+    <link rel="shortcut icon" href=/img/favicon.ico type="image/x-icon">
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href=/storymap/css/storymap.2.5.css>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    
+    <script src=/storymap/js/maki-markers/Leaflet.MakiMarkers.js></script>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+	
+    <script src=/storymap/js/storymap.2.5.js></script>
+
+
+    <link href=/storymap/css/style.css rel="stylesheet">
+    <script src=/storymap/js/map-story.js></script>
+
+    
+
+    
+    
+    
+
+    <link href=/storymap/dimbox.min.css rel="stylesheet">
+
+    
+
+</head><body>
+        <script src=/storymap/dimbox.min.js></script>
+        <main>
+            
+
+<div><nav id="main-navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-navbar storymap-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/storymap/story/scaling/">
+      <i class="fa fa-home" style="padding-right:10px;"></i>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nature at multiple scales
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/introduction/">
+                Introduction
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_1/">
+                Importance of field sampling
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2a/">
+                Spatial resolution matters
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2b/">
+                The choice of scale for summarizing data
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2c/">
+                Making good predictions
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2d/">
+                Time period matters
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_3/">
+                Spatial, temporal, and scale mismatches
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_4/">
+                The future is not like the past
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_5/">
+                Modelling at different scales
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/conclusion/">
+                Conclusion
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/references/">
+                References
+              </a>
+            </li>
+            
+            <li>
+              <a class="dropdown-item text-wrap" href="/storymap/story/scaling/glossary/">
+                Glossary
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+      </ul> 
+      
+    </div>
+      
+    
+  </div>
+</nav>
+
+
+</div>
+
+<div id="storymap" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-8 storymap-map"></div>
+        <div class="col-sm-6 col-md-4 storymap-story" style="padding-bottom:0;">
+            <input type="hidden" id="language" value="en">
+
+            
+            <input type="hidden" class="layers" layer-id="carto_darkmatter" layer-name="carto_darkmatter" base-layer="true" layer-src="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="carto_darkmatter" opt-name="zIndex" opt-value="1">
+             
+                <input type="hidden" class="layer-options" layer="carto_darkmatter" opt-name="zoomControl" opt-value="false">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="carto_positron" layer-name="carto_positron" base-layer="true" layer-src="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="carto_positron" opt-name="zIndex" opt-value="1">
+             
+                <input type="hidden" class="layer-options" layer="carto_positron" opt-name="zoomControl" opt-value="false">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="carto_voyager" layer-name="carto_voyager" base-layer="true" layer-src="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="carto_voyager" opt-name="zIndex" opt-value="1">
+             
+                <input type="hidden" class="layer-options" layer="carto_voyager" opt-name="zoomControl" opt-value="false">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="esri_imagery" layer-name="esri_imagery" base-layer="true" layer-src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="esri_imagery" opt-name="zIndex" opt-value="1">
+             
+                <input type="hidden" class="layer-options" layer="esri_imagery" opt-name="zoomControl" opt-value="false">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="esri_topo" layer-name="esri_topo" base-layer="true" layer-src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="esri_topo" opt-name="zIndex" opt-value="1">
+             
+                <input type="hidden" class="layer-options" layer="esri_topo" opt-name="zoomControl" opt-value="false">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="google_satellite" layer-name="google_satellite" base-layer="true" layer-src="https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zIndex" opt-value="1">
+             
+                <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zoomControl" opt-value="false">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="osm_mapnik" layer-name="osm_mapnik" base-layer="true" layer-src="https://tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="osm_mapnik" opt-name="zIndex" opt-value="1">
+             
+                <input type="hidden" class="layer-options" layer="osm_mapnik" opt-name="zoomControl" opt-value="false">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="stamen_bw" layer-name="stamen_bw" base-layer="false" layer-src="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png" layer-type="L.tileLayer">
+             
+                <input type="hidden" class="layer-options" layer="stamen_bw" opt-name="zIndex" opt-value="1">
+            
+            
+            
+            <input type="hidden" class="layers" layer-id="test_points" layer-name="test_points" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Ageojson_points&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326" layer-type="L.geoJson.ajax">
+             
+                <input type="hidden" class="layer-options" layer="test_points" opt-name="opacity" opt-value="0.2">
+             
+                <input type="hidden" class="layer-options" layer="test_points" opt-name="weight" opt-value="3">
+             
+                <input type="hidden" class="layer-options" layer="test_points" opt-name="zIndex" opt-value="999">
+            
+            
+                <input type="hidden" class="layer-style" layer="test_points" style-name="color" style-value="#99c63d">
+            
+                <input type="hidden" class="layer-style" layer="test_points" style-name="fillColor" style-value="#99c63d">
+            
+                <input type="hidden" class="layer-style" layer="test_points" style-name="fillOpacity" style-value="0.3">
+            
+                <input type="hidden" class="layer-style" layer="test_points" style-name="opacity" style-value="0.2">
+            
+                <input type="hidden" class="layer-style" layer="test_points" style-name="stroke" style-value="true">
+            
+                <input type="hidden" class="layer-style" layer="test_points" style-name="strokeOpacity" style-value="1">
+            
+            
+            <input type="hidden" class="layers" layer-id="test_poly" layer-name="test_poly" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Auser_test_poly&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326" layer-type="L.geoJson.ajax">
+             
+                <input type="hidden" class="layer-options" layer="test_poly" opt-name="opacity" opt-value="0.2">
+             
+                <input type="hidden" class="layer-options" layer="test_poly" opt-name="weight" opt-value="3">
+             
+                <input type="hidden" class="layer-options" layer="test_poly" opt-name="zIndex" opt-value="999">
+            
+            
+                <input type="hidden" class="layer-style" layer="test_poly" style-name="color" style-value="#99c63d">
+            
+                <input type="hidden" class="layer-style" layer="test_poly" style-name="fillColor" style-value="#99c63d">
+            
+                <input type="hidden" class="layer-style" layer="test_poly" style-name="fillOpacity" style-value="0.3">
+            
+                <input type="hidden" class="layer-style" layer="test_poly" style-name="opacity" style-value="0.2">
+            
+                <input type="hidden" class="layer-style" layer="test_poly" style-name="stroke" style-value="true">
+            
+                <input type="hidden" class="layer-style" layer="test_poly" style-name="strokeOpacity" style-value="1">
+            
+            
+            <input type="hidden" class="layers" layer-id="test_raster" layer-name="test_raster" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/geonode/wms" layer-type="L.tileLayer.wms">
+             
+                <input type="hidden" class="layer-options" layer="test_raster" opt-name="format" opt-value="image/png">
+             
+                <input type="hidden" class="layer-options" layer="test_raster" opt-name="layers" opt-value="geonode:user_test_raster">
+             
+                <input type="hidden" class="layer-options" layer="test_raster" opt-name="transparent" opt-value="true">
+            
+            
+            
+            <section class=' wide-over-bg -bg-img ' data-scene="" lat="" lng="" zoom="" layers="" init-js="" style="opacity:1;background-image:url('images/Front_image.jpg')">
+  <div class="section-splash justify-content-center text-center">
+    
+      <h1>Nature’s contributions to people: a multi-scale perspective</h1>
+    
+  </div>
+  <div class="card panel-card mx-auto">
+    <div class="card-body"><p>People obtain many benefits from ecosystems (sometimes called <strong>ecosystem services</strong> (ES) or <strong>nature’s contributions to people</strong> (NCPs)). As <a href="https://www.nsercresnet.ca/" target="_blank"><strong>NSERC ResNet</strong></a> researchers, we have studied these benefits at  different scales. This story map provides a summary of some of our work related to scales and the lessons we have learned.</p>
+<!---Justify left, text listed above should be to the right of this figure --->
+<!---
+
+
+
+
+<figure class="figure single-figure float-start w-50 pe-3">
+    <a href="images/Intro_A1.png" data-dimbox data-dimbox-caption="Image credit: Illustration by Ágnes Vári." >
+        <img src="images/Intro_A1.png">
+    </a>
+    <figcaption class="figure-caption text-center">Image credit: Illustration by Ágnes Vári.</figcaption>
+</figure> --->
+
+
+
+
+
+<figure class="figure single-figure mx-auto w-50 d-block">
+    <a href="images/Intro_A1.png" data-dimbox data-dimbox-caption="Image credit: Illustration by Ágnes Vári." >
+        <img src="images/Intro_A1.png">
+    </a>
+    <figcaption class="figure-caption text-center">Image credit: Illustration by Ágnes Vári.</figcaption>
+</figure>
+<p>Taking a <strong>multi-scale perspective</strong> means that we can measure things at <strong>fine or small scales</strong>, for example measuring carbon in a handful of soil, or at  <strong>broad or large scales</strong>, for example when studying a landscape of fields and forests. For the latter, we can use techniques like remote sensing that give us a bird’s-eye perspective of larger ecological patterns and processes.</p>
+<div class="clearfix"></div>
+<!---<div class="row">
+    <div class="col" style="align-content:end;">
+
+
+
+
+
+<figure class="figure single-figure ">
+    <a href="images/Intro_A2.png" data-dimbox data-dimbox-caption="Image credit: Illustration by Ágnes Vári." >
+        <img src="images/Intro_A2.png">
+    </a>
+    <figcaption class="figure-caption text-center">Image credit: Illustration by Ágnes Vári.</figcaption>
+</figure>
+</div>
+    <div class="col" style="align-content:end;">
+    
+    
+    
+    
+    
+    <figure class="figure single-figure ">
+        <a href="images/Intro_A3.png" data-dimbox data-dimbox-caption="Image credit: Illustration by Ágnes Vári." >
+            <img src="images/Intro_A3.png">
+        </a>
+        <figcaption class="figure-caption text-center">Image credit: Illustration by Ágnes Vári.</figcaption>
+    </figure>
+    </div>
+</div> --->
+
+
+
+
+
+<figure class="figure single-figure mx-auto w-50 d-block">
+    <a href="images/Intro_A2_A3.png" data-dimbox data-dimbox-caption="Looking at nature at the scale of ants (small scale) or through a bird&#39;s-eye view (large scale). Image credit: Illustration by Ágnes Vári." >
+        <img src="images/Intro_A2_A3.png">
+    </a>
+    <figcaption class="figure-caption text-center">Looking at nature at the scale of ants (small scale) or through a bird&#39;s-eye view (large scale). Image credit: Illustration by Ágnes Vári.</figcaption>
+</figure>
+<div class="clearfix"></div>
+<p>We are part of <a href="https://www.nsercresnet.ca/" target="_blank"><strong>NSERC ResNet</strong></a>, a network which unites a broad community of scholars, nongovernmental organizations, government agencies, and industry sectors. We work in different regions of Canada, with the common goal of improving how we monitor, model, and manage NCPs. In the next sections we:</p>
+<div class="d-flex justify-content-center">
+<ol>
+<li>define what we mean by <strong>spatial and temporal scales</strong>,</li>
+<li>discuss the importance of taking a <strong>multi-scale perspective</strong>, and</li>
+<li>introduce a few <strong>challenges and best practices</strong> related to scaling.</li>
+</ol>
+</div>
+<hr>
+<!-- 
+<div class="center" style="text-align:center; width:100%;">
+
+
+<div style="max-width:50%">
+
+![NSERC logo](images/NSERC_RGB.png)
+
+We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC), [funding reference number NSERC NETGP 523374–18]. 
+
+
+Cette recherche a été financée par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG), [numéro de référence NSERC NETGP 523374–18].
+</div>
+
+</div> -->
+<div class="row d-flex justify-content-center text-center align-middle align-items-center">
+<div class="col">
+<p>We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC), [funding reference number NSERC NETGP 523374–18].</p>
+</div>
+<div class="col" style="object-fit:contain;width:100%">
+
+    <img src="images/NSERC_RGB.png" alt="NSERC logo" class="" />
+</div>
+<div class="col">
+<p>Cette recherche a été financée par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG), [numéro de référence NSERC NETGP 523374–18].</p>
+</div>
+</div>
+</div>
+  </div>
+  <div class="card panel-card mx-auto mt-5">
+    
+      
+      
+      
+      <div class="list-group list-group-flush">
+        <h4 class="mx-auto">Contents</h4>
+        
+        
+        <a href="/storymap/story/scaling/introduction/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/introduction/images/thumbnail.jpg" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Introduction</h5>
+              <p class="">Scientists often work at different scales to analyze different parts of a landscape or ecosystem. We can study ecosystems at different scales across space (i.e., spatial scale) or across time (i.e., temporal scale).</p>
+              
+              <p class="section-author blockquote-footer">Authors: Amanda Schwantes, Ágnes Vári, Yiyi Zhang, Gabriela Maria Torchio, Poliana Mendes</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_1/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_1/images/c1thumb.jpg" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Importance of field sampling</h5>
+              <p class="">Field studies (e.g., measuring ecosystems directly) seek to capture as much detail in time and space as possible, given the question and the availability of time and funds. In this example we show the origin story of collecting field data and explain why collecting field data takes time, creativity, and perseverance.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Brittney Roughan, David Bysouth</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_2a/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_2a/images/c2athumb.png" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Spatial resolution matters</h5>
+              <p class="">We often need detailed data to detect change. In this example, we discuss why we need data at finer pixel sizes to detect forest losses and gains.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Peter Rodriguez, Hugo Thierry, Yiyi Zhang, Amanda Schwantes</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_2b/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_2b/images/supply-demand_ratio_rescale.png" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">The choice of scale for summarizing data</h5>
+              <p class="">We often report data by summarizing individual information (e.g., at a pixel) to coarser scale analysis units (e.g., census division). In this example, we discuss the consequences of summarizing data to different units.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Yiyi Zhang, Hugo Thierry, Peter Rodriguez</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_2c/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_2c/images/fig2cMiddle.png" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Making good predictions</h5>
+              <p class="">Relationships may differ over time or space. This example discusses the consequences of generalizing our results outside of the original study area.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Poliana Mendes, Amanda Schwantes</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_2d/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_2d/images/ImageChallenge2d.png" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Time period matters</h5>
+              <p class="">To understand whether an ecosystem is changing, we measure it over time. However, if we only measure the ecosystem over a short time, then we may not detect a change, even when the ecosystem has changed. This example explores how the monitoring time-period influences outcomes.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Amanda Schwantes</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_3/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_3/images/fig1.png" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Spatial, temporal, and scale mismatches</h5>
+              <p class="">Sometimes, the need for an ecosystem service and the ability of the environment to provide that service don&#39;t match up. Here we discuss mismatches occurring across space, time and scale.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Gabriela Torchio, Poliana Mendes, Yiyi Zhang, Amanda Schwantes</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_4/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_4/images/shuffle.svg" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">The future is not like the past</h5>
+              <p class="">Researchers often ask how far back in time should I go or how far forward should I forecast? Do I only care about annual changes, or do I want to know about changes within years? This example discusses how the future is not like the past.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Peter Morrison</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/challenge_5/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/challenge_5/images/thumbnail.png" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Modelling at different scales</h5>
+              <p class="">When selecting the level of detail to conduct research, scientists must balance between the generalizability, complexity, accuracy, and spatial extent of the analysis. As an example, the evaluation of the Human Footprint on ecosystems varies at multiple scales.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Miguel Arias, Gabriela Torchio, Hugo Thierry</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/conclusion/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/conclusion/images/resnet-logo.jpg" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Conclusion</h5>
+              <p class="">Things change as we change scales. Environmental processes &amp; properties can shift as we change scales — whether in terms of spatial or temporal resolution and extent.</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/references/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/references/images/list-ol.svg" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">References</h5>
+              <p class="">List of references used in this story map.</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+        <a href="/storymap/story/scaling/glossary/" class="list-group-item list-group-item-action">
+          <div class="row">
+            
+            <div class="col-2">
+              
+              <img src="/storymap/story/scaling/glossary/images/list-columns-reverse.svg" class="rounded float-start img-thumbnail img-fluid toc">
+              
+            </div>
+            <div class="col" style="display:flex;flex-direction:column;">
+              <h5 class="">Glossary</h5>
+              <p class="">Did you find some difficult-to-understand jargon in this story map? It’s likely that you did, and for that reason we made this glossary of some fancy scientific terms, to help you navigate this story map.</p>
+              
+              <p class="section-author blockquote-footer">Authors: Gabriela Torchio, Poliana Mendes, Amanda Schwantes</p>
+              
+              
+              <div class="text-muted pull-right align-self-end" style="margin-top:auto">View→</div>
+            </div>
+            
+          </div>
+
+        </a>
+        
+      </div>
+    
+  </div>
+  
+</section></div>
+        
+    </div>
+
+
+        </main>
+    </body>
+</html>

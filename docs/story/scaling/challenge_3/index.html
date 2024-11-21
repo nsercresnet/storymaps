@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html><head>
+
+    <title>Spatial, temporal, and scale mismatches</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+    <link rel="shortcut icon" href=/img/favicon.ico type="image/x-icon">
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href=/storymap/css/storymap.2.5.css>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    
+    <script src=/storymap/js/maki-markers/Leaflet.MakiMarkers.js></script>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+	
+    <script src=/storymap/js/storymap.2.5.js></script>
+
+
+    <link href=/storymap/css/style.css rel="stylesheet">
+    <script src=/storymap/js/map-story.js></script>
+
+    
+
+    
+    
+    
+
+    <link href=/storymap/dimbox.min.css rel="stylesheet">
+
+    
+
+</head><body>
+        <script src=/storymap/dimbox.min.js></script>
+        <main>
+            <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-navbar storymap-navbar">
+	<div class="container-fluid" style = "justify-content:left;">
+		<a class="navbar-brand" href="/storymap/story/scaling/">
+            <i class="fa fa-home" style="padding-right:10px;"></i>
+        </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle navbar-brand me-0 breadcrumb-item" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Nature at multiple scales
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/introduction/">
+          Introduction
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_1/">
+          Importance of field sampling
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2a/">
+          Spatial resolution matters
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2b/">
+          The choice of scale for summarizing data
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2c/">
+          Making good predictions
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_2d/">
+          Time period matters
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_3/">
+          Spatial, temporal, and scale mismatches
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_4/">
+          The future is not like the past
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/challenge_5/">
+          Modelling at different scales
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/conclusion/">
+          Conclusion
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/references/">
+          References
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymap/story/scaling/glossary/">
+          Glossary
+        </a>
+      </li>
+        
+      </ul>
+      </li>
+      </ul> 
+          
+
+
+      <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Spatial, temporal, and scale mismatches
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'intro\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              Spatial, temporal, and scale mismatches
+            </a>
+          </li>
+          
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'case_study\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              Case study
+            </a>
+          </li>
+          
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'best_practices\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              Best practices and opportunities
+            </a>
+          </li>
+          
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'references\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              References
+            </a>
+          </li>
+          
+            
+          </ul>
+          </li>
+      </ul> 
+    </div>
+
+
+    </div>
+    </nav>
+
+
+<div id="storymap" class="container-fluid">
+	    <div class="row">
+	        <div class="col-sm-6 col-md-8 storymap-map"></div>
+	        <div class="col-sm-6 col-md-4 storymap-story">
+                
+
+
+
+
+
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+
+
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+
+
+
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<input type="hidden" id="language" value="en">
+
+
+
+  <input type="hidden" class="layers" layer-id="0" layer-name="mrc_vr_border" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/geonode/wms" layer-type="L.tileLayer.wms" legend="&lt;div class=&#34;card&#34;&gt; &lt;div class=&#34;card-body&#34;&gt;Study Area&lt;/div&gt; &lt;img class=&#34;card-img-bottom img-fluid&#34; src=&#34;https://data.nsercresnet.ca/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:mrc_vr_border&amp;STYLE=mrc_vr_border&amp;version=1.3.0&amp;sld_version=1.1.0&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on&#34;&gt; &lt;/div&gt;" title="" toggle="" active="">
+   
+    <input type="hidden" class="layer-options" layer="mrc_vr_border" opt-name="format" opt-value="image/png">
+   
+    <input type="hidden" class="layer-options" layer="mrc_vr_border" opt-name="layers" opt-value="geonode:mrc_vr_border">
+   
+    <input type="hidden" class="layer-options" layer="mrc_vr_border" opt-name="transparent" opt-value="true">
+  
+  
+
+
+  <input type="hidden" class="layers" layer-id="1" layer-name="pollinationsupplydemandmismatch" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/geonode/wms" layer-type="L.tileLayer.wms" legend="" title="" toggle="" active="">
+   
+    <input type="hidden" class="layer-options" layer="pollinationsupplydemandmismatch" opt-name="format" opt-value="image/png">
+   
+    <input type="hidden" class="layer-options" layer="pollinationsupplydemandmismatch" opt-name="layers" opt-value="geonode:pollinationsupplydemandmismatch">
+   
+    <input type="hidden" class="layer-options" layer="pollinationsupplydemandmismatch" opt-name="transparent" opt-value="true">
+  
+  
+
+
+  <input type="hidden" class="layers" layer-id="2" layer-name="google_satellite" base-layer="true" layer-src="https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}" layer-type="L.tileLayer" legend="" title="Google Satellite" toggle="false" active="">
+   
+    <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zoomControl" opt-value="false">
+  
+  
+
+
+
+    
+        <section class='intro wide-over-bg intro-bg-img ' data-scene="intro" lat="45.582" lng="-73.315" zoom="10" layers="google_satellite" init-js="" style="opacity:1;background-image:url('');" layercontrol="">
+
+  
+  <div class="section-splash justify-content-center text-center">
+    
+    <h1>Spatial, temporal, and scale mismatches</h1>
+    
+
+    
+
+    
+    <p>Authors: Gabriela Torchio, Poliana Mendes, Yiyi Zhang, Amanda Schwantes</p>
+    
+  </div>
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+  <div class="card panel-card mx-auto" style="width:80vw;opacity: 1;">
+    <div class="card-body"><h3 id="introduction">Introduction</h3>
+<p>Sometimes, the need for an ecosystem service (demand) and the ability of the environment to provide that service (supply) don&rsquo;t match up. No-overlap between supply and demand can occur either in different places (spatial mismatch), at different times (temporal mismatch) or at different scales (scale mismatch).</p>
+<p>For example, some insects, small mammals, and birds contribute to fertilization of plants (that is, to pollination) while they are feeding and moving among flowers. Where pollinators originate from in the landscape is the area of pollination supply. On the other side, demand for pollination occurs where there are plants that need pollination. For pollination to occur, pollinators have to move from their nesting places to their feeding sites. When there is a large separation between where pollinators originate from (supply) and where they feed and pollinate (demand), supply and demand do not match in space.</p>
+</div>
+  </div>
+  
+
+  <div></div>
+  
+ 
+</section>
+
+
+    
+
+    
+        <section class='case_study wide-over-bg case_study-bg-img ' data-scene="case_study" lat="45.6" lng="-73.5" zoom="11" layers="google_satellite,pollinationsupplydemandmismatch,mrc_vr_border" init-js="" style="opacity:1;background-image:url('');" layercontrol="">
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+  <div class="card panel-card me-auto" style="width:40vw;opacity: 1;">
+    <div class="card-body"><h3 id="case-study">Case study</h3>
+
+
+
+
+
+<figure class="figure single-figure w-100 p-3">
+    <a href="images/fig1.png" data-dimbox data-dimbox-caption="" >
+        <img src="images/fig1.png">
+    </a>
+    <figcaption class="figure-caption text-center"></figcaption>
+</figure>
+<!--- Make image larger, possibly lightbox --->
+<p>We&rsquo;ll explore some examples of when demand and supply don&rsquo;t line up using the ecosystem service of pollination as an example. This mismatch
+can happen in three main ways:</p>
+<!-- #45.582, -73.315
+
+1) **Spatial mismatch**: If we look at different landscapes, even when there's the same amount of space for pollinators, some farmlands may have 
+more pollinators simply because their crops are closer to nesting sites. The location and the configuration of nesting sites can influence the 
+availability of pollinators inside fields. For example, studies in crop fields show that the abundance of pollinators tends to be higher in 
+smaller crop fields (e.g. 2 ha) than in large ones (e.g. 100 ha). If crop fields' edges have suitable places for pollinators to nest, then 
+pollinators will find it easier to fly to the center of the field and pollinate smaller fields compared to larger fields. The plants in the 
+center of a large field might be out of reach for some pollinators, given their limited flying range.
+
+2) **Temporal mismatch**: Not all pollinators are active at the same time nor during all seasons of crop blooming. Crops may bloom at times that 
+do not always coincide with all insects’s periods of high activity. As the climate changes, the periods of time when crops bloom and the periods 
+of time when bees have high activity may no longer align, which may result in greater temporal mismatches.
+
+3) **Scale mismatch**: The entire process of pollination needs a specific size and arrangement of the land. One farmer might not have enough land to 
+establish a nice hedgerow or a flower strip to support the pollinators, or arrange it in the best way for them. But if many farmers work together, 
+they might be able to create the right conditions for pollinators. This means that encouraging cooperation between farmers might be more successful 
+than asking one farmer to increase bee-friendly habitats. This is because the size of a single farm might be too small to match the large-scale needs 
+of the pollination process, and this is an example of scale mismatch.
+-->
+<ol>
+<li>
+<p><strong>Spatial mismatch</strong>: Let&rsquo;s think of bees, as an example of pollinators. Bees fly from their nests to flowering crops, which are a good source of pollen or nectar. In the process of feeding, bees pollinate crops by transporting pollen among flowers. In this example, bees can be regarded as the &ldquo;supply&rdquo; of pollination, whereas the crops that are pollinated represent the &ldquo;demand&rdquo; for pollination. Empirical studies in crop fields show that the abundance of pollinators tends to be higher in smaller crop fields (e.g., 2 ha) than in large ones (e.g., 100 ha). Why is that? One explanation is that if bees&rsquo; nesting habitat is located relatively close to crop fields (including plants located in the center of the field), then they will find it easier to fly and pollinate all plants present in the field. In that case, there is a spatial match between the supply of pollination (bees) and the demand (crops). Now imagine a very large crop, where plants located in the middle of the field are far from bees&rsquo; nesting habitat, so far that bees won&rsquo;t fly there. In that case, there is a spatial mismatch between pollination supply and demand.</p>
+</li>
+<li>
+<p><strong>Temporal mismatch</strong>: Not all pollinators are active at the same time nor during all seasons of crop blooming. Crops may bloom at times that do not always coincide with all pollinators’ periods of high activity. This represents a temporal mismatch between pollination supply (insect pollinators) and demand (crops). As the climate changes, the periods of time when crops bloom and the periods of time when pollinators have high activity may no longer align, which may result in greater temporal mismatches.</p>
+</li>
+<li>
+<p><strong>Scale mismatch</strong>: Now let&rsquo;s move from a single farm to a whole agricultural region (many farms). Securing pollination supply for the whole region implies a specific arrangement of pollinators&rsquo; habitat around crop fields. For instance, one farmer might not have enough land to establish a nice hedgerow or a flower strip to support the pollinators or arrange it in the best way for them. Or maybe the farmer can create one nice habitat for bees, but if the field is too big, it might not be enough (because of the spatial mismatch!). However, if many farmers work together, they might be able to create a network of habitat with the right conditions for pollinators. This means that encouraging cooperation between farmers might be more successful than asking one farmer alone to increase pollinator-friendly habitats. In this example, the difference between one farm versus many farms represents a case of scale mismatch.</p>
+</li>
+</ol>
+<p>Researchers from ResNet are investigating the mismatches between supply and demand of pollination in the agricultural fields of the county of La Vallée-du-Richelieu (map at the right), and how restoration of wild-bee habitat could enhance crop pollination (Torchio et al. Submitted) <a href="../references/">[6]</a>.</p>
+<!--- Torchio, G. M.; Cimon-Morin, J.; Mendes, P.; Goyette, J-O.; Schwantes, A.M.; Arias-Patino, M.; Bennett, E.M.; Destrempes, C.; Pellerin, S.  and Poulin, M. From Marginal Croplands to Natural Habitats: A Framework for Assessing the Restoration Potential to Enhance Wild-Bee Pollination in Agricultural Landscapes. Submitted for publication. --->
+
+
+
+
+
+<figure class="figure single-figure mx-auto w-50 d-block">
+    <a href="images/matrixForLegend.png" data-dimbox data-dimbox-caption="The coloring scheme above makes it easier to visualize the potential spatial matches and mismatches between pollination supply and demand, shown in the map on the right." >
+        <img src="images/matrixForLegend.png">
+    </a>
+    <figcaption class="figure-caption text-center">The coloring scheme above makes it easier to visualize the potential spatial matches and mismatches between pollination supply and demand, shown in the map on the right.</figcaption>
+</figure>
+</div>
+  </div>
+  
+
+  <div></div>
+  
+ 
+</section>
+
+
+    
+
+    
+        <section class='best_practices wide-over-bg best_practices-bg-img ' data-scene="best_practices" lat="45.582" lng="-73.315" zoom="10" layers="google_satellite" init-js="" style="opacity:1;background-image:url('');" layercontrol="">
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+  <div class="card panel-card mx-auto" style="width:80vw;opacity: 1;">
+    <div class="card-body"><h3 id="best-practices-and-opportunities">Best practices and opportunities</h3>
+<ol>
+<li><strong>Understand the ecosystem service area</strong>: Think about the whole area that benefits from the ecosystem service, like pollination, and identify who or what benefits from it.</li>
+<li><strong>Compare across beneficiaries</strong>: Look at different groups or areas that benefit from the service and compare them. This can help identify different needs and how
+they might be met.</li>
+<li><strong>Identify the benefit gap</strong>: Try to figure out where the mismatches between supply and demand are. Where are the needs not being met? Understanding this gap can
+help in planning how to fix it.</li>
+<li><strong>Think about the arrangement and size of habitat areas</strong>: It&rsquo;s not just about how much habitat there is for the pollinators, but also about how this
+habitat is arranged. The layout and size of the land can influence how well it supports the pollinators and provides the needed service.</li>
+</ol>
+<p>By considering these points, we can better understand how to manage and support many ecosystem services like pollination. It helps in creating a plan that fits
+the specific needs of the area and the people who depend on these services.</p>
+</div>
+  </div>
+  
+
+  <div></div>
+  
+ 
+</section>
+
+
+    
+
+    
+
+
+
+
+
+<div class="btn-group-lg row vw-100 mx-auto gap-2 py-2">
+    
+    
+    <div class="col ps-0">
+        <a class="btn section-nav-btn w-100 fs-4" href="/storymap/story/scaling/challenge_2d/">← Previous: Time period matters</a>
+    </div>
+        
+    
+    <div class="col pe-0">
+        <a class="btn section-nav-btn w-100 fs-4" href="/storymap/story/scaling/challenge_4/">Next: The future is not like the past →</a>
+    </div>
+    
+
+</div>
+
+	        </div>
+            
+	    </div>
+	</div>
+
+        </main>
+    </body>
+</html>

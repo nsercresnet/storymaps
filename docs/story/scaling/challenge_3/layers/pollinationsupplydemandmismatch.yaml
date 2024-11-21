@@ -1,0 +1,8 @@
+name: "pollinationsupplydemandmismatch"
+src_type: "L.tileLayer.wms"
+link: "https://data.nsercresnet.ca/geoserver/geonode/wms"
+options:
+  layers: 'geonode:pollinationsupplydemandmismatch'
+  format: 'image/png'
+  transparent: true
+base_layer: false
