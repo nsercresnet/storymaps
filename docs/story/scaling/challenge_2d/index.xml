@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time period matters on ResNet Storymaps</title>
-    <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/</link>
+    <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/</link>
     <description>Recent content in Time period matters on ResNet Storymaps</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Time period matters</title>
-      <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/intro/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/intro/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/intro/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;To understand whether an ecosystem is changing, we measure it over time. However, if we only measure the ecosystem over a short time, then we may not detect a change, even when the ecosystem has changed. This example explores how the monitoring time-period influences outcomes.&lt;/p&gt;&#xA;&lt;p&gt;Often we use time series analysis to understand whether an ecosystem property or service is changing over time. The temporal extent (e.g., time frame or period) of the monitoring data can affect outcomes. For shorter time-series or time-series with high variability, we may not have a correct historical baseline to detect change. For example, if monitoring data does not extend far enough into the past, then an insignificant trend could be interpreted as evidence for stability or no effect, when in reality the system might already be in a degraded state.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Case study</title>
-      <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/case_study/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/case_study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/case_study/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/case_study/</guid>
       <description>&lt;h3 id=&#34;case-study&#34;&gt;Case study&lt;/h3&gt;&#xA;&lt;p&gt;In this example, we show how Chinook salmon populations are changing in the Salmon river, British Columbia, Canada. In this region, Chinook salmon are important for the way of life for Indigenous communities, the economy, and the environment. Here, we show differences in trend significance depending on the start of a monitoring program. For example, if salmon monitoring only started 10 or 20 years ago (click on “since 2010” or “since 2000” buttons), then no significant downward trend would have been detected. However, if we begin our time-series analysis in 1984, then we see a significant downward trend: slope = -0.046 and p-value &amp;lt; 0.001.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Best practices and opportunities</title>
-      <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/best_practices/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/best_practices/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/best_practices/</guid>
       <description>&lt;h3 id=&#34;best-practices-and-opportunities&#34;&gt;Best practices and opportunities&lt;/h3&gt;&#xA;&lt;p&gt;Even when monitoring data are available for 30+ years, we know ecosystems have been changing over centuries. For example, current observations of salmon in the Salmon River are very different from historical reports &lt;a href=&#34;../references/&#34;&gt;[5]&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA;  &lt;blockquote class=&#34;blockquote&#34;&gt;&#xA;    &lt;p&gt;“In the grey of early morning I … found the river full of sockeye running upstream. I put in an oar and felt that the river was half fish. The increasing light soon showed that it was red from bank to bank. Then a stampede or panic occurred, and the salmon came surging down, but the river was so full of ascending fish that they blockaded and made a great flat wriggling dam. So jammed were they that they crowded out, and were rushed up the sloping banks out of the water.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>References</title>
-      <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/references/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/references/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2d/references/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2d/references/</guid>
       <description>&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Burt DW and Wallis M. 1997. Assessment of salmonid habitat in the salmon river, salmon arm. Department of Fisheries and Oceans. Vancouver, B.C.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>

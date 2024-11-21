@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Making good predictions on ResNet Storymaps</title>
-    <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/</link>
+    <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/</link>
     <description>Recent content in Making good predictions on ResNet Storymaps</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making good predictions</title>
-      <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/intro/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/intro/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/intro/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;We often assume that a relationship between two variables is linear; however, if we increase or reduce the spatial extent of a study, we may see a nonlinear relationship appear. This matters because we often use data from one area to make predictions for other areas. If we assume the relationship is linear when it’s not, our predictions will be wrong.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Case study</title>
-      <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/case_study/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/case_study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/case_study/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/case_study/</guid>
       <description>&lt;h3 id=&#34;case-study&#34;&gt;Case study&lt;/h3&gt;&#xA;&lt;p&gt;In this case study, we explore the relationship between soil carbon and plant cover in vacant lots in Quebec City. The vacant lots were carefully chosen to cover the full range of plant cover. However, if a scientist only picked a few of these lots (like the green dots on the two left-hand figures), they might mistakenly think the relationship between soil carbon and plant cover is linear (as shown by the green line). This could lead to incorrect predictions for the entire area because when we look at data from the whole study region (shown on the right), we see the relationship is actually non-linear (the gray line). This nonlinear relationship could happen because in areas with high plant cover, other factors, like soil type or land use history, may play a role in explaining the carbon levels.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Best practices</title>
-      <link>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/best_practices/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://docs.nsercresnet.ca/storymap/story/scaling/challenge_2c/best_practices/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2c/best_practices/</guid>
       <description>&lt;h3 id=&#34;best-practices-and-opportunities&#34;&gt;Best practices and opportunities&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Always choose the spatial extent that makes most sense for the question you are asking&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;When making predictions for a new area, check if the environmental conditions are similar to the original study area. If not, think about whether the relationship between variables might be non-linear&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seasonal changes can also create non-linear relationships (like between temperature and time). To handle this, it might be necessary to collect data at the same time each year or more often throughout the year&lt;/p&gt;</description>
     </item>
   </channel>
