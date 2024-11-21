@@ -54,12 +54,3 @@ Useful for live previewing content.
 
 ### Pull this repository
 Pull this repository, navigate to the directory in vscode, run `hugo server` in the terminal, and create/edit content. Limit changes to the `content` directories to keep future merges manageable.
-
-## Roadmap
-
-### Documentation
-- Image formatting.
-- Spatial layers.
-
-### Features
-- Menus/scrollspy

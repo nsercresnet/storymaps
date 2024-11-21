@@ -77,7 +77,7 @@
     {{ end }}
 {{ end }}
 
-
+{{/*  
 <div class="btn-group-lg d-grid gap-2 col-6 mx-auto vw-100">
     {{ $sections := .Parent.Sections.ByWeight }}
     {{ with $sections.Prev . }}
@@ -86,4 +86,20 @@
     {{ with $sections.Next . }}
     <a class="btn section-nav-btn" href="{{ .RelPermalink }}">← Previous: {{ .Title }}</a>
     {{ end }}
+</div>  */}}
+
+
+<div class="btn-group-lg row vw-100 mx-auto gap-2 py-2">
+    {{ $sections := .Parent.Sections.ByWeight }}
+    {{ with $sections.Next . }}
+    <div class="col ps-0">
+        <a class="btn section-nav-btn w-100 fs-4" href="{{ .RelPermalink }}">← Previous: {{ .Title }}</a>
+    </div>
+    {{ end }}    
+    {{ with $sections.Prev . }}
+    <div class="col pe-0">
+        <a class="btn section-nav-btn w-100 fs-4" href="{{ .RelPermalink }}">Next: {{ .Title }} →</a>
+    </div>
+    {{ end }}
+
 </div>

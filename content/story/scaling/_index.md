@@ -46,3 +46,44 @@ We are part of <a href="https://www.nsercresnet.ca/" target="_blank">**NSERC Res
 3. introduce a few **challenges and best practices** related to scaling.
 
 </div>
+
+<hr>
+
+
+<!-- 
+<div class="center" style="text-align:center; width:100%;">
+
+
+<div style="max-width:50%">
+
+![NSERC logo](images/NSERC_RGB.png)
+
+We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC), [funding reference number NSERC NETGP 523374–18]. 
+
+
+Cette recherche a été financée par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG), [numéro de référence NSERC NETGP 523374–18].
+</div>
+
+</div> -->
+
+
+<div class="row d-flex justify-content-center text-center align-middle align-items-center">
+
+<div class="col">
+
+We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC), [funding reference number NSERC NETGP 523374–18]. 
+</div>
+
+<div class="col" style="object-fit:contain;width:100%">
+
+![NSERC logo](images/NSERC_RGB.png)
+
+</div>
+
+<div class="col">
+
+Cette recherche a été financée par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG), [numéro de référence NSERC NETGP 523374–18].
+
+</div>
+
+</div>
