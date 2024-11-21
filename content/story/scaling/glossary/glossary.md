@@ -76,7 +76,7 @@ Resolution
 
 Scale
 : The scale refers to the dimensions of processes, phenomena or objects. Dimensions are spatial or temporal, that is, we can talk of a spatial scale, or a temporal scale [^5] [^6]. 
-: See the figure in the [Introduction section]({{< relref "../0_introduction" >}} "Introduction").
+: See the figure in the [Introduction section]({{< relref "../introduction" >}} "Introduction").
 
 #### Glossary References
 
