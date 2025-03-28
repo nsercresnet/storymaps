@@ -1,0 +1,43 @@
+name: "test_points"
+src_type: "L.geoJson.ajax"
+# src_type: "L.geoJson"
+# link: "https://data.nsercresnet.ca/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Ageojson_points&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326"
+# link: "https://data.nsercresnet.ca/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonode%3Astudy_cases_web&maxFeatures=50&outputFormat=application%2Fjson&format_options=callback:getJson"
+link: "https://data.nsercresnet.ca/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonode%3Astudy_cases_web&maxFeatures=50&outputFormat=application%2Fjson"
+# link: "https://data.nsercresnet.ca/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonode%3Astudy_cases_web&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:getJson"
+# link: "https://data.nsercresnet.ca/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonode%3Astudy_cases_web&maxFeatures=50&outputFormat=application%2Fjson&format_options=callback:getJson"
+
+# base_layer: false
+# options : 
+#   weight: 3
+#   opacity: 0.2
+#   zIndex: 999
+# style: 
+#   opacity: 0.2
+#   fillOpacity: 0.3
+#   color: '#99c63d'
+#   fillColor: '#99c63d'
+#   stroke: true
+#   strokeOpacity: 1
+# # script_src: "../js/main_map.js"
+# title: "Case Studies"
+# legend: >
+#   <div class="card">
+#   <div class="card-body">Case Studies</div>
+#   <img class="card-img-bottom img-fluid" src="https://data.nsercresnet.ca/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:study_cases_web&STYLE=study_cases_web&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on">
+#   </div>
+
+
+# link: "https://cartodb.ecoconnect.net/user/resnet-admin/api/v2/sql?q=SELECT * FROM carly_carbon&api_key=_mn4R8PisfU7Y-3lBWmHMw&format=geojson"
+base_layer: false
+options : 
+  weight: 3
+  opacity: 0.2
+  zIndex: 999
+style: 
+  opacity: 0.2
+  fillOpacity: 0.3
+  color: '#99c63d'
+  fillColor: '#99c63d'
+  stroke: true
+  strokeOpacity: 1

@@ -1,7 +1,8 @@
-baseURL = 'https://story.xylemgeo.com/'
+baseURL = 'https://docs.nsercresnet.ca/storymaps'
 languageCode = 'en-us'
 title = 'ResNet Storymaps'
 theme = 'blank'
+publishDir = 'docs'
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]

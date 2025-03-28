@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html><head><script src="/storymaps/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=storymaps/livereload" data-no-instant defer></script>
+
+    <title>Modelling at different scales</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+    <link rel="shortcut icon" href=/img/favicon.ico type="image/x-icon">
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href=/storymaps/css/storymap.2.5.css>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    
+    <script src=/storymaps/js/maki-markers/Leaflet.MakiMarkers.js></script>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+	
+    <script src=/storymaps/js/storymap.2.5.js></script>
+
+
+    <link href=/storymaps/css/style.css rel="stylesheet">
+    <script src=/storymaps/js/map-story.js></script>
+
+    
+
+    
+    
+    
+
+    <link href=/storymaps/dimbox.min.css rel="stylesheet">
+
+    
+
+</head><body>
+        <script src=/storymaps/dimbox.min.js></script>
+        <main>
+            
+	<main>
+		<article>
+			<h1>Modelling at different scales</h1>
+			<time datetime="0001-01-01T00:00:00">01.01.0001 00:00</time>
+			<div>
+				<h3 id="introduction">Introduction</h3>
+
+
+
+
+
+<figure class="figure single-figure float-end w-50 d-block">
+    <a href="images/unknownSourceAskM_v2.png" data-dimbox data-dimbox-caption="Modelling at different spatial scales often involves trade-offs between model complexity, accuracy (and/or precision), generalization and spatial extent (or spatial resolution)." >
+        <img src="images/unknownSourceAskM_v2.png">
+    </a>
+    <figcaption class="figure-caption text-center">Modelling at different spatial scales often involves trade-offs between model complexity, accuracy (and/or precision), generalization and spatial extent (or spatial resolution).</figcaption>
+</figure>
+<p>Decision-making and research questions are meaningful at specific scales and often need scale-specific models.</p>
+<!-- Choosing the right size (extent) to study natural phenomena is hard for scientists (Oreskes et al., 1994 <a href="../references/">[18]</a>). The scale chosen will determine how much detail and how accurate the model is, and also, how much area the model can cover. The scale of a study significantly impacts the models complexity, their accuracy, spatial extent, and generalizability (figure on the right) (Brimicombe, 2010 <a href="../references/">[19]</a>).
+
+Researching at a local scale or a small proportion of the territory requires more complex analyses. Researchers need to consider more variables and their relationships to achieve a reliable approximation of the natural phenomena under investigation. Also, the identification of patterns could be more difficult at smaller scales. Furthermore, obtaining more detailed results demands more computational resources. Nevertheless, higher scales at a finer resolution do not always lead to higher accuracy (Brimicombe, 2010 <a href="../references/">[19]</a>).
+
+On the other hand, examining natural phenomena at larger scales, such as regional or global studies, may enhance comprehension of the phenomena. Coarser resolutions lead to reduced complexity, simplifying models’ inputs and outputs. Also, some relationships or patterns emerge to significant geographical extents. Furthermore, policymakers tend to favor regional and global scales, as they provide a broader perspective on reality.
+-->
+<p>Selecting the appropriate extent and resolution to study natural phenomena poses a significant challenge for scientists (Oreskes et al., 1994 <a href="../references/">[18]</a>). The chosen extent dictates the area the model can encompass, while the selected spatial resolution determines the level of detail and accuracy the model achieves. Hence, the spatial extent and resolution of a study significantly affects model complexity, accuracy (and/or precision), and generalizability (figure on the right) (Brimicombe, 2010 <a href="../references/">[19]</a>).</p>
+<p>Spatial models must address trade-offs between spatial resolution, complexity, accuracy (and/or precision), and generalizability, especially when applied across varying spatial extents. For models covering large extents (e.g., planetary/global models), simplicity is often favored to maintain generalizability and reduce computational demands. However, this can come at the cost of local accuracy; as such, large extent models may overlook fine-scale processes and heterogeneities. Conversely, models developed for smaller extents (e.g., provincial or municipal models) can afford to be more complex, incorporating detailed biophysical and socio-ecological variables to achieve higher accuracy and capture site-specific dynamics. Yet, these finely tuned models risk reduced generalizability when applied beyond their original context due to overfitting and the presence of unique local factors that do not scale up effectively.</p>
+
+			</div>
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/storymaps/story/scaling/glossary/glossary/">Glossary</a></li>
+				
+				<li><a href="/storymaps/story/scaling/introduction/1_introduction/">Introduction</a></li>
+				
+				<li><a href="/storymaps/story/scaling/challenge_2c/intro/">Making good predictions</a></li>
+				
+				<li><a href="/storymaps/story/scaling/challenge_5/intro/">Modelling at different scales</a></li>
+				
+				<li><a href="/storymaps/story/scaling/references/references/">References</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+        </main>
+    </body>
+</html>
