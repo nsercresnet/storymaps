@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html><head><script src="/storymaps/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=storymaps/livereload" data-no-instant defer></script>
+
+    <title>Modelling at different scales</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+    <link rel="shortcut icon" href=/img/favicon.ico type="image/x-icon">
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href=/storymaps/css/storymap.2.5.css>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    
+    <script src=/storymaps/js/maki-markers/Leaflet.MakiMarkers.js></script>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+	
+    <script src=/storymaps/js/storymap.2.5.js></script>
+
+
+    <link href=/storymaps/css/style.css rel="stylesheet">
+    <script src=/storymaps/js/map-story.js></script>
+
+    
+
+    
+    
+    
+
+    <link href=/storymaps/dimbox.min.css rel="stylesheet">
+
+    
+
+</head><body>
+        <script src=/storymaps/dimbox.min.js></script>
+        <main>
+            <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-navbar storymap-navbar">
+	<div class="container-fluid" style = "justify-content:left;">
+		<a class="navbar-brand" href="/storymaps/story/scaling/">
+            <i class="fa fa-home" style="padding-right:10px;"></i>
+        </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle navbar-brand me-0 breadcrumb-item" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Nature at multiple scales
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/introduction/">
+          Introduction
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_1/">
+          Importance of field sampling
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_2a/">
+          Spatial resolution matters
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_2b/">
+          The choice of scale for summarizing data
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_2c/">
+          Making good predictions
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_2d/">
+          Time period matters
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_3/">
+          Spatial, temporal, and scale mismatches
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_4/">
+          The future is not like the past
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/challenge_5/">
+          Modelling at different scales
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/conclusion/">
+          Conclusion
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/references/">
+          References
+        </a>
+      </li>
+        
+        <li>
+        <a class="dropdown-item text-wrap" href="/storymaps/story/scaling/glossary/">
+          Glossary
+        </a>
+      </li>
+        
+      </ul>
+      </li>
+      </ul> 
+          
+
+
+      <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Modelling at different scales
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'intro\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              Modelling at different scales
+            </a>
+          </li>
+          
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'case_study\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              Case study: Human pressures at different scales
+            </a>
+          </li>
+          
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'best_practices\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              Best practices and opportunities
+            </a>
+          </li>
+          
+            
+            
+            <li>
+            
+            <a class="dropdown-item text-wrap" href="javascript:window.scrollBy(0, $('section[data-scene=\'references\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+              References
+            </a>
+          </li>
+          
+            
+          </ul>
+          </li>
+      </ul> 
+    </div>
+
+
+    </div>
+    </nav>
+
+
+<div id="storymap" class="container-fluid">
+	    <div class="row">
+	        <div class="col-sm-6 col-md-8 storymap-map"></div>
+	        <div class="col-sm-6 col-md-4 storymap-story">
+                
+
+
+
+
+
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+
+
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+
+
+
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<input type="hidden" id="language" value="en">
+
+
+
+  <input type="hidden" class="layers" layer-id="0" layer-name="global_hf" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/geonode/wms" layer-type="L.tileLayer.wms" legend="" title="Global Human Footprint" toggle="true" active="true">
+   
+    <input type="hidden" class="layer-options" layer="global_hf" opt-name="format" opt-value="image/png">
+   
+    <input type="hidden" class="layer-options" layer="global_hf" opt-name="layers" opt-value="geonode:global_hf">
+   
+    <input type="hidden" class="layer-options" layer="global_hf" opt-name="transparent" opt-value="true">
+  
+  
+
+
+  <input type="hidden" class="layers" layer-id="1" layer-name="national_hf" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/geonode/wms" layer-type="L.tileLayer.wms" legend="" title="National Human Footprint" toggle="true" active="false">
+   
+    <input type="hidden" class="layer-options" layer="national_hf" opt-name="format" opt-value="image/png">
+   
+    <input type="hidden" class="layer-options" layer="national_hf" opt-name="layers" opt-value="geonode:national_hf">
+   
+    <input type="hidden" class="layer-options" layer="national_hf" opt-name="transparent" opt-value="true">
+  
+  
+
+
+  <input type="hidden" class="layers" layer-id="2" layer-name="provincial_hf" base-layer="false" layer-src="https://data.nsercresnet.ca/geoserver/geonode/wms" layer-type="L.tileLayer.wms" legend="" title="Provincial Human Footprint" toggle="true" active="false">
+   
+    <input type="hidden" class="layer-options" layer="provincial_hf" opt-name="format" opt-value="image/png">
+   
+    <input type="hidden" class="layer-options" layer="provincial_hf" opt-name="layers" opt-value="geonode:provincial">
+   
+    <input type="hidden" class="layer-options" layer="provincial_hf" opt-name="transparent" opt-value="true">
+  
+  
+
+
+  <input type="hidden" class="layers" layer-id="3" layer-name="google_satellite" base-layer="true" layer-src="https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}" layer-type="L.tileLayer" legend="" title="Google Satellite" toggle="false" active="">
+   
+    <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zIndex" opt-value="1">
+   
+    <input type="hidden" class="layer-options" layer="google_satellite" opt-name="zoomControl" opt-value="false">
+  
+  
+
+
+
+    
+        <section class='intro wide-over-bg intro-bg-img ' data-scene="intro" lat="57.1701121" lng="-125.210678" zoom="7" layers="google_satellite" init-js="" style="opacity:1;background-image:url('');" layercontrol="">
+
+  
+  <div class="section-splash justify-content-center text-center">
+    
+    <h1>Modelling at different scales</h1>
+    
+
+    
+
+    
+    <p>Authors: Miguel Arias, Gabriela Torchio, Hugo Thierry</p>
+    
+  </div>
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+  <div class="card panel-card mx-auto" style="width:80vw;opacity: 1;">
+    <div class="card-body"><h3 id="introduction">Introduction</h3>
+
+
+
+
+
+<figure class="figure single-figure float-end w-50 d-block">
+    <a href="images/unknownSourceAskM_v2.png" data-dimbox data-dimbox-caption="Modelling at different spatial scales often involves trade-offs between model complexity, accuracy (and/or precision), generalization and spatial extent (or spatial resolution)." >
+        <img src="images/unknownSourceAskM_v2.png">
+    </a>
+    <figcaption class="figure-caption text-center">Modelling at different spatial scales often involves trade-offs between model complexity, accuracy (and/or precision), generalization and spatial extent (or spatial resolution).</figcaption>
+</figure>
+<p>Decision-making and research questions are meaningful at specific scales and often need scale-specific models.</p>
+<!-- Choosing the right size (extent) to study natural phenomena is hard for scientists (Oreskes et al., 1994 <a href="../references/">[18]</a>). The scale chosen will determine how much detail and how accurate the model is, and also, how much area the model can cover. The scale of a study significantly impacts the models complexity, their accuracy, spatial extent, and generalizability (figure on the right) (Brimicombe, 2010 <a href="../references/">[19]</a>).
+
+Researching at a local scale or a small proportion of the territory requires more complex analyses. Researchers need to consider more variables and their relationships to achieve a reliable approximation of the natural phenomena under investigation. Also, the identification of patterns could be more difficult at smaller scales. Furthermore, obtaining more detailed results demands more computational resources. Nevertheless, higher scales at a finer resolution do not always lead to higher accuracy (Brimicombe, 2010 <a href="../references/">[19]</a>).
+
+On the other hand, examining natural phenomena at larger scales, such as regional or global studies, may enhance comprehension of the phenomena. Coarser resolutions lead to reduced complexity, simplifying models’ inputs and outputs. Also, some relationships or patterns emerge to significant geographical extents. Furthermore, policymakers tend to favor regional and global scales, as they provide a broader perspective on reality.
+-->
+<p>Selecting the appropriate extent and resolution to study natural phenomena poses a significant challenge for scientists (Oreskes et al., 1994 <a href="../references/">[18]</a>). The chosen extent dictates the area the model can encompass, while the selected spatial resolution determines the level of detail and accuracy the model achieves. Hence, the spatial extent and resolution of a study significantly affects model complexity, accuracy (and/or precision), and generalizability (figure on the right) (Brimicombe, 2010 <a href="../references/">[19]</a>).</p>
+<p>Spatial models must address trade-offs between spatial resolution, complexity, accuracy (and/or precision), and generalizability, especially when applied across varying spatial extents. For models covering large extents (e.g., planetary/global models), simplicity is often favored to maintain generalizability and reduce computational demands. However, this can come at the cost of local accuracy; as such, large extent models may overlook fine-scale processes and heterogeneities. Conversely, models developed for smaller extents (e.g., provincial or municipal models) can afford to be more complex, incorporating detailed biophysical and socio-ecological variables to achieve higher accuracy and capture site-specific dynamics. Yet, these finely tuned models risk reduced generalizability when applied beyond their original context due to overfitting and the presence of unique local factors that do not scale up effectively.</p>
+</div>
+  </div>
+  
+
+  <div></div>
+  
+ 
+</section>
+
+
+    
+
+    
+        <section class='case_study wide-over-bg case_study-bg-img ' data-scene="case_study" lat="58.2" lng="-125.210678" zoom="7" layers="google_satellite,global_hf,national_hf,provincial_hf" init-js="" style="opacity:1;background-image:url('');" layercontrol="true">
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+  <div class="card panel-card me-auto" style="width:40vw;opacity: 1;">
+    <div class="card-body"><h3 id="case-study">Case study</h3>
+<p>The human footprint is a cumulative index that quantifies the extent and the intensity of human pressures on ecosystems and biodiversity. We compared the Human footprint at three scales: global (Williams et al., 2020 <a href="../references/">[20]</a>), national (Hirsh-Pearson et al., 2022 <a href="../references/">[21]</a>), and provincial <a href="../references/">[22]</a>.</p>
+<!--The map on the right represents the state of human pressures in the northeast of British Columbia. From coarse (global) to detailed (provincial) scales, we can easily identify how roads are represented to different extents. The global model captures a broad perspective of human disturbances, in which roads and settlements are the most visible features. This global map is improved with the national model, which integrates 12 layers of information, providing the appearance of more levels of detail such as oil and gas infrastructure and mining. The provincial map, which incorporates 16 layers of information, shows a more comprehensive state of the human footprint, including seismic lines, oil and gas wells, and infrastructure, and even recreational features.
+-->
+<p>The interactive maps on the right represent the state of human pressures in the northeast of British Columbia. From coarse (Global Human Footprint) to detailed (Provincial Human Footprint) spatial resolution (scales), we can easily identify how roads are represented at different extents. The global model captures a broad perspective of human disturbances in which roads and settlements are the most visible features. The resolution of this global map is improved with the national model (National Human Footprint), which integrates 12 layers of information, providing more levels of detail such as oil and gas infrastructure and mining. The provincial map (Provincial Human Footprint), which incorporates 16 layers of information, shows a more comprehensive state of the human footprint, including seismic lines, oil and gas wells, human infrastructure, and even recreational features. By <em>turning on and off the different spatial layers</em> on the right, differences in spatial resolution can be seen.</p>
+<p>The static maps below show the same human footprint models but zoomed in and centered on Fort Nielson, British Columbia. These maps show the same spatial extent for a global (a) <a href="../references/">[20]</a>, a national (b) <a href="../references/">[21]</a> and a provincial footprint model (c) <a href="../references/">[22]</a>. A gradient of increased spatial resolution is shown from a coarser global model (a) with less detail to a finer provincial model (c) with more details. The map in (a) shows less detail but the original source map covers the entire globe. The map in (b) shows more details than (a) but the original source map only covers Canada. The map in (c) reveals more details than (b) but the original source map only covers the province of British Columbia. A similar spatial resolution gradient can be replicated in the spatial layers on the right by <em>zooming in and turning on and off the different spatial layers</em>.</p>
+
+
+
+
+
+<figure class="figure single-figure mx-auto w-100 d-block">
+    <a href="images/three_panels_fig1_letters1.png" data-dimbox data-dimbox-caption="The outputs (maps) of three different human footprint models for a sample area centered on Fort Nielson, British Columbia. These cropped maps show the same spatial extent for a global (a), a national (b) and a provincial footprint model (c). A gradient of increased spatial resolution is shown from a coarser global model with less detail (a) to a finer provincial model with more details (c). A similar spatial resolution gradient can be replicated in the spatial layers on the right by zooming in and turning on and off the three different layers. The legend for both the static maps above and the interactive layers on the right is shown below." >
+        <img src="images/three_panels_fig1_letters1.png">
+    </a>
+    <figcaption class="figure-caption text-center">The outputs (maps) of three different human footprint models for a sample area centered on Fort Nielson, British Columbia. These cropped maps show the same spatial extent for a global (a), a national (b) and a provincial footprint model (c). A gradient of increased spatial resolution is shown from a coarser global model with less detail (a) to a finer provincial model with more details (c). A similar spatial resolution gradient can be replicated in the spatial layers on the right by zooming in and turning on and off the three different layers. The legend for both the static maps above and the interactive layers on the right is shown below.</figcaption>
+</figure>
+
+
+
+
+
+<figure class="figure single-figure mx-auto w-25 d-block">
+    <a href="images/Legend_HF.png" data-dimbox data-dimbox-caption="The Human Footprint Index represents cumulative pressure on the landscape, measured on a continuous scale from low to high." >
+        <img src="images/Legend_HF.png">
+    </a>
+    <figcaption class="figure-caption text-center">The Human Footprint Index represents cumulative pressure on the landscape, measured on a continuous scale from low to high.</figcaption>
+</figure>
+<!-- Leaflet map with ability to turn on and off the following three layers: Data/Originals_tiles/-->
+<!-- Miguel's raster cell size comparison, large data file -->
+</div>
+  </div>
+  
+
+  <div></div>
+  
+ 
+</section>
+
+
+    
+
+    
+        <section class='best_practices wide-over-bg best_practices-bg-img ' data-scene="best_practices" lat="57.1701121" lng="-125.210678" zoom="7" layers="google_satellite" init-js="" style="opacity:1;background-image:url('');" layercontrol="">
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+  <div class="card panel-card mx-auto" style="width:80vw;opacity: 1;">
+    <div class="card-body"><h3 id="best-practices-and-opportunities">Best practices and opportunities</h3>
+<!-- Models are very sensitive to the input data, so the more accurate the input data, the higher the reliability of the model. On the other hand, models are developed to be applied at a certain scale (spatial and temporal), and most times they are not useful to be directly applied at other scales. A model acceptable at one scale might not be at another. Another important consideration is that model evaluation can be a complex process itself. So, the larger the spatial and temporal scale of the phenomena, the evaluation of the model is more complex and challenging.
+
+Regarding these aspects, we suggest the following to improve reliability of model:
+
+1. Be clear about the purpose of the model and verify that it applies to the scale considered.  
+2. Document all decisions made regarding the input data (sources, decisions made to incorporate it, etc.).  
+3. Create clear and explicit criteria for every step of the model evaluation. Always document what you did and why  
+4. Conduct a sensitivity analysis to test the consistency of the model under a range of input parameters.
+-->
+<p>Models are very sensitive to input data, so the more accurate the input data, the higher the reliability of the model. On the other hand, models are developed to be applied at a certain scale (spatial and temporal), and most times they should not be directly applied at other scales. A model that is acceptable at one scale might not be at another. Another important consideration is that model evaluation can be a complex process in itself. Hence, the larger the spatial and temporal scale of the phenomena being studied the more complex and challenging the evaluation of the model.</p>
+<p>Regarding these aspects, we suggest the following to improve model reliability:</p>
+<ol>
+<li>Be clear about the purpose of the model and verify that it applies to the scale considered.</li>
+<li>Document all decisions made regarding the input data (sources, decisions made to incorporate it, etc.).</li>
+<li>Create clear and explicit criteria for every step taken in model evaluation. Always document what you did and why.</li>
+<li>Conduct a sensitivity analysis to test the consistency of the model under a range of input parameters.</li>
+</ol>
+</div>
+  </div>
+  
+
+  <div></div>
+  
+ 
+</section>
+
+
+    
+
+    
+
+
+
+
+
+<div class="btn-group-lg row vw-100 mx-auto gap-2 py-2">
+    
+    
+    <div class="col ps-0">
+        <a class="btn section-nav-btn w-100 fs-4" href="/storymaps/story/scaling/challenge_4/">← Previous: The future is not like the past</a>
+    </div>
+        
+    
+    <div class="col pe-0">
+        <a class="btn section-nav-btn w-100 fs-4" href="/storymaps/story/scaling/conclusion/">Next: Conclusion →</a>
+    </div>
+    
+
+</div>
+
+	        </div>
+            
+	    </div>
+	</div>
+
+        </main>
+    </body>
+</html>
