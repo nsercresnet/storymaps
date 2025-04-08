@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nature at multiple scales on ResNet Storymaps</title>
-    <link>http://localhost:1313/storymaps/story/scaling/</link>
+    <link>https://docs.nsercresnet.ca/storymaps/story/scaling/</link>
     <description>Recent content in Nature at multiple scales on ResNet Storymaps</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/storymaps/story/scaling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.nsercresnet.ca/storymaps/story/scaling/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
