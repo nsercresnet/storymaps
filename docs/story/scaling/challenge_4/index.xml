@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The future is not like the past on ResNet Storymaps</title>
-    <link>http://localhost:1313/storymaps/story/scaling/challenge_4/</link>
+    <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/</link>
     <description>Recent content in The future is not like the past on ResNet Storymaps</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/storymaps/story/scaling/challenge_4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The future is not like the past</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_4/intro/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_4/intro/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/intro/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;!-- background should be the Monteregie region--&gt;&#xA;&lt;p&gt;When researchers study ecosystem services they are often interested in how land uses have changed in the past and how they might change in the future, and as a result how the services provided shift in location and amount. More generally, just as researchers choose the spatial extent and grain for their studies, they also choose the temporal extent and grain, asking questions such as: How far back in time should I go? Do I only care about annual changes, or do I want to know about changes within years?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Case study</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_4/case_study/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/case_study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_4/case_study/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/case_study/</guid>
       <description>&lt;h3 id=&#34;case-study&#34;&gt;Case study&lt;/h3&gt;&#xA;&lt;p&gt;The following case study illustrates some of the challenges with scaling up in time, and the differences between scaling up information from the past and predictions for the future.&lt;/p&gt;&#xA;&lt;p&gt;People obtain ecosystem services when they harvest wild plants (such as berries or mushrooms) from forested land. Such harvests go back hundreds of years in Canada, first by Indigenous peoples, then by settlers and now by a mix of different users (Kumar et al., 2019 &lt;a href=&#34;../references/&#34;&gt;[14]&lt;/a&gt;; MacKinnon et al., 2015 &lt;a href=&#34;../references/&#34;&gt;[15]&lt;/a&gt;; Turner, 2020 &lt;a href=&#34;../references/&#34;&gt;[16]&lt;/a&gt;). With the adoption and spread of industrial agriculture, and the reduction in forested land, the relative importance of such food sources in Canadian diets has dropped.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Best practices and opportunities</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_4/best_practices/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_4/best_practices/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/best_practices/</guid>
       <description>&lt;h3 id=&#34;best-practices-and-opportunities&#34;&gt;Best practices and opportunities&lt;/h3&gt;&#xA;&lt;p&gt;This case study highlights the potential role for several best practices. These include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Finding ways to combine information from multiple sources. This will be particularly important when scaling up to longer durations, when a greater variety of data sources and methods need to be used. For example, unconventional sources (e.g. historical photographs, old herbarium records) may be helpful. Bayesian methods can help assign weights to different sources, while retaining estimates of the uncertainty and flexibility in terms of the evolution of functional relationships.&lt;/li&gt;&#xA;&lt;li&gt;Using mapping techniques, such as participatory GIS methods, to identify where current beneficiaries are in relation to the locations and services they value.&lt;/li&gt;&#xA;&lt;li&gt;Recognizing that the future is not simply a linear extension from the past. This might mean deliberately including decision makers and beneficiaries of ecosystem services in research related to the future, through techniques such as scenarios. It might also include modelling human learning and adaptive management as part of predictions. Some researchers have recommended considering longer time extents than the focus of current decisions (e.g., Lyon et al., 2022 &lt;a href=&#34;../references/&#34;&gt;[17]&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>References</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_4/references/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/references/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_4/references/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_4/references/</guid>
       <description>&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;&#xA;&lt;p&gt;Brown, G., and N. Fagerholm, 2015. Empirical PPGIS/PGIS mapping of ecosystem services: A review and evaluation, Ecosystem Services 13,119-133, &lt;a href=&#34;https://doi.org/10.1016/j.ecoser.2014.10.007&#34;&gt;https://doi.org/10.1016/j.ecoser.2014.10.007&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hillis, Dylan &amp;amp; Gustas, Robert &amp;amp; Pauly, Daniel &amp;amp; Cheung, William &amp;amp; Salomon, Anne &amp;amp; McKechnie, Iain. (2022). A palaeothermometer of ancient Indigenous fisheries reveals increases in mean temperature of the catch over five millennia. Environmental Biology of Fishes. 105. 10.1007/s10641-022-01243-7.&lt;/p&gt;&#xA;&lt;p&gt;Krishna Bahadur KC, Arthur Gill Green, Dan Wassmansdorf, Vivek Gandhi, Khurram Nadeem, and Evan D.G. Fraser. Opportunities and trade-offs for expanding agriculture in Canada’s North: an ecosystem service perspective. FACETS. 6(): 1728-1752. &lt;a href=&#34;https://doi.org/10.1139/facets-2020-0097&#34;&gt;https://doi.org/10.1139/facets-2020-0097&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

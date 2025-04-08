@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spatial resolution matters on ResNet Storymaps</title>
-    <link>http://localhost:1313/storymaps/story/scaling/challenge_2a/</link>
+    <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/</link>
     <description>Recent content in Spatial resolution matters on ResNet Storymaps</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/storymaps/story/scaling/challenge_2a/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spatial resolution matters</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_2a/1_intro/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/1_intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_2a/1_intro/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/1_intro/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;We often need detailed data to detect change. In this example, we discuss why we need data at finer pixel sizes to detect forest losses and gains.&lt;/p&gt;&#xA;&lt;p&gt;When we change the spatial resolution of a pixel, we change the number and type of elements (for example land cover types) that compose it. This can impact the results of our studies, especially those where we attempt to classify pixels based on their composition.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Case Study</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_2a/2_case_study/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/2_case_study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_2a/2_case_study/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/2_case_study/</guid>
       <description>&lt;h3 id=&#34;case-study&#34;&gt;Case study&lt;/h3&gt;&#xA;&lt;p&gt;In the figure below, we show two major forest disturbance agents (panel a) and the results of a geospatial trend analysis (panel b to d) over a relatively small study area (26,000 ha) located along the northern boundary of Algonquin Provincial Park (Ontario). The greenness of forests, as measured by the Normalized Difference Vegetation Index (NDVI), shows trend breakpoints over an 18-year long period (2003-2020). Trend breakpoints refer to structural (abrupt) changes in the trend line of a measurement. Trend breakpoints can be positive or negative and can result from natural or anthropogenic disturbances.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Best practices and opportunities</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_2a/3_best_practices/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/3_best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_2a/3_best_practices/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2a/3_best_practices/</guid>
       <description>&lt;h3 id=&#34;best-practices-and-opportunities&#34;&gt;Best practices and opportunities&lt;/h3&gt;&#xA;&lt;p&gt;In cases where different data resolutions are available, the recommendation is to use data at the finest spatial resolution to ensure that potentially relevant ecological patterns are not missed. Even though fine scale data usually leads to improved accuracy (figure below, panels a &amp;amp; b), there are several constraints to keep in mind such as data availability, data storage, computing power, time, and financial resources (figure below, panel c). Finer grain size (i.e., smaller pixel size) usually leads to improved accuracy but some processes actually plateau at a certain resolution and there is no need to go finer (figure below, panel b). This threshold is often used as a baseline for future studies. Higher resolution often comes with increases in cost and time and hence, it is important to identify the most optimal resolution (grain size) for a given study based on resources available.&lt;/p&gt;</description>
     </item>
   </channel>

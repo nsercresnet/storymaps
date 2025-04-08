@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on ResNet Storymaps</title>
-    <link>http://localhost:1313/storymaps/story/scaling/introduction/</link>
+    <link>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/</link>
     <description>Recent content in Introduction on ResNet Storymaps</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/storymaps/story/scaling/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/storymaps/story/scaling/introduction/1_introduction/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/1_introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/introduction/1_introduction/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/1_introduction/</guid>
       <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;&#xA;&lt;p&gt;Scientists often work at different scales to analyze different parts of a landscape or ecosystem. We can study ecosystems at different scales across &lt;strong&gt;space&lt;/strong&gt; (i.e., spatial scale) or across &lt;strong&gt;time&lt;/strong&gt; (i.e., temporal scale). We can also ask “&lt;strong&gt;how big?&lt;/strong&gt;” (i.e., what is the extent?) or “&lt;strong&gt;how much detail?&lt;/strong&gt;” (i.e., what is the resolution?).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spatial and temporal scales</title>
-      <link>http://localhost:1313/storymaps/story/scaling/introduction/2_spatial_temporal/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/2_spatial_temporal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/introduction/2_spatial_temporal/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/2_spatial_temporal/</guid>
       <description>&lt;h3 id=&#34;spatial-and-temporal-scales&#34;&gt;Spatial and temporal scales&lt;/h3&gt;&#xA;&lt;p&gt;When we move from the bottom to the top images below, we are increasing the size of the study area (i.e., spatial extent). When we move from the left to the right images below, we are increasing the number of pixels per area (i.e., spatial resolution), which allows for individual flowers to be distinguished.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure single-figure d-block mx-auto w-75&#34;&gt;&#xA;    &lt;a href=&#34;images/Intro_C1.png&#34; data-dimbox data-dimbox-caption=&#34;Moving across images increases spatial extent or resolution. Image credit: Amanda Schwantes.&#34; &gt;&#xA;        &lt;img src=&#34;images/Intro_C1.png&#34;&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;figcaption class=&#34;figure-caption text-center&#34;&gt;Moving across images increases spatial extent or resolution. Image credit: Amanda Schwantes.&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;!--- Justify middle, no text on sides --&gt;&#xA;&lt;p&gt;In the image below, when we move from the bottom to the top images, we are expanding the time period for which we are collecting data. When we move from the left to the right images, we are increasing the detail (e.g., number of data points per year).&lt;/p&gt;</description>
     </item>
     <item>
       <title>A multi-scale perspective</title>
-      <link>http://localhost:1313/storymaps/story/scaling/introduction/3_multiscale/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/3_multiscale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/introduction/3_multiscale/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/3_multiscale/</guid>
       <description>&lt;h3 id=&#34;a-multi-scale-perspective&#34;&gt;A multi-scale perspective&lt;/h3&gt;&#xA;&lt;p&gt;As scientists and researchers, we often design studies at different scales, because:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;decision-makers require data at different spatio-temporal scales,&lt;/li&gt;&#xA;&lt;li&gt;scientists seek to understand how ecosystem processes and properties vary across scales, and&lt;/li&gt;&#xA;&lt;li&gt;there are cost and time constraints to collecting data; therefore, we target the scale most relevant for a given question or decision.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;!-- ![fig4](images/Intro_B1.png &#34;Image credit: Amanda Schwantes&#34;) --&gt;&#xA;&lt;!-- {center=&#34;TRUE&#34; width=&#34;100%&#34;} --&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure single-figure mx-auto w-100&#34;&gt;&#xA;    &lt;a href=&#34;images/Intro_B1.png&#34; data-dimbox data-dimbox-caption=&#34;Image credit: Amanda Schwantes&#34; &gt;&#xA;        &lt;img src=&#34;images/Intro_B1.png&#34;&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;figcaption class=&#34;figure-caption text-center&#34;&gt;Image credit: Amanda Schwantes&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;!--- Justify middle, no text on sides ---&gt;&#xA;&lt;!---[Add story map and scatter graphs of the scales at which we work] ---&gt;&#xA;&lt;p&gt;Sometimes data is only available (or can only be collected) at one scale; however, we may need information at a different scale to inform a decision or to understand an ecological process. We may scale up or down for many reasons, including…&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moving between scales: challenges and opportunities</title>
-      <link>http://localhost:1313/storymaps/story/scaling/introduction/4_moving_between/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/4_moving_between/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/introduction/4_moving_between/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/introduction/4_moving_between/</guid>
       <description>&lt;h3 id=&#34;moving-between-scales-challenges-and-opportunities&#34;&gt;Moving between scales: challenges and opportunities&lt;/h3&gt;&#xA;&lt;p&gt;Sometimes we move between scales, which creates key challenges and opportunities. For example, the methodological choices we make at a given scale can lead to misleading results as we extend our research to other scales. In this story map, we illustrate many of these challenges and provide opportunities for overcoming them.&lt;/p&gt;&#xA;&lt;div class=&#34;clearfix&#34;&gt;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure single-figure mx-auto w-100&#34;&gt;&#xA;    &lt;a href=&#34;images/Intro_D1_v2.png&#34; data-dimbox data-dimbox-caption=&#34;Image credit: Amanda Schwantes.&#34; &gt;&#xA;        &lt;img src=&#34;images/Intro_D1_v2.png&#34;&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;figcaption class=&#34;figure-caption text-center&#34;&gt;Image credit: Amanda Schwantes.&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;!-- &#xA;Learn more about:   &#xA;- [Detecting change](../challenge_2a/)  &#xA;- [Model outputs at multiple scales](../challenge_5/)  &#xA;- [Summarizing data to different units](../challenge_2b/)  &#xA;- [Collecting field data](../challenge_1/)  &#xA;- [Origin story](../challenge_4/)   &#xA;- [Consequences of generalizing results](../challenge_2c/)   &#xA;- [Mismatches](../challenge_3/)   &#xA;- [Monitoring time-period influences outcomes](../challenge_2d/) ---&gt;&#xA;&lt;!-- &#xA;#### To learn more about each challenge, click on the title below:&#xA;{.text-center} --&gt;&#xA;&lt;!---[Add in finalized list of challenges: Matches what’s described in dropdown menu] ---&gt;</description>
     </item>
   </channel>

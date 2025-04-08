@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The choice of scale for summarizing data on ResNet Storymaps</title>
-    <link>http://localhost:1313/storymaps/story/scaling/challenge_2b/</link>
+    <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/</link>
     <description>Recent content in The choice of scale for summarizing data on ResNet Storymaps</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/storymaps/story/scaling/challenge_2b/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The choice of scale for summarizing data</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_2b/intro/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_2b/intro/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/intro/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;!-- We often report data by summarizing individual information (e.g., at a pixel) to coarser scale analysis units (e.g., census division). In this example, we discuss the consequences of summarizing data to different units.&#xA;&#xA;In addition to the resolution, boundaries used to aggregate smaller scale data may influence the visual assessment of ecosystem service supply and demand information and relationships. --&gt;&#xA;&lt;p&gt;We often report data by summarizing fine-scale information (e.g., at a pixel) to coarse-scale analysis or reporting units (e.g., census division). In this example, we discuss this challenge known as Modifiable Areal Unit Problem (MAUP) and how it may visually bias our understanding of ecosystem service supply and demand relationships.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Case study</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_2b/case_study/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/case_study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_2b/case_study/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/case_study/</guid>
       <description>&lt;h3 id=&#34;case-study&#34;&gt;Case study&lt;/h3&gt;&#xA;&lt;!--Pollination supply and demand aggregated to watersheds (left) tend to show ecosystem service surplus (i.e. higher ratios) at areas with little demand, while the supply and demand relationships represented at 3km grid cells (right) can help identify more precisely high demand areas that could benefit from more agricultural support. --&gt;&#xA;&lt;p&gt;Pollination is beneficial to the production of certain crops such as soybean and fruit trees. Landscape areas with more nesting and floral resources are pollinator-suitable habitats. Pollinators such as bumble bees can fly from their habitats to nearby (~1.5km) crop fields and provide pollination service &lt;a href=&#34;../references/&#34;&gt;[23]&lt;/a&gt;. We summarize pollinator abundance index estimated using InVEST model, and pollination demand estimated based on the area of pollinator-dependent crops into 3km cells that can better capture effective pollination. We also summarize the information into the watersheds, which is a common scale for governance activities, to compare supply-demand relationships.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Best Practices</title>
-      <link>http://localhost:1313/storymaps/story/scaling/challenge_2b/best_practices/</link>
+      <link>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/storymaps/story/scaling/challenge_2b/best_practices/</guid>
+      <guid>https://docs.nsercresnet.ca/storymaps/story/scaling/challenge_2b/best_practices/</guid>
       <description>&lt;h3 id=&#34;best-practices-and-opportunities&#34;&gt;Best practices and opportunities&lt;/h3&gt;&#xA;&lt;!---&#xA;1) Carefully consider the aggregation, reporting, or zonal unit by assessing variance or representativeness (i.e., percentage of outcome agreement and disagreement between scales).&#xA;2) Consider the effects of aggregating information at the ecologically meaningful level into a socially meaningful or management level. --&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Choose a reporting unit based on the research question or management context. If these are not clear, assess and report the results from a range of scales and assess the representativeness of the assessed relationship. For example, it is recommended to quantify the percentage of outcome agreement and disagreement between scales, such as supply-demand relationship between cells and watersheds discussed in the case study.&lt;/p&gt;</description>
     </item>
   </channel>
